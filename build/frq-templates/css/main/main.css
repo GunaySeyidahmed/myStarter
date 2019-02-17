@@ -35,7 +35,7 @@ body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: SegoeUI-Regular, Helvetica, Arial, sans-serif; }
+  font-family: SegoeUI-Regular, Helvetica, Arial, sans-serif !important; }
 
 .row {
   clear: left; }
@@ -88,9 +88,16 @@ p {
 .font-f {
   font-family: SegoeUI-Regular, Helvetica, Arial, sans-serif; }
 
-span {
-  background-color: #5f2dab;
-  color: green; }
+/*version 1*/
+/*version-2*/
+.box {
+  width: 100%;
+  height: 200px;
+  border: solid 5px #000;
+  border-color: #000 transparent transparent transparent;
+  -webkit-border-radius: 50%/100px 100px 0 0;
+     -moz-border-radius: 50%/100px 100px 0 0;
+          border-radius: 50%/100px 100px 0 0; }
 
 body {
   font-size: 1.4rem;
