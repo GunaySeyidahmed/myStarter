@@ -9,12 +9,16 @@
 @import "base/utilities";
 @import "base/fonts";
 
-/* @import "custom/customize";
-@import "@material/switch/mdc-switch"; */
+@import "custom/customize";
+//@import "@material/switch/mdc-switch"; */
 
 @import "components/pagination";
+@import "components/tab";
 
-@import "pages/page1";
+
+//@import "pages/version2";
+
+@import "pages/version-3";
 
 @import "layout/footer";
 @import "layout/header";
