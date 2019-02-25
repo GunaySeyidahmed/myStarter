@@ -200,7 +200,7 @@ h1 {
   margin-bottom: 10px;
   float: left;
   width: 100%;
-  @include respondmax(md){
+  @include respondmax(md) {
     font-size: 2rem;
     padding-left: 20px;
     padding-right: 20px;
@@ -243,6 +243,15 @@ h3 {
   font-size: 2rem;
 }
 
+.color-green {
+  color: $green;
+}
+
+.font-bold {
+  font-family: $PN-B, Helvetica, Arial, sans-serif;
+  line-height: 1;
+}
+
 .btn {
   min-width: 255px;
   padding: 15px 25px;
@@ -279,12 +288,12 @@ h3 {
   }
 }
 
-.partners{
+.partners {
   float: left;
   width: 100%;
   margin-bottom: 5px;
   padding: 0 35px;
-  @include respondmax(md){
+  @include respondmax(md) {
     margin-bottom: 0;
   }
 
