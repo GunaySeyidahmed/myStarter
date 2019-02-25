@@ -144,27 +144,27 @@ $(function () {
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>First Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Second Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Third Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -199,27 +199,27 @@ $(function () {
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>First Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Second Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Third Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -254,27 +254,27 @@ $(function () {
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>First Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Second Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Third Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -301,27 +301,27 @@ $(function () {
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>First Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Second Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Third Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>' +
@@ -391,27 +391,27 @@ $(function () {
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>First Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Second Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '<div class="carousel-item">' +
         '<img alt="">' +
         '<div class="carousel-caption">' +
         '<h4>Third Thumbnail label</h4>' +
-        '<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
+        '<ProximaNova-Bold>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec ' +
         'id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ' +
-        'ultricies vehicula ut id elit.</p>' +
+        'ultricies vehicula ut id elit.</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>' +

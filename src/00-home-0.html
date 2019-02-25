@@ -1,0 +1,208 @@
+//= template/header.html
+
+<main>
+    <div class="container">
+        <section class="home">
+            <div class="home__slider owl-carousel">
+                <div class="home__slider-item">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="home__slider-img">
+                                <img src="frq-templates/img/examples/home-slider.png" alt="home slider">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="home__slider-info">
+                                <h1 class="text-large color-white">Onlayn ödənişləriniz daha təhlükəsiz!</h1>
+                                <p>3D-Secure xidməti ilə heç bir ödəniş Sizin icazəniz olmadan həyata keçmir.</p>
+                                <a href="#" class="btn btn--green">Xidmətə qoşul</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__slider-item">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <div class="home__slider-img">
+                                <img src="frq-templates/img/examples/home-slider.png" alt="home slider">
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="home__slider-info">
+                                <h1 class="text-large color-white">Onlayn ödənişləriniz daha təhlükəsiz!222</h1>
+                                <p>3D-Secure xidməti ilə heç bir ödəniş Sizin icazəniz olmadan həyata keçmir.</p>
+                                <a href="#" class="btn btn--green">Xidmətə qoşul</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script>
+            $('.home__slider.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: false,
+                items: 1,
+                autoplay: true,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true
+            })
+        </script>
+        <section class="service">
+            <div class="owl-carousel">
+                <div class="service__item">
+                    <div class="service__title">
+                        <h3>Onlayn ödənişləriniz bir arada</h3>
+                        <img src="frq-templates/img/service-1.png" class="service__img" alt="service img">
+                    </div>
+                    <p class="service__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn ödəniş
+                        platforması.</p>
+                    <a href="#" class="service__link">Ödənişlərə keç</a>
+                </div>
+                <div class="service__item">
+                    <div class="service__title">
+                        <h3>Təhlükəsiz ödənişlər 3D-Secure ilə</h3>
+                        <img src="frq-templates/img/service-2.png" class="service__img" alt="service img">
+                    </div>
+                    <p class="service__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn </p>
+                    <a href="#" class="service__link">Xidmət haqda</a>
+                </div>
+                <div class="service__item">
+                    <div class="service__title">
+                        <h3>İnternet Bankinq</h3>
+                        <img src="frq-templates/img/service-3.png" class="service__img" alt="service img">
+                    </div>
+                    <p class="service__subtitle">Etiam molestie egestas quam ac finibus.
+                        Aliquam libero nisl, porttitor sed sollicitudin sagittis.</p>
+                    <a href="#" class="service__link">Bankını seç</a>
+                </div>
+                <div class="service__item">
+                    <div class="service__title">
+                        <h3>Təcrübə proqramı</h3>
+                        <img src="frq-templates/img/service-4.png" class="service__img" alt="service img">
+                    </div>
+                    <p class="service__subtitle">Mauris id tristique quam. Curabitur vehicula </p>
+                    <a href="#" class="service__link">Bizə qoşul</a>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-center">
+                <a href="#" class="link">Bütün xidmətlər</a>
+            </div>
+        </section>
+        <script>
+            $('.service .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                items: 1,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2,
+                        dots:true
+                    },
+                    1000:{
+                        items:4,
+                        autoplay: ($('.service .service__item').length > 5),
+                        mouseDrag: ($('.service .service__item').length > 5),
+                    }
+                }
+            })
+        </script>
+        <section class="section-white">
+            <h1 class="text-center">3 addıma elektron ticarətə qoşul!</h1>
+            <p class="text-center full-width mb-60">Bütün proseslər onlayn həyata keçirilir</p>
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="apply">
+                        <div class="apply__img">
+                            <img src="frq-templates/img/apply-1.png" alt="apply img">
+                        </div>
+                        <h2>Onlayn müraciət et</h2>
+                        <p class="apply__description">Maecenas pulvinar a nisi eget pharetra. In at orci ac ligula
+                            pellentesque ultrices. Praesent
+                            pharetra id leo eget maximus.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="apply">
+                        <div class="apply__img">
+                            <img src="frq-templates/img/apply-2.png" alt="apply img">
+                        </div>
+                        <h2>Hesab məlumatlarını əldə et</h2>
+                        <p class="apply__description">Pellentesque at nibh elit. Curabitur dignissim porttitor porta.
+                            Sed eros lectus, tincidunt sed venenatis in, molestie ut mi. </p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-4">
+                    <div class="apply apply--last">
+                        <div class="apply__img">
+                            <img src="frq-templates/img/apply-3.png" alt="apply img">
+                        </div>
+                        <h2>Ödəniş sistemini saytına qoş</h2>
+                        <p class="apply__description">Pellentesque at nibh elit. Curabitur dignissim porttitor porta.
+                            Sed eros lectus, tincidunt sed venenatis in, molestie ut mi. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="full-width d-flex justify-content-center mb-25">
+                <a href="#" class="btn btn--large">Onlayn müraciət</a>
+            </div>
+        </section>
+        <section class="section-white">
+            <h1 class="text-medium text-center mb-30">Partnyorlar</h1>
+            <div class="partners owl-carousel">
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-1.png" alt="partners img">
+                </div>
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-2.png" alt="partners img">
+                </div>
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-3.png" alt="partners img">
+                </div>
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-4.png" alt="partners img">
+                </div>
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-5.png" alt="partners img">
+                </div>
+                <div class="partners-item">
+                    <img src="frq-templates/img/examples/partners-6.png" alt="partners img">
+                </div>
+            </div>
+        </section>
+        <script>
+            $('.partners.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 30,
+                nav: false,
+                items: 1,
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                responsive:{
+                    0:{
+                        items:2
+                    },
+                    600:{
+                        items:3,
+                        dots:true
+                    },
+                    1000:{
+                        items:6,
+                        autoplay: ($('.partners .partners-item').length > 6),
+                        mouseDrag: ($('.partners .partners-item').length > 6),
+                    }
+                }
+            })
+        </script>
+    </div>
+</main>
+
+//= template/footer.html

@@ -1,0 +1,86 @@
+.home {
+  padding: 70px 0;
+  @include respondmax(md) {
+    padding: 35px 0;
+  }
+  &__slider {
+    position: relative;
+  }
+
+  &__slider-item {
+    @include respondmax(md) {
+      text-align: center;
+    }
+  }
+
+  &__slider-img {
+    width: 405px;
+    height: 330px;
+    //display: flex;
+    //align-items: flex-end;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @include respondmax(lg) {
+      width: 215px;
+      height: 175px;
+      margin: 0 auto;
+    }
+  }
+
+  &__slider-info {
+    padding-top: 40px;
+
+    @include respondmax(lg) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+    }
+
+    p {
+      font-family: $SP-T, Helvetica, Arial, sans-serif;
+      font-size: 1.8rem;
+      color: $white;
+      margin-bottom: 45px;
+      float: left;
+      width: 100%;
+    }
+
+
+  }
+
+  .owl-carousel {
+    .owl-dots {
+      position: absolute;
+      top: 0;
+      left: 54%;
+      transform: translateX(-54%);
+      @include respondmax(lg) {
+        top: -30px;
+      }
+
+      .owl-dot {
+        span {
+          display: inline-block;
+          border-radius: 50%;
+          width: 8px;
+          height: 8px;
+          opacity: .3;
+          margin-right: 10px;
+          background-color: $white;
+          border: none;
+        }
+
+        &.active span, &:hover span {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}

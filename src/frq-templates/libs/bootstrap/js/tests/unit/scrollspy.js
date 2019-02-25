@@ -62,15 +62,15 @@ $(function () {
         '<div id="scrollspy-example" style="height: 100px; overflow: auto;">' +
         '<div style="height: 200px;">' +
         '<h4 id="masthead">Overview</h4>' +
-        '<p style="height: 200px">' +
+        '<ProximaNova-Bold style="height: 200px">' +
         'Ad leggings keytar, brunch id art party dolor labore.' +
-        '</p>' +
+        '</ProximaNova-Bold>' +
         '</div>' +
         '<div style="height: 200px;">' +
         '<h4 id="detail">Detail</h4>' +
-        '<p style="height: 200px">' +
+        '<ProximaNova-Bold style="height: 200px">' +
         'Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard.' +
-        '</p>' +
+        '</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>'
@@ -109,15 +109,15 @@ $(function () {
         '<div id="scrollspy-example" style="height: 100px; overflow: auto;">' +
         '<div style="height: 200px;">' +
         '<h4 id="masthead">Overview</h4>' +
-        '<p style="height: 200px">' +
+        '<ProximaNova-Bold style="height: 200px">' +
         'Ad leggings keytar, brunch id art party dolor labore.' +
-        '</p>' +
+        '</ProximaNova-Bold>' +
         '</div>' +
         '<div style="height: 200px;">' +
         '<h4 id="detail">Detail</h4>' +
-        '<p style="height: 200px">' +
+        '<ProximaNova-Bold style="height: 200px">' +
         'Veniam marfa mustache skateboard, adipisicing fugiat velit pitchfork beard.' +
-        '</p>' +
+        '</ProximaNova-Bold>' +
         '</div>' +
         '</div>' +
         '</div>'

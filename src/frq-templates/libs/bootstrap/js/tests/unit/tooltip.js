@@ -683,7 +683,7 @@ $(function () {
     assert.expect(1)
     var titleHtml = function () {
       var uid = Util.getUID('tooltip')
-      return '<p id="tt-content">' + uid + '</p><p>' + uid + '</p><p>' + uid + '</p>'
+      return '<ProximaNova-Bold id="tt-content">' + uid + '</ProximaNova-Bold><ProximaNova-Bold>' + uid + '</ProximaNova-Bold><ProximaNova-Bold>' + uid + '</ProximaNova-Bold>'
     }
 
     var $tooltip = $('<span id="tt-outer" rel="tooltip" data-trigger="hover" data-placement="top">some text</span>')
@@ -714,7 +714,7 @@ $(function () {
 
     var titleHtml = function () {
       var uid = Util.getUID('tooltip')
-      return '<p id="tt-content">' + uid + '</p><p>' + uid + '</p><p>' + uid + '</p>'
+      return '<ProximaNova-Bold id="tt-content">' + uid + '</ProximaNova-Bold><ProximaNova-Bold>' + uid + '</ProximaNova-Bold><ProximaNova-Bold>' + uid + '</ProximaNova-Bold>'
     }
 
     var $tooltip = $('<span id="tt-outer" rel="tooltip" data-trigger="hover" data-placement="top">some text</span>')

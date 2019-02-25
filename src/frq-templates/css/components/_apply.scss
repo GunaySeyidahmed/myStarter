@@ -1,0 +1,56 @@
+.apply {
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+  padding: 0 35px;
+  position: relative;
+  @include respondmax(md){
+    padding-bottom: 35px;
+    &.apply--last{
+      padding-bottom: 0;
+    }
+  }
+
+
+  &__img {
+    width: 280px;
+    height: 180px;
+    margin-bottom: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__description {
+    font-family: $SP, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    color: $gray6;
+    float: left;
+    width: 100%;
+  }
+
+  &:after {
+    content: '\e037';
+    font-family: $MtI;
+    font-size: 3.6rem;
+    color: $lightBlue;
+    position: absolute;
+    top: 54%;
+    transform: translateY(-54%);
+    right: -12px;
+    @include respondmax(md) {
+      transform: rotate(90deg);
+      top: 127%;
+      left: 0;
+    }
+  }
+
+  &.apply--last:after {
+    content: '';
+  }
+}
+
+

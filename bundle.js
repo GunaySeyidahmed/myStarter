@@ -3927,7 +3927,7 @@
 
 										var _span = document.createElement("span");
 										_span.innerHTML = rolled_th_mobile_span_value;
-										_span.className = 'simple-p simple-p--secondary dark-color no-margin';
+										_span.className = 'simple-ProximaNova-Bold simple-ProximaNova-Bold--secondary dark-color no-margin';
 
 										rolled_th_item.appendChild(mobile_th_unrolled_icon);
 										rolled_th_item.appendChild(_span);
@@ -4016,7 +4016,7 @@
 
 											var _span = document.createElement("span");
 											_span.innerHTML = rolled_th_mobile_span_value;
-											_span.className = 'simple-p simple-p--secondary dark-color no-margin';
+											_span.className = 'simple-ProximaNova-Bold simple-ProximaNova-Bold--secondary dark-color no-margin';
 
 											rolled_th_item.appendChild(mobile_th_unrolled_icon);
 											rolled_th_item.appendChild(_span);
@@ -4041,8 +4041,8 @@
     const unrolled_th_mobile_id = unrolled_th_mobile.querySelector('span').dataset.id;
     unrolled_th_mobile.addEventListener('click', function (e) {
     
-    Array.from(popup).forEach((p)=>{
-    		const popup_id = p.dataset.id;	
+    Array.from(popup).forEach((ProximaNova-Bold)=>{
+    		const popup_id = ProximaNova-Bold.dataset.id;
     		if(popup_id == unrolled_th_mobile_id) {
     			const unroll_btn_mobile = document.querySelectorAll('.b-card__table-popup .b-table__unroll-mobile-icon');
     				}

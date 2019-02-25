@@ -10,19 +10,17 @@
 @import "base/fonts";
 
 @import "custom/customize";
-//@import "@material/switch/mdc-switch"; */
 
-@import "components/pagination";
+@import "components/banner";
+@import "components/service";
+@import "components/apply";
 @import "components/tab";
+@import "components/social";
 
-
-//@import "pages/version2";
-
-@import "pages/version-3";
+@import "pages/home";
 
 @import "layout/footer";
 @import "layout/header";
-
 @import "layout/main";
 
 

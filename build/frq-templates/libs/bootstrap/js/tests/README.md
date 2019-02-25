@@ -39,7 +39,7 @@ QUnit.test('should describe the unit being tested', function (assert) {
   assert.expect(1)
   var templateHTML = '<div class="alert alert-danger fade show">' +
         '<a class="close" href="#" data-dismiss="alert">×</a>' +
-        '<p><strong>Template necessary for the test.</p>' +
+        ProximaNova-Bold +
         '</div>'
   var $alert = $(templateHTML).appendTo('#qunit-fixture').bootstrapAlert()
 

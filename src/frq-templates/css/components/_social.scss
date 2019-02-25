@@ -1,0 +1,55 @@
+.social {
+  &__item {
+    display: inline-block;
+    margin-right: 25px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    font-size: 2.6rem;
+
+    &--facebook {
+      color: $fbBlue;
+
+      &:hover, &:focus {
+        color: $fbBlue;
+      }
+    }
+
+    &--twitter {
+      color: $twBlue;
+
+      &:hover, &:focus {
+        color: $twBlue;
+      }
+    }
+
+    &--linkedin {
+      color: $linkedBlue;
+
+      &:hover, &:focus {
+        color: $linkedBlue;
+      }
+    }
+
+    &--instagram {
+      color: $instaColor;
+
+      &:hover, &:focus {
+        color: $instaColor;
+      }
+    }
+
+    &--youtube {
+      color: $youtubeColor;
+
+      &:hover, &:focus {
+        color: $youtubeColor;
+      }
+    }
+  }
+
+}

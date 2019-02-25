@@ -37,7 +37,7 @@ $(function () {
     assert.expect(1)
     var alertHTML = '<div class="alert alert-danger fade show">' +
         '<a class="close" href="#" data-dismiss="alert">×</a>' +
-        '<p><strong>Holy guacamole!</strong> Best check yo self, you\'re not looking too good.</p>' +
+        '<ProximaNova-Bold><strong>Holy guacamole!</strong> Best check yo self, you\'re not looking too good.</ProximaNova-Bold>' +
         '</div>'
 
     var $alert = $(alertHTML).bootstrapAlert().appendTo($('#qunit-fixture'))
@@ -52,7 +52,7 @@ $(function () {
     var done = assert.async()
     var alertHTML = '<div class="alert alert-danger fade show">' +
         '<a class="close" href="#" data-dismiss="alert">×</a>' +
-        '<p><strong>Holy guacamole!</strong> Best check yo self, you\'re not looking too good.</p>' +
+        '<ProximaNova-Bold><strong>Holy guacamole!</strong> Best check yo self, you\'re not looking too good.</ProximaNova-Bold>' +
         '</div>'
     var $alert = $(alertHTML).appendTo('#qunit-fixture').bootstrapAlert()
 

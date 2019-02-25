@@ -1,3 +1,21 @@
-footer {
-    
+.footer {
+  margin-top: 40px;
+
+  &__top-item {
+    display: inline-block;
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  &__top-link {
+    font-family: $PN-B, Helvetica, Arial, sans-serif;
+    color: $lightGreen;
+
+    &:hover, :focus {
+      color: $lightGreen;
+    }
+  }
 }
