@@ -2,34 +2,36 @@
   margin-top: 40px;
 
   &__top {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     float: left;
     width: 100%;
-    margin-bottom: 30px;
-    @include respondmax(lg) {
-      flex-direction: column-reverse;
+    margin-bottom: 35px;
+    @include respondmax(md) {
+      margin-bottom: 10px;
+      .row {
+        flex-direction: column-reverse;
+      }
     }
+  }
+
+  &__list {
+    float: left;
+    width: 100%;
   }
 
   &__top-item {
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 20px;
 
     &:last-child {
       margin-right: 0;
     }
 
-    @include respondmax(lg) {
-      border-bottom: 1px solid $gray;
+    @include respondmax(md) {
+      border-top: 1px solid $gray;
       width: calc(100% + 30px);
-      padding: 20px;
-      margin-right: 0;
-      &:last-child {
-        border-bottom: none;
-        padding-bottom: 0;
-      }
+      padding: 25px 0;
+      text-align: center;
+      margin: 0 -15px;
     }
   }
 
@@ -45,9 +47,20 @@
   &__bottom {
     background-color: $darkBlue;
     padding-top: 30px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
     float: left;
     width: 100%;
+    @include respondmax(md) {
+      text-align: center;
+    }
+  }
+
+  &__bottom-list {
+    @include respondmax(md) {
+      .row {
+        flex-direction: column-reverse;
+      }
+    }
   }
 
   &__bottom-img {
@@ -60,18 +73,30 @@
       height: 100%;
       object-fit: cover;
     }
+
+    @include respondmax(md) {
+      margin: auto;
+    }
   }
 
   &__contact {
-    //display: flex;
-    //justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @include respondmax(md) {
+      flex-direction: column-reverse;
+    }
   }
 
   &__contact-item {
     margin-left: 50px;
+    @include respondmax(md) {
+      margin-left: 0;
+      margin-bottom: 30px;
+    }
   }
 
-  &__contact-link {
+  &__mail {
     display: flex;
 
     i {
@@ -80,29 +105,20 @@
       color: $green;
     }
 
-    img {
-      width: 32px;
-      height: 32px;
-      margin-left: 10px;
-    }
-  }
-
-  &__contact-call {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    font-family: $PN, Helvetica, Arial, sans-serif;
-    font-size: 1.2rem;
-    color: $white;
   }
 
   &__menu {
-
+    @include respondmax(md) {
+      margin-bottom: 40px;
+    }
   }
 
   &__menu-item {
     display: inline-block;
     margin-right: 30px;
+    @include respondmax(md) {
+      margin: 0 15px;
+    }
   }
 
   &__menu-link {
@@ -123,9 +139,15 @@
     font-size: 1.2rem;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
     img {
       margin-left: 5px;
     }
+
+    @include respondmax(md) {
+      justify-content: center;
+    }
+
   }
 }

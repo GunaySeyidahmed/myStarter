@@ -11,15 +11,15 @@
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
     <!--<script type="text/javascript">-->
-        <!--window.onerror = function (errorMsg, url, lineNumber) {-->
-            <!--var s = '';-->
-            <!--s += "Javascript error!";-->
-            <!--s += "\n&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;\n";-->
-            <!--s += errorMsg;-->
-            <!--s += "\nFile : " + url;-->
-            <!--s += "\nLine : " + lineNumber;-->
-            <!--alert(s);-->
-        <!--}-->
+    <!--window.onerror = function (errorMsg, url, lineNumber) {-->
+    <!--var s = '';-->
+    <!--s += "Javascript error!";-->
+    <!--s += "\n&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;\n";-->
+    <!--s += errorMsg;-->
+    <!--s += "\nFile : " + url;-->
+    <!--s += "\nLine : " + lineNumber;-->
+    <!--alert(s);-->
+    <!--}-->
     <!--</script>-->
 
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/normalize.css/normalize.css">
@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/font-awesome/css/all.min.css">
 
-     <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.theme.default.min.css">
 
     <!-- <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"> -->
@@ -44,17 +44,51 @@
 </head>
 <body style=" max-width: 100%; overflow-x: hidden;">
 <!--[if lte IE 9]>
-<ProximaNova-Bold class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</ProximaNova-Bold>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
 <![endif]-->
 <div class="banner"></div>
 
 <header class="header">
 
     <div class="container">
-        <div class="menu">
-            Header menu ....
-            <a href="#">lorem </a>
+        <div class="header__top">
+            <div class="row">
+                <div class="col-md-3 center-vertical">
+                    <div class="logo">
+                        <img src="../frq-templates/img/logo.svg" alt="logo img">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="header__top-menu">
+                        <div class="dropdown">
+                            <a class="language-link" href="#" role="button"
+                               id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                <i class="material-icons">&#xe894;</i>
+                                <span>AZ</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AZ</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                                <a class="dropdown-item" href="#">RU</a>
+                            </div>
+                        </div>
+                        <div class="call">
+                            <a href="#" class="call__link">
+                                <div class="call__info">
+                                    <span class="font-bold text-medium color-white">194</span>
+                                    <span>24/7 çağrı mərkəzi</span>
+                                </div>
+                                <img src="../frq-templates/img/call-white.svg" alt="contact call">
+                            </a>
+                        </div>
+                        <button class="header__menu-open">
+                            <i class="material-icons">&#xe5d2;</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -68,7 +102,7 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="home__slider-img">
-                                <img src="frq-templates/img/examples/home-slider.png" alt="home slider">
+                                <img src="frq-templates/img/examples/home-slider.png" class="img-fluid" alt="home slider">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -84,7 +118,7 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="home__slider-img">
-                                <img src="frq-templates/img/examples/home-slider.png" alt="home slider">
+                                <img src="frq-templates/img/examples/banner-slider.png" class="img-fluid" alt="home slider">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -109,41 +143,41 @@
                 autoplayHoverPause: true
             })
         </script>
-        <section class="service">
+        <section class="connect">
             <div class="owl-carousel">
-                <div class="service__item">
-                    <div class="service__title">
+                <div class="connect__item">
+                    <div class="connect__title">
                         <h3>Onlayn ödənişləriniz bir arada</h3>
-                        <img src="frq-templates/img/service-1.png" class="service__img" alt="service img">
+                        <img src="frq-templates/img/connect-1.png" class="connect__img" alt="connect img">
                     </div>
-                    <p class="service__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn ödəniş
+                    <p class="connect__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn ödəniş
                         platforması.</p>
-                    <a href="#" class="service__link">Ödənişlərə keç</a>
+                    <a href="#" class="connect__link">Ödənişlərə keç</a>
                 </div>
-                <div class="service__item">
-                    <div class="service__title">
+                <div class="connect__item">
+                    <div class="connect__title">
                         <h3>Təhlükəsiz ödənişlər 3D-Secure ilə</h3>
-                        <img src="frq-templates/img/service-2.png" class="service__img" alt="service img">
+                        <img src="frq-templates/img/connect-2.png" class="connect__img" alt="connect img">
                     </div>
-                    <p class="service__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn </p>
-                    <a href="#" class="service__link">Xidmət haqda</a>
+                    <p class="connect__subtitle">Bütün ödənişlərinizi bir arada toplayan onlayn </p>
+                    <a href="#" class="connect__link">Xidmət haqda</a>
                 </div>
-                <div class="service__item">
-                    <div class="service__title">
+                <div class="connect__item">
+                    <div class="connect__title">
                         <h3>İnternet Bankinq</h3>
-                        <img src="frq-templates/img/service-3.png" class="service__img" alt="service img">
+                        <img src="frq-templates/img/connect-3.png" class="connect__img" alt="connect img">
                     </div>
-                    <p class="service__subtitle">Etiam molestie egestas quam ac finibus.
+                    <p class="connect__subtitle">Etiam molestie egestas quam ac finibus.
                         Aliquam libero nisl, porttitor sed sollicitudin sagittis.</p>
-                    <a href="#" class="service__link">Bankını seç</a>
+                    <a href="#" class="connect__link">Bankını seç</a>
                 </div>
-                <div class="service__item">
-                    <div class="service__title">
+                <div class="connect__item">
+                    <div class="connect__title">
                         <h3>Təcrübə proqramı</h3>
-                        <img src="frq-templates/img/service-4.png" class="service__img" alt="service img">
+                        <img src="frq-templates/img/connect-4.png" class="connect__img" alt="connect img">
                     </div>
-                    <p class="service__subtitle">Mauris id tristique quam. Curabitur vehicula </p>
-                    <a href="#" class="service__link">Bizə qoşul</a>
+                    <p class="connect__subtitle">Mauris id tristique quam. Curabitur vehicula </p>
+                    <a href="#" class="connect__link">Bizə qoşul</a>
                 </div>
             </div>
 
@@ -152,38 +186,36 @@
             </div>
         </section>
         <script>
-            $('.service .owl-carousel').owlCarousel({
+            $('.connect .owl-carousel').owlCarousel({
                 loop: true,
                 margin: 30,
                 nav: false,
                 items: 1,
                 autoplayTimeout: 4000,
                 autoplayHoverPause: true,
-                responsive:{
-                    0:{
-                        items:1
+                responsive: {
+                    0: {
+                        items: 1
                     },
-                    600:{
-                        items:2,
-                        dots:true
+                    600: {
+                        items: 2,
+                        dots: true
                     },
-                    1000:{
-                        items:4,
-                        autoplay: ($('.service .service__item').length > 5),
-                        mouseDrag: ($('.service .service__item').length > 5),
+                    1000: {
+                        items: 4,
+                        autoplay: ($('.connect .connect__item').length > 5),
+                        mouseDrag: ($('.connect .connect__item').length > 5),
                     }
                 }
             })
         </script>
-        <section class="section-white">
+        <section class="section__white">
             <h1 class="text-center">3 addıma elektron ticarətə qoşul!</h1>
             <p class="text-center full-width mb-60">Bütün proseslər onlayn həyata keçirilir</p>
             <div class="row">
                 <div class="col-md-12 col-lg-4">
                     <div class="apply">
-                        <div class="apply__img">
-                            <img src="frq-templates/img/apply-1.png" alt="apply img">
-                        </div>
+                        <img src="frq-templates/img/apply-1.png" class="img-fluid" alt="apply img">
                         <h2>Onlayn müraciət et</h2>
                         <p class="apply__description">Maecenas pulvinar a nisi eget pharetra. In at orci ac ligula
                             pellentesque ultrices. Praesent
@@ -192,9 +224,7 @@
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <div class="apply">
-                        <div class="apply__img">
-                            <img src="frq-templates/img/apply-2.png" alt="apply img">
-                        </div>
+                        <img src="frq-templates/img/apply-2.png" alt="apply img">
                         <h2>Hesab məlumatlarını əldə et</h2>
                         <p class="apply__description">Pellentesque at nibh elit. Curabitur dignissim porttitor porta.
                             Sed eros lectus, tincidunt sed venenatis in, molestie ut mi. </p>
@@ -202,20 +232,18 @@
                 </div>
                 <div class="col-md-12 col-lg-4">
                     <div class="apply apply--last">
-                        <div class="apply__img">
-                            <img src="frq-templates/img/apply-3.png" alt="apply img">
-                        </div>
+                        <img src="frq-templates/img/apply-3.png" alt="apply img">
                         <h2>Ödəniş sistemini saytına qoş</h2>
                         <p class="apply__description">Pellentesque at nibh elit. Curabitur dignissim porttitor porta.
                             Sed eros lectus, tincidunt sed venenatis in, molestie ut mi. </p>
                     </div>
                 </div>
             </div>
-            <div class="full-width d-flex justify-content-center mb-25">
+            <div class="full-width center-horizontal mb-25">
                 <a href="#" class="btn btn--large">Onlayn müraciət</a>
             </div>
         </section>
-        <section class="section-white">
+        <section class="section__white section__white--responsive">
             <h1 class="text-medium text-center mb-30">Partnyorlar</h1>
             <div class="partners owl-carousel">
                 <div class="partners-item">
@@ -246,16 +274,16 @@
                 items: 1,
                 autoplayTimeout: 4000,
                 autoplayHoverPause: true,
-                responsive:{
-                    0:{
-                        items:2
+                responsive: {
+                    0: {
+                        items: 2
                     },
-                    600:{
-                        items:3,
-                        dots:true
+                    600: {
+                        items: 3,
+                        dots: true
                     },
-                    1000:{
-                        items:6,
+                    1000: {
+                        items: 6,
                         autoplay: ($('.partners .partners-item').length > 6),
                         mouseDrag: ($('.partners .partners-item').length > 6),
                     }
@@ -267,58 +295,68 @@
 
 <footer class="footer">
     <div class="container">
-        <div class="row footer__top">
-            <ul class="col-md-8">
-                <li class="footer__top-item"><a href="#" class="footer__top-link">Haqqımızda</a></li>
-                <li class="footer__top-item"><a href="#" class="footer__top-link">Xidmətlər</a></li>
-                <li class="footer__top-item"><a href="#" class="footer__top-link">Partnyorlar</a></li>
-                <li class="footer__top-item"><a href="#" class="footer__top-link">Dəstək</a></li>
-                <li class="footer__top-item"><a href="#" class="footer__top-link">Tenderlər</a></li>
-            </ul>
-            <ul class="col-md-4">
-                <li class="social__item">
-                    <a href="#" class="social__link social__link--facebook"><i class="fab fa-facebook"></i></a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link social__link--twitter"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link social__link--linkedin"><i class="fab fa-linkedin-in"></i></a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link social__link--instagram"><i class="fab fa-instagram"></i></a>
-                </li>
-                <li class="social__item">
-                    <a href="#" class="social__link social__link--youtube"><i class="fab fa-youtube"></i></a>
-                </li>
-            </ul>
+        <div class="footer__top">
+            <div class="row">
+                <div class="col-12 col-md-8">
+                    <ul class="footer__list">
+                        <li class="footer__top-item"><a href="#" class="footer__top-link">Haqqımızda</a></li>
+                        <li class="footer__top-item"><a href="#" class="footer__top-link">Xidmətlər</a></li>
+                        <li class="footer__top-item"><a href="#" class="footer__top-link">Partnyorlar</a></li>
+                        <li class="footer__top-item"><a href="#" class="footer__top-link">Dəstək</a></li>
+                        <li class="footer__top-item"><a href="#" class="footer__top-link">Tenderlər</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <ul class="social">
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--facebook"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--twitter"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--linkedin"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--instagram"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+                        <li class="social__item">
+                            <a href="#" class="social__link social__link--youtube"><i class="fab fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer__bottom">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#" class="footer__bottom-img">
-                        <img src="../frq-templates/img/footer-img.png" alt="footer img">
-                    </a>
-                </div>
-                <div class="col-md-9">
-                    <ul class="footer__contact">
-                        <li class="footer__contact-item">
-                            <a href="#" class="footer__contact-link">office@azericard.com
-                                <i class="material-icons">&#xe0e1;</i>
-                            </a>
-                        </li>
-                        <li class="footer__contact-item">
-                            <a href="#" class="footer__contact-link">
-                                <div class="footer__contact-call">
-                                    <span class="font-bold text-medium color-green">194</span>
-                                    <span>24/7 çağrı mərkəzi</span>
-                                </div>
-                                <img src="../frq-templates/img/call.svg" alt="contact call">
-                            </a>
-                        </li>
-                    </ul>
+            <div class="footer__bottom-list">
+                <div class="row mb-35">
+                    <div class="col-12 col-md-3">
+                        <a href="#" class="footer__bottom-img">
+                            <img src="../frq-templates/img/footer-img.png" alt="footer img">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <ul class="footer__contact">
+                            <li class="footer__contact-item">
+                                <a href="#" class="footer__mail">office@azericard.com
+                                    <i class="material-icons">&#xe0e1;</i>
+                                </a>
+                            </li>
+                            <li class="footer__contact-item">
+                                <a href="#" class="call__link">
+                                    <div class="call__info">
+                                        <span class="font-bold text-medium color-green">194</span>
+                                        <span>24/7 çağrı mərkəzi</span>
+                                    </div>
+                                    <img src="../frq-templates/img/call.svg" alt="contact call">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="row">

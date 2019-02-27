@@ -14,22 +14,7 @@
   }
 
   &__slider-img {
-    width: 405px;
-    height: 330px;
-    //display: flex;
-    //align-items: flex-end;
-
-    img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    @include respondmax(lg) {
-      width: 215px;
-      height: 175px;
-      margin: 0 auto;
-    }
+    padding: 0 60px;
   }
 
   &__slider-info {
@@ -51,7 +36,6 @@
       float: left;
       width: 100%;
     }
-
 
   }
 

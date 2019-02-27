@@ -11,15 +11,15 @@
     <!-- <link rel="apple-touch-icon" href="icon.png"> -->
     <!-- Place favicon.ico in the root directory -->
     <!--<script type="text/javascript">-->
-        <!--window.onerror = function (errorMsg, url, lineNumber) {-->
-            <!--var s = '';-->
-            <!--s += "Javascript error!";-->
-            <!--s += "\n&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;\n";-->
-            <!--s += errorMsg;-->
-            <!--s += "\nFile : " + url;-->
-            <!--s += "\nLine : " + lineNumber;-->
-            <!--alert(s);-->
-        <!--}-->
+    <!--window.onerror = function (errorMsg, url, lineNumber) {-->
+    <!--var s = '';-->
+    <!--s += "Javascript error!";-->
+    <!--s += "\n&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;\n";-->
+    <!--s += errorMsg;-->
+    <!--s += "\nFile : " + url;-->
+    <!--s += "\nLine : " + lineNumber;-->
+    <!--alert(s);-->
+    <!--}-->
     <!--</script>-->
 
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/normalize.css/normalize.css">
@@ -32,7 +32,7 @@
 
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/font-awesome/css/all.min.css">
 
-     <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="frq-templates/libs/owl.carousel/owl.theme.default.min.css">
 
     <!-- <link rel="stylesheet" type="text/css" href="libs/bootstrap-select/bootstrap-select.min.css"> -->
@@ -44,17 +44,51 @@
 </head>
 <body style=" max-width: 100%; overflow-x: hidden;">
 <!--[if lte IE 9]>
-<ProximaNova-Bold class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
-    your browser</a> to improve your experience and security.</ProximaNova-Bold>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience and security.</p>
 <![endif]-->
 <div class="banner"></div>
 
 <header class="header">
 
     <div class="container">
-        <div class="menu">
-            Header menu ....
-            <a href="#">lorem </a>
+        <div class="header__top">
+            <div class="row">
+                <div class="col-md-3 center-vertical">
+                    <div class="logo">
+                        <img src="../frq-templates/img/logo.svg" alt="logo img">
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <div class="header__top-menu">
+                        <div class="dropdown">
+                            <a class="language-link" href="#" role="button"
+                               id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                               aria-expanded="false">
+                                <i class="material-icons">&#xe894;</i>
+                                <span>AZ</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AZ</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                                <a class="dropdown-item" href="#">RU</a>
+                            </div>
+                        </div>
+                        <div class="call">
+                            <a href="#" class="call__link">
+                                <div class="call__info">
+                                    <span class="font-bold text-medium color-white">194</span>
+                                    <span>24/7 çağrı mərkəzi</span>
+                                </div>
+                                <img src="../frq-templates/img/call-white.svg" alt="contact call">
+                            </a>
+                        </div>
+                        <button class="header__menu-open">
+                            <i class="material-icons">&#xe5d2;</i>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

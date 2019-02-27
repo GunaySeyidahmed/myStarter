@@ -10,6 +10,13 @@
   float: left;
   z-index: -1;
 
+  &--small {
+    background: url("../../img/examples/BG-small.png") no-repeat center;
+    min-height: 480px
+
+
+  }
+
   &__info {
     text-align: center;
     width: 100%;
