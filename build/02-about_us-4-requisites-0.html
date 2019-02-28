@@ -52,17 +52,18 @@
 <header class="header">
 
     <div class="container">
-        <div class="header__top">
+        <!--<div class="header__top">-->
             <div class="row">
                 <div class="col-md-3 center-vertical">
-                    <div class="logo">
-                        <img src="../frq-templates/img/logo.svg" alt="logo img">
-                    </div>
+                    <a href="#" class="logo">
+                        <img src="../frq-templates/img/logo-white.svg" alt="logo img" class="logo-white">
+                        <img src="../frq-templates/img/logo-blue.svg" alt="logo img" class="logo-blue d-none">
+                    </a>
                 </div>
                 <div class="col-md-9">
-                    <div class="header__top-menu">
+                    <div class="header__top">
                         <div class="dropdown">
-                            <a class="language-link" href="#" role="button"
+                            <a class="language__link" href="#" role="button"
                                id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                                aria-expanded="false">
                                 <i class="material-icons">&#xe894;</i>
@@ -86,10 +87,13 @@
                         <button class="header__menu-open">
                             <i class="material-icons">&#xe5d2;</i>
                         </button>
+                        <button class="header__menu-close d-none">
+                            <i class="material-icons">&#xe5cd;</i>
+                        </button>
                     </div>
                 </div>
             </div>
-        </div>
+        <!--</div>-->
     </div>
 
 </header>

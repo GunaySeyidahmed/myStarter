@@ -72,7 +72,8 @@ main, header, section, footer {
 }
 
 .section__white {
-  padding: 35px 0;
+  //padding: 35px 0;
+  padding: 35px;
   margin-bottom: 60px;
   background-color: $white;
   border-radius: 8px;
@@ -80,7 +81,7 @@ main, header, section, footer {
 
   &--responsive {
     @include respondmax(md) {
-      padding: 40px 0 15px;
+      padding: 40px 15px 15px;
     }
   }
 }
@@ -234,6 +235,16 @@ h3 {
   margin-bottom: 10px;
 }
 
+h4 {
+  font-family: $PN-B, Helvetica, Arial, sans-serif;
+  font-size: 2.4rem;
+  float: left;
+  width: 100%;
+  color: $gray4d;
+  margin-bottom: 10px;
+}
+
+
 .bg-white {
   background-color: $white;
 }
@@ -249,12 +260,21 @@ h3 {
   font-size: 2rem;
 }
 
-.text-small{
+
+.text-small {
   font-size: 1.4rem;
 }
 
 .color-green {
   color: $green;
+}
+
+.color-dark-green {
+  color: $lightGreen;
+}
+
+.color-gray {
+  color: $gray4d;
 }
 
 .font-bold {
