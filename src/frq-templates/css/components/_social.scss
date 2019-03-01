@@ -63,4 +63,61 @@
     }
   }
 
+
+  &--share {
+    padding: 0 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: flex-start;
+
+    li:first-child {
+      margin-right: 20px;
+      color: $gray4d;
+    }
+
+    .social__item{
+      margin-right: 10px;
+    }
+
+    .social__link {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100%;
+      font-size: 2rem;
+
+      &--facebook {
+        color: $white;
+        background-color: $fbBlue;
+
+        &:hover, &:focus {
+          color: $white;
+        }
+      }
+
+      &--twitter {
+        color: $white;
+        background-color: $twBlue;
+
+        &:hover, &:focus {
+          color: $white;
+        }
+      }
+
+      &--linkedin {
+        color: $white;
+        background-color: $linkedBlue;
+
+        &:hover, &:focus {
+          color: $white;
+        }
+      }
+
+    }
+
+  }
+
 }

@@ -1,0 +1,72 @@
+.news {
+  padding: 5px 30px;
+
+  &__date {
+    font-family: $PN, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: $lightGray;
+    float: left;
+    width: 100%;
+  }
+
+  h4 {
+    color: $black;
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    margin-top: 25px;
+
+    a {
+      font-family: $PN-B, Helvetica, Arial, sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: $blue;
+
+      &:after {
+        content: '\e5c8';
+        font-family: $MtI;
+        position: absolute;
+      }
+
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+  }
+
+  &__info {
+    padding: 0 30px;
+    margin-bottom: 35px;
+    //min-height: 65px;
+
+    a {
+      color: $blue;
+      font-family: $PN-B, Helvetica, Arial, sans-serif;
+      transition: $tr1;
+
+      &:hover {
+        color: $darkGreen;
+      }
+
+      &:focus {
+        color: $blue;
+      }
+
+    }
+  }
+
+  &__content {
+    img {
+      width: 100%;
+      padding: 0;
+    }
+    h4{
+      color: $black;
+      padding: 40px 50px 0;
+    }
+    p{
+      padding: 0 50px;
+    }
+  }
+}

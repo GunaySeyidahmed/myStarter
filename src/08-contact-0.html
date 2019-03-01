@@ -1,0 +1,45 @@
+//= template/header-small.html
+
+<main class="mt-25">
+    <div class="container">
+
+        <h1 class="text-center color-white mb-50">Əlaqə</h1>
+
+        <section class="contact section__white section__white--responsive">
+            <div class="contact__map">
+                <div id="map"></div>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script async="" defer=""
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvRF6OqEKBlvoCCAWo30nK2Pg-X0CPkkc&amp;callback=initMap">
+</script>
+
+<script>
+    function initMap() {
+        var _position = {lat: 40.3786968, lng: 49.8454612};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 10,
+            center: _position,
+            disableDefaultUI: true,
+            streetViewControl: false,
+            zoomControl: false,
+        });
+
+        var marker = new google.maps.Marker({
+            position: _position,
+            map: map,
+            icon: {
+                url: "img/location.svg",
+            }
+        });
+    }
+
+    initMap();
+
+</script>
+
+
+//= template/footer.html

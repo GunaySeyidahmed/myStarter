@@ -1,24 +1,31 @@
 $(document).ready(function () {
 
-
     $(document).on('click', '.header__menu-open', function () {
         $(this).addClass('d-none');
         $('.header__menu-close').addClass('d-flex');
         $('.header').addClass('header--open');
-        $('.logo-white').addClass('d-none');
-        $('.logo-blue').removeClass('d-none');
-        $('.header__top').addClass('header__top--blue');
     });
 
     $(document).on('click', '.header__menu-close', function () {
         $(".header__menu-open").removeClass('d-none');
         $(this).removeClass('d-flex');
         $('.header').removeClass('header--open');
-        $('.logo-white').removeClass('d-none');
-        $('.logo-blue').addClass('d-none');
-        $('.header__top').removeClass('header__top--blue');
     });
 
+    $(document).on('click', '.show-more-js', function (e) {
+        e.preventDefault();
+        showMore();
+    });
+
+    function showMore(){
+        var length=$(".news__info").length;
+        var x=3;
+        console.log(length);
+        $('.load-more-js div:lt('+x+')').show();
+        x= (x+3 <= length) ? x+3 : length;
+        console.log(x);
+        $('.load-more-js div:lt('+x+')').show();
+    }
 
     $(document).on('click touchstart', function (event) {
 

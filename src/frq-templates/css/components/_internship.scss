@@ -1,0 +1,49 @@
+.internship {
+  border-right: 1px solid $gray;
+  padding-right: 30px;
+  @include respondmax(md) {
+    border: 0;
+  }
+
+  &.last {
+    border: 0;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $gray6;
+  }
+
+  &__content {
+    h2 {
+      color: $gray4d;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 50px;
+      margin-bottom: 20px;
+    }
+  }
+
+  &__contact {
+    margin: 40px 0 20px;
+    p{
+      margin-bottom: 0;
+      font-family: $PN-B, Helvetica, Arial, sans-serif;
+      color: $gray4d;
+    }
+    a {
+      font-family: $SP, Helvetica, Arial, sans-serif;
+      color: $blue;
+      float: left;
+      width: 100%;
+      &:hover,&:focus{
+        color: $blue;
+      }
+    }
+  }
+}
