@@ -12,27 +12,7 @@ $(document).ready(function () {
         $('.header').removeClass('header--open');
     });
 
-    $(document).on('click', '.show-more-js', function (e) {
-        e.preventDefault();
-        showMore();
-    });
 
-    function showMore(){
-        var length=$(".news__info").length;
-        var x=3;
-        console.log(length);
-        $('.load-more-js div:lt('+x+')').show();
-        x= (x+3 <= length) ? x+3 : length;
-        console.log(x);
-        $('.load-more-js div:lt('+x+')').show();
-    }
-
-    $(document).on('click touchstart', function (event) {
-
-    })
-    $(document).on('click touch', function (event) {
-
-    })
 
     $('').each(function () {
         var _select = $(this).find('select');
@@ -51,9 +31,7 @@ $(document).ready(function () {
     });
 
 
-
     // $('.selectpicker').selectpicker();
-
 
 
     $('input.only-number').bind('keypress', function (e) {

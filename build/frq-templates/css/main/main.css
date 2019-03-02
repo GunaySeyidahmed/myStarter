@@ -3141,9 +3141,8 @@ h4 {
   width: 100%;
   padding: 0 35px;
   position: relative; }
-  @media (max-width: 767px) {
-    .apply img {
-      margin-bottom: 25px; } }
+  .apply img {
+    margin-bottom: 25px; }
   @media (max-width: 767px) {
     .apply {
       padding-bottom: 35px; }
@@ -3286,7 +3285,7 @@ h4 {
       .social__link--youtube:hover, .social__link--youtube:focus {
         color: #FC0404; }
   .social--share {
-    padding: 0 50px;
+    padding: 0 20px;
     margin-top: 50px;
     margin-bottom: 30px;
     -webkit-box-align: center;
@@ -3440,12 +3439,6 @@ h4 {
 
 .news {
   padding: 5px 30px; }
-  .news__date {
-    font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
-    font-size: 1.2rem;
-    color: #999999;
-    float: left;
-    width: 100%; }
   .news h4 {
     color: #000;
     margin-bottom: 15px; }
@@ -3464,18 +3457,9 @@ h4 {
         color: #1C5EAF; }
   .news__info {
     padding: 0 30px;
-    margin-bottom: 35px; }
-    .news__info a {
-      color: #1C5EAF;
-      font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
-      -webkit-transition: 0.1s;
-      -o-transition: 0.1s;
-      -moz-transition: 0.1s;
-      transition: 0.1s; }
-      .news__info a:hover {
-        color: #549344; }
-      .news__info a:focus {
-        color: #1C5EAF; }
+    margin-bottom: 35px;
+    float: left;
+    width: 100%; }
   .news__content img {
     width: 100%;
     padding: 0; }
@@ -3484,6 +3468,9 @@ h4 {
     padding: 40px 50px 0; }
   .news__content p {
     padding: 0 50px; }
+
+.load-more-content > div {
+  display: none; }
 
 .internship {
   border-right: 1px solid #E6E6E6;
@@ -3503,19 +3490,6 @@ h4 {
     list-style-type: disc;
     padding-left: 50px;
     margin-bottom: 20px; }
-  .internship__contact {
-    margin: 40px 0 20px; }
-    .internship__contact p {
-      margin-bottom: 0;
-      font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
-      color: #4D4D4D; }
-    .internship__contact a {
-      font-family: SeroPro, Helvetica, Arial, sans-serif;
-      color: #1C5EAF;
-      float: left;
-      width: 100%; }
-      .internship__contact a:hover, .internship__contact a:focus {
-        color: #1C5EAF; }
 
 .home {
   padding: 70px 0; }
@@ -3565,7 +3539,7 @@ h4 {
       width: 100%; }
   .home .owl-carousel .owl-dots {
     position: absolute;
-    top: 0;
+    top: -10px;
     left: 54%;
     -webkit-transform: translateX(-54%);
        -moz-transform: translateX(-54%);
@@ -3599,9 +3573,43 @@ h4 {
     width: 100%;
     height: 100%; }
 
-.faq__option p {
-  font-size: 1.4rem;
-  color: #666666; }
+.contact-detail {
+  margin: 40px 20px 20px; }
+  .contact-detail p {
+    margin-bottom: 0;
+    font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+    color: #4D4D4D; }
+  .contact-detail a {
+    font-family: SeroPro, Helvetica, Arial, sans-serif;
+    color: #1C5EAF;
+    float: left;
+    width: 100%; }
+    .contact-detail a:hover, .contact-detail a:focus {
+      color: #1C5EAF; }
+
+.faq__option {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px; }
+  .faq__option p {
+    font-size: 1.4rem;
+    color: #666666; }
+
+.accordion .card .card-header {
+  background-color: #FFFFFF; }
+
+.accordion .card button.accordion-btn {
+  background-color: white !important;
+  border: 0 !important;
+  cursor: pointer; }
+
+.tender {
+  margin: 0 75px 45px 20px; }
+  .tender__content h4 {
+    color: #000;
+    padding: 10px 20px 0; }
+  .tender__content p {
+    padding: 0 20px; }
 
 .footer {
   /*margin-top: 40px;*/ }
@@ -3760,8 +3768,8 @@ h4 {
                 justify-content: center; } }
 
 .header {
-  min-height: 160px;
-  padding: 40px 0 20px; }
+  height: 160px;
+  padding: 40px 0 15px; }
   .header .logo-white {
     display: block; }
   .header .logo-blue {
@@ -4172,11 +4180,14 @@ h4 {
     .text-large {
       font-size: 3.2rem; } }
 
-.text-medium {
-  font-size: 2rem; }
-
 .text-small {
   font-size: 1.4rem; }
+
+.text-default {
+  font-size: 1.6rem !important; }
+
+.text-medium {
+  font-size: 2rem; }
 
 .color-green {
   color: #B2E1A6; }
@@ -4302,12 +4313,25 @@ h4 {
     color: #FFFFFF;
     margin-right: 10px; }
 
-.accordion .card .card-header {
-  background-color: #FFFFFF; }
+.text-xsmall {
+  font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: #999999;
+  float: left;
+  width: 100%;
+  margin-bottom: 0; }
 
-.accordion .card button.accordion-btn {
-  background-color: white !important;
-  border: 0;
-  cursor: pointer; }
+.more-link {
+  color: #1C5EAF;
+  font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  -webkit-transition: 0.1s;
+  -o-transition: 0.1s;
+  -moz-transition: 0.1s;
+  transition: 0.1s; }
+  .more-link:hover {
+    color: #549344; }
+  .more-link:focus {
+    color: #1C5EAF; }
 
 /*! Gunay Mammadli  February 2019  https://github.com/GunaySeyidahmed */

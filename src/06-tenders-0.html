@@ -1,0 +1,102 @@
+//= template/header-small.html
+
+<main class="mt-25">
+    <div class="container">
+
+        <h1 class="text-center color-white mb-50">Tenderlər</h1>
+
+        <section class="section__white section__white--responsive">
+            <div class="row load-more-content">
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">Catel şirkətinin abunəçilərinin imkanları genişlənir</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">“ALI&NINO” mağazalar şəbəkəsi E-commerce xidmətinə qoşulur</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">“Baki elektrik şəbəkə” ASC elektron ticarət xidmətinə qoşuldu</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">“AzeriCard” www.multibrands.az – internet mağazanı təqdim edir</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">www.bakuelectronics.az saytında onlayn-ödəmə imkanı</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">“Connect” ödəmələri ATM, Info Kiosk və Internet Banking xidmətinin
+                            menyusuna əlavə olunub</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">AzəriKard prosesinq mərkəzinin PIN-change xidmətindən artıq
+                            istifadə etmək mümkündür</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">Kompüter avadanlıqları bazarında yeni imkanlar</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">Azərikard elektron ödəmə sisteminə yeni bir bank qoşuldu</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">Azərikard elektron ödəmə sisteminə yeni bir bank qoşuldu</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="tender">
+                        <p class="text-xsmall">28 İyul 2009</p>
+                        <a href="#" class="more-link">"Azərikard" yeni layihələr təklif edir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="center-horizontal">
+                <a href="#" class="link link--gray mt-20 show-more-js">Daha çox göstər</a>
+            </div>
+        </section>
+
+    </div>
+</main>
+
+<script>
+
+    $(".load-more-content > div").slice(0, 8).show();
+
+    $(document).on('click', '.show-more-js', function (e) {
+        e.preventDefault();
+        $(".load-more-content > div:hidden").slice(0, 2).slideDown();
+
+        if ($(".load-more-content > div:hidden").length === 0) {
+            $('.show-more-js').css('display', 'none');
+        }
+        return false;
+    });
+</script>
+
+//= template/footer.html

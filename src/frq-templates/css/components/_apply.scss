@@ -6,9 +6,7 @@
   position: relative;
 
   img {
-    @include respondmax(md) {
       margin-bottom: 25px;
-    }
   }
 
   @include respondmax(md) {

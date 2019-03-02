@@ -42,7 +42,7 @@
   .owl-carousel {
     .owl-dots {
       position: absolute;
-      top: 0;
+      top: -10px;
       left: 54%;
       transform: translateX(-54%);
       @include respondmax(lg) {

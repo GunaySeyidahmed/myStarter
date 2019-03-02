@@ -1,8 +1,26 @@
 .faq {
   &__option {
+    float: left;
+    width: 100%;
+    margin-bottom: 50px;
     p{
       font-size: 1.4rem;
       color: $gray6;
+    }
+  }
+}
+
+
+.accordion {
+  .card {
+    .card-header {
+      background-color: $white;
+    }
+
+    button.accordion-btn {
+      background-color: white !important;
+      border: 0 !important;
+      cursor: pointer;
     }
   }
 }

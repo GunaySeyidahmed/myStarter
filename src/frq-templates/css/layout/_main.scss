@@ -260,13 +260,17 @@ h4 {
   }
 }
 
-.text-medium {
-  font-size: 2rem;
-}
-
 
 .text-small {
   font-size: 1.4rem;
+}
+
+.text-default {
+  font-size: 1.6rem !important;
+}
+
+.text-medium {
+  font-size: 2rem;
 }
 
 .color-green {
@@ -404,18 +408,29 @@ h4 {
   }
 }
 
-.accordion {
-  .card {
-    .card-header {
-      background-color: $white;
-    }
+.text-xsmall {
+  font-family: $PN, Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  color: $lightGray;
+  float: left;
+  width: 100%;
+  margin-bottom: 0;
+}
 
-    button.accordion-btn {
-      background-color: white !important;
-      border: 0;
-      cursor: pointer;
-    }
+.more-link {
+  color: $blue;
+  font-family: $PN-B, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  transition: $tr1;
+
+  &:hover {
+    color: $darkGreen;
+  }
+
+  &:focus {
+    color: $blue;
   }
 }
+
 
 

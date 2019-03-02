@@ -28,22 +28,4 @@
       margin-bottom: 20px;
     }
   }
-
-  &__contact {
-    margin: 40px 0 20px;
-    p{
-      margin-bottom: 0;
-      font-family: $PN-B, Helvetica, Arial, sans-serif;
-      color: $gray4d;
-    }
-    a {
-      font-family: $SP, Helvetica, Arial, sans-serif;
-      color: $blue;
-      float: left;
-      width: 100%;
-      &:hover,&:focus{
-        color: $blue;
-      }
-    }
-  }
 }
