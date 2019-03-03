@@ -3590,10 +3590,50 @@ h4 {
 .faq__option {
   float: left;
   width: 100%;
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
   .faq__option p {
     font-size: 1.4rem;
     color: #666666; }
+  .faq__option .form-check {
+    border: 2px solid #CCCCCC;
+    -webkit-border-radius: 170px;
+       -moz-border-radius: 170px;
+            border-radius: 170px;
+    height: 40px;
+    padding: 0 25px;
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    -moz-transition: 0.1s;
+    transition: 0.1s;
+    text-align: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    float: left;
+    margin-bottom: 20px; }
+    .faq__option .form-check:hover {
+      cursor: pointer; }
+    .faq__option .form-check .form-check-input {
+      display: none; }
+    .faq__option .form-check .form-check-label {
+      font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+      -webkit-transition: 0.1s;
+      -o-transition: 0.1s;
+      -moz-transition: 0.1s;
+      transition: 0.1s; }
+      .faq__option .form-check .form-check-label:hover {
+        cursor: pointer; }
+    .faq__option .form-check.active {
+      background-color: #1C5EAF;
+      color: #FFFFFF;
+      border-color: transparent; }
 
 .accordion .card .card-header {
   background-color: #FFFFFF; }

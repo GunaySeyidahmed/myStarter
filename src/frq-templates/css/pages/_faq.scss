@@ -2,12 +2,47 @@
   &__option {
     float: left;
     width: 100%;
-    margin-bottom: 50px;
-    p{
+    margin-bottom: 30px;
+
+    p {
       font-size: 1.4rem;
       color: $gray6;
     }
+
+    .form-check {
+      border: 2px solid $grayC;
+      border-radius: 170px;
+      height: 40px;
+      padding: 0 25px;
+      transition: $tr1;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      float: left;
+      margin-bottom: 20px;
+      &:hover{
+        cursor: pointer;
+      }
+      .form-check-input {
+        display: none;
+      }
+      .form-check-label {
+        font-family: $PN-B, Helvetica, Arial, sans-serif;
+        transition: $tr1;
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      &.active{
+        background-color: $blue;
+        color: $white;
+        border-color: transparent;
+      }
+
+    }
+
   }
+
 }
 
 
