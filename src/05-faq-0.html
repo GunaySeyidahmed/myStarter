@@ -4,7 +4,7 @@
 
     <div class="container">
         <h1 class="text-center color-white mb-50">Dəstək</h1>
-        <section class="contact section__white section__white--responsive">
+        <section class="contact section__white section__white--responsive pb-0">
             <h4 class="color-black">Mütəmadi verilən suallar</h4>
             <form action="" class="faq__option">
                 <p>Sualınız nəylə bağlıdır?</p>
@@ -13,7 +13,7 @@
                     <input class="form-check-input" type="checkbox" value="option1">
                     <label class="form-check-label">Şifrə</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline active">
                     <input class="form-check-input" type="checkbox" value="option1">
                     <label class="form-check-label">Xidmət</label>
                 </div>
@@ -21,48 +21,92 @@
                     <input class="form-check-input" type="checkbox" value="option1">
                     <label class="form-check-label">Bank</label>
                 </div>
-                <div class="form-check form-check-inline">
+                <div class="form-check form-check-inline active">
                     <input class="form-check-input" type="checkbox" value="option1">
                     <label class="form-check-label">Kart</label>
                 </div>
             </form>
-            <div id="accordion">
+            <div id="accordion" class="accordion mb-30">
                 <div class="card">
-                    <div class="card-header" id="faq-1">
-                        <button class="accordion-btn" data-toggle="collapse" data-target="#collapseOne">
-                            Collapsible Group Item #1
-                        </button>
+                    <div class="card-header active">
+                        <a class="card-link" data-toggle="collapse" href="#faq1">PIN-kodu necə dəyişə bilərəm?</a>
                     </div>
-                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                    <div id="faq1" class="collapse show" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            <p>It is a long established fact that a reader will be distracted by the readable content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here', making it look like readable English. Many desktop publishing packages and web
+                                page editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+                                ipsum' will uncover many web sites still in their infancy. Various versions have evolved
+                                over the years, sometimes by accident, sometimes on purpose (injected humour and the
+                                like).</p>
                         </div>
                     </div>
                 </div>
                 <div class="card">
-                    <div class="card-header" id="faq-2">
-                        <button class="accordion-btn collapsed" data-toggle="collapse" data-target="#collapseTwo">
-                            Collapsible Group Item #2
-                        </button>
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#faq2">Bank kartımın balansını necə
+                            öyrənə bilərəm?</a>
                     </div>
-                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                    <div id="faq2" class="collapse" data-parent="#accordion">
                         <div class="card-body">
-                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
-                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
-                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
-                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
-                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
-                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
-                            probably haven't heard of them accusamus labore sustainable VHS.
+                            <p>Əgər kartınız oğurlanıb və ya itirilibsə, Siz kartı özünüz <a href="#">“MobilBank”</a>,
+                                <a href="#">“İnternet Bankinq”</a>, və ya
+                                <a href="#">”Telefon Bankçılıq”</a> (tel.: <a href="#">194</a>;
+                                <a href="#">012 5984697</a>) xidmətlərindən istifadə edərək dərhal bağlamalısınız. Kartı
+                                həmçinin <strong>AzəriKard Müştəri Xidmətləri Mərkəzinə</strong> (tel.: <a
+                                        href="#">194</a>;
+                                <a href="#">012 5984697</a>) və ya banka zəng edərək operatorun köməyilə bağlamaq
+                                mümkündür.
+                            </p>
                         </div>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#faq3">3D Secure şifrəsini necə əldə
+                            edə bilərəm?</a>
+                    </div>
+                    <div id="faq3" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Əgər kartınız oğurlanıb və ya itirilibsə, Siz kartı özünüz <a href="#">“MobilBank”</a>,
+                                <a href="#">“İnternet Bankinq”</a>, və ya
+                                <a href="#">”Telefon Bankçılıq”</a> (tel.: <a href="#">194</a>;
+                                <a href="#">012 5984697</a>) xidmətlərindən istifadə edərək dərhal bağlamalısınız. Kartı
+                                həmçinin <strong>AzəriKard Müştəri Xidmətləri Mərkəzinə</strong> (tel.: <a
+                                        href="#">194</a>;
+                                <a href="#">012 5984697</a>) və ya banka zəng edərək operatorun köməyilə bağlamaq
+                                mümkündür.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a class="collapsed card-link" data-toggle="collapse" href="#faq4">“İnternet Bankinq” sisteminin
+                            istifadəçisi olmaq üçün nə etmək lazımdır?</a>
+                    </div>
+                    <div id="faq4" class="collapse" data-parent="#accordion">
+                        <div class="card-body">
+                            <p>Əgər kartınız oğurlanıb və ya itirilibsə, Siz kartı özünüz <a href="#">“MobilBank”</a>,
+                                <a href="#">“İnternet Bankinq”</a>, və ya
+                                <a href="#">”Telefon Bankçılıq”</a> (tel.: <a href="#">194</a>;
+                                <a href="#">012 5984697</a>) xidmətlərindən istifadə edərək dərhal bağlamalısınız. Kartı
+                                həmçinin <strong>AzəriKard Müştəri Xidmətləri Mərkəzinə</strong> (tel.: <a
+                                        href="#">194</a>;
+                                <a href="#">012 5984697</a>) və ya <a href="#">banka</a> zəng edərək operatorun köməyilə
+                                bağlamaq
+                                mümkündür.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="faq__links">
+                <a href="#" class="faq__helper-link">Axtardığınızı tapa bilmirsiniz?</a>
+                <a href="#" class="btn btn--large">Sorğunuzu göndərin</a>
             </div>
 
         </section>

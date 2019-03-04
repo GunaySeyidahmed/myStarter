@@ -12,6 +12,12 @@ $(document).ready(function () {
         $('.header').removeClass('header--open');
     });
 
+    $("#accordion").on('show.bs.collapse', function () {
+        // $('#accordion .card .card-header').addClass('active');
+    });
+    $("#accordion").on('hide.bs.collapse', function () {
+        // $('#accordion .card .card-header').removeClass('active');
+    });
 
 
     $('').each(function () {
@@ -21,14 +27,6 @@ $(document).ready(function () {
             var _selectedOption = $(this).find('option:selected');
         })
     })
-
-
-    $("#accordion").on('show.bs.collapse', function () {
-
-    });
-    $("#accordion").on('hide.bs.collapse', function () {
-
-    });
 
 
     // $('.selectpicker').selectpicker();

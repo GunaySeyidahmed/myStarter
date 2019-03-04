@@ -89,6 +89,12 @@ button, button:hover, button:focus {
   font-weight: 100; }
 
 @font-face {
+  font-family: SeroPro-Bold;
+  src: url("../../fonts/SeroPro-Bold.eot");
+  src: url("../../fonts/SeroPro-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SeroPro-Bold.woff2") format("woff2"), url("../../fonts/SeroPro-Bold.woff") format("woff"), url("../../fonts/SeroPro-Bold.ttf") format("truetype"), url("../../fonts/SeroPro-Bold.svg#SeroPro-Bold") format("svg");
+  font-weight: 900; }
+
+@font-face {
   font-family: SeroPro;
   src: url("../../fonts/SeroPro.eot");
   src: url("../../fonts/SeroPro.eot?#iefix") format("embedded-opentype"), url("../../fonts/SeroPro.woff2") format("woff2"), url("../../fonts/SeroPro.woff") format("woff"), url("../../fonts/SeroPro.ttf") format("truetype"), url("../../fonts/SeroPro.svg#SeroPro") format("svg");
@@ -3590,7 +3596,7 @@ h4 {
 .faq__option {
   float: left;
   width: 100%;
-  margin-bottom: 30px; }
+  margin-bottom: 20px; }
   .faq__option p {
     font-size: 1.4rem;
     color: #666666; }
@@ -3635,13 +3641,131 @@ h4 {
       color: #FFFFFF;
       border-color: transparent; }
 
-.accordion .card .card-header {
-  background-color: #FFFFFF; }
+.faq__links {
+  width: -webkit-calc(100% + 70px);
+  width: -moz-calc(100% + 70px);
+  width: calc(100% + 70px);
+  float: left;
+  background: #F5F5F5;
+  margin: 0 -35px;
+  padding: 40px 35px 50px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+     -moz-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+     -moz-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media (max-width: 767px) {
+    .faq__links {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+         -moz-box-orient: vertical;
+         -moz-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; } }
 
-.accordion .card button.accordion-btn {
-  background-color: white !important;
-  border: 0 !important;
-  cursor: pointer; }
+.faq__helper-link {
+  color: #999999;
+  font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
+  font-size: 1.8rem;
+  margin-right: 30px; }
+  .faq__helper-link:hover, .faq__helper-link:focus {
+    color: #999999; }
+  @media (max-width: 767px) {
+    .faq__helper-link {
+      margin-bottom: 15px; } }
+
+.faq__apply .form-group {
+  background-color: #F0F0F0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  padding: 10px 15px;
+  height: 60px; }
+  .faq__apply .form-group label {
+    font-family: SeroPro-Bold, Helvetica, Arial, sans-serif;
+    color: #333333;
+    font-size: 1.4rem; }
+  .faq__apply .form-group .form-control {
+    background-color: #F0F0F0;
+    border: 0; }
+    .faq__apply .form-group .form-control:focus {
+      border: 0;
+      -webkit-box-shadow: none;
+         -moz-box-shadow: none;
+              box-shadow: none; }
+
+.accordion {
+  float: left;
+  width: 100%; }
+  .accordion .card {
+    -webkit-box-shadow: none;
+       -moz-box-shadow: none;
+            box-shadow: none;
+    border: 0;
+    background-color: transparent; }
+    .accordion .card .card-header {
+      background-color: #FFFFFF;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+         -moz-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      border-bottom: 0;
+      padding-left: 0; }
+      .accordion .card .card-header .card-link {
+        color: #000;
+        font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+        font-size: 2rem;
+        -webkit-transition: 0.1s;
+        -o-transition: 0.1s;
+        -moz-transition: 0.1s;
+        transition: 0.1s;
+        line-height: 1.2;
+        float: left;
+        width: 100%; }
+        .accordion .card .card-header .card-link:hover, .accordion .card .card-header .card-link:focus {
+          color: #000; }
+      .accordion .card .card-header.active .card-link {
+        color: #549344;
+        -webkit-transition: 0.2s;
+        -o-transition: 0.2s;
+        -moz-transition: 0.2s;
+        transition: 0.2s; }
+      .accordion .card .card-header.active:after {
+        content: '\e5ce';
+        font-family: MaterialIcons-Regular;
+        color: #549344;
+        font-size: 2rem; }
+    .accordion .card .card-body {
+      padding: 10px 15px;
+      -webkit-border-radius: 8px;
+         -moz-border-radius: 8px;
+              border-radius: 8px;
+      background-color: #FAFAFA;
+      float: left;
+      width: 100%;
+      margin-bottom: 30px; }
+      .accordion .card .card-body p {
+        color: #666666; }
+      .accordion .card .card-body a {
+        color: #1C5EAF;
+        border-bottom: 1px dashed #81AEE6; }
 
 .tender {
   margin: 0 75px 45px 20px; }
@@ -4033,6 +4157,7 @@ main, header, section, footer {
   float: left; }
 
 .section__white {
+  overflow: hidden;
   padding: 35px;
   margin-bottom: 100px;
   background-color: #FFFFFF;
@@ -4214,12 +4339,6 @@ h4 {
 .bg-white {
   background-color: #FFFFFF; }
 
-.text-large {
-  font-size: 4.8rem; }
-  @media (max-width: 991px) {
-    .text-large {
-      font-size: 3.2rem; } }
-
 .text-small {
   font-size: 1.4rem; }
 
@@ -4228,6 +4347,12 @@ h4 {
 
 .text-medium {
   font-size: 2rem; }
+
+.text-large {
+  font-size: 4.8rem; }
+  @media (max-width: 991px) {
+    .text-large {
+      font-size: 3.2rem; } }
 
 .color-green {
   color: #B2E1A6; }
@@ -4373,5 +4498,10 @@ h4 {
     color: #549344; }
   .more-link:focus {
     color: #1C5EAF; }
+
+.required-icon {
+  font-family: SeroPro-Bold, Helvetica, Arial, sans-serif;
+  color: #333333;
+  font-size: 1.4rem; }
 
 /*! Gunay Mammadli  February 2019  https://github.com/GunaySeyidahmed */

@@ -73,6 +73,7 @@ main, header, section, footer {
 
 .section__white {
   //padding: 35px 0;
+  overflow: hidden;
   padding: 35px;
   margin-bottom: 100px;
   background-color: $white;
@@ -253,14 +254,6 @@ h4 {
   background-color: $white;
 }
 
-.text-large {
-  font-size: 4.8rem;
-  @include respondmax(lg) {
-    font-size: 3.2rem;
-  }
-}
-
-
 .text-small {
   font-size: 1.4rem;
 }
@@ -271,6 +264,13 @@ h4 {
 
 .text-medium {
   font-size: 2rem;
+}
+
+.text-large {
+  font-size: 4.8rem;
+  @include respondmax(lg) {
+    font-size: 3.2rem;
+  }
 }
 
 .color-green {
@@ -431,6 +431,11 @@ h4 {
     color: $blue;
   }
 }
+ .required-icon{
+   font-family: $SP-B, Helvetica, Arial, sans-serif;
+   color: $darkGray;
+   font-size: 1.4rem;
 
+ }
 
 

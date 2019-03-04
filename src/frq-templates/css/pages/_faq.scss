@@ -2,7 +2,7 @@
   &__option {
     float: left;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     p {
       font-size: 1.4rem;
@@ -20,20 +20,25 @@
       justify-content: center;
       float: left;
       margin-bottom: 20px;
-      &:hover{
+
+      &:hover {
         cursor: pointer;
       }
+
       .form-check-input {
         display: none;
       }
+
       .form-check-label {
         font-family: $PN-B, Helvetica, Arial, sans-serif;
         transition: $tr1;
-        &:hover{
+
+        &:hover {
           cursor: pointer;
         }
       }
-      &.active{
+
+      &.active {
         background-color: $blue;
         color: $white;
         border-color: transparent;
@@ -43,19 +48,124 @@
 
   }
 
+  &__links {
+    width: calc(100% + 70px);
+    float: left;
+    background: $white5;
+    margin: 0 -35px;
+    padding: 40px 35px 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    @include respondmax(md) {
+      flex-direction: column;
+    }
+  }
+
+  &__helper-link {
+    color: $lightGray;
+    font-family: $PN, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    margin-right: 30px;
+
+    &:hover, &:focus {
+      color: $lightGray;
+    }
+
+    @include respondmax(md) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__apply {
+    .form-group {
+      background-color: $whiteLight;
+      border-radius: 5px;
+      padding: 10px 15px;
+      height: 60px;
+
+      label {
+        font-family: $SP-B, Helvetica, Arial, sans-serif;
+        color: $darkGray;
+        font-size: 1.4rem;
+      }
+
+      .form-control {
+        background-color: $whiteLight;
+        border: 0;
+
+        &:focus {
+          border: 0;
+          box-shadow: none;
+        }
+      }
+    }
+  }
 }
 
 
 .accordion {
+  float: left;
+  width: 100%;
+
   .card {
+    box-shadow: none;
+    border: 0;
+    background-color: transparent;
+
     .card-header {
       background-color: $white;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0;
+      padding-left: 0;
+
+      .card-link {
+        color: $black;
+        font-family: $PN-B, Helvetica, Arial, sans-serif;
+        font-size: 2rem;
+        transition: $tr1;
+        line-height: 1.2;
+        float: left;
+        width: 100%;
+
+        &:hover, &:focus {
+          color: $black;
+        }
+      }
+
+      &.active {
+        .card-link {
+          color: $darkGreen;
+          transition: $tr;
+        }
+
+        &:after {
+          content: '\e5ce';
+          font-family: $MtI;
+          color: $darkGreen;
+          font-size: 2rem;
+        }
+      }
     }
 
-    button.accordion-btn {
-      background-color: white !important;
-      border: 0 !important;
-      cursor: pointer;
+    .card-body {
+      padding: 10px 15px;
+      border-radius: 8px;
+      background-color: $whiteDark;
+      float: left;
+      width: 100%;
+      margin-bottom: 30px;
+
+      p {
+        color: $gray6;
+      }
+
+      a {
+        color: $blue;
+        border-bottom: 1px dashed $borderBlue;
+      }
     }
   }
 }
+
