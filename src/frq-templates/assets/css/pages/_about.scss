@@ -1,8 +1,9 @@
 .about {
- @include respondmax(md){
-   margin: 0 -15px;
-   width: calc(100% + 30px);
- }
+  @include respondmax(md) {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
   &__info {
     font-family: $SP-T, Helvetica, Arial, sans-serif;
     color: $white;
@@ -27,13 +28,15 @@
         min-width: 195px;
         text-align: center;
         margin-right: 80px;
-        &:last-of-type{
+
+        &:last-of-type {
           margin-right: 0;
         }
+
         @include respondmax(md) {
           min-width: 126px;
           margin-right: 15px;
-          &:last-of-type{
+          &:last-of-type {
             margin-right: 15px;
           }
         }
@@ -142,6 +145,51 @@
   }
 }
 
+.career {
+  margin-bottom: -45px;
+  &__program {
+    float: left;
+    width: 100%;
+  }
+}
+
+.vacancy {
+  margin-bottom: 40px;
+  float: left;
+  width: 100%;
+  padding-right: 70px;
+
+  &__expired {
+    color: $lightGreen;
+    float: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  &__link {
+    margin-top: 15px;
+    float: left;
+    width: 100%;
+
+    a {
+      font-family: $PN-B, Helvetica, Arial, sans-serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: $blue;
+
+      &:after {
+        content: '\e5c8';
+        font-family: $MtI;
+        position: absolute;
+      }
+
+      &:hover, &:focus {
+        color: $blue;
+      }
+    }
+  }
+}
+
 .requisite {
   &__img {
     width: 70px;
@@ -216,8 +264,12 @@
   max-width: 150px;
   height: 80px;
   margin-bottom: 30px;
-  float: left;
+  display: block;
   width: 100%;
+
+  @include respondmax(md){
+    margin: auto;
+  }
 
   img {
     max-width: 100%;
@@ -225,3 +277,4 @@
     object-fit: cover;
   }
 }
+

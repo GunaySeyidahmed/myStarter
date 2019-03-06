@@ -5,9 +5,67 @@
 
         <h1 class="text-center color-white mb-50">Əlaqə</h1>
 
-        <section class="contact section__white section__white--responsive">
+        <section class="contact section__white section__white--responsive pt-0">
+
             <div class="contact__map">
                 <div id="map"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="contact__info">
+                        <h2 class="color-gray">Əlaqə məlumatları</h2>
+                        <div>
+                            <h3 class="text-default mt-30 mb-5">ÜNVAN</h3>
+                            <p class="full-width">AZ 1014, Bülbül pr. 54, Bakı şəhəri, Azərbaycan</p>
+                            <a href="#" class="contact__link font-bold">
+                                <i class="material-icons mr-5">&#xe569;</i>Xəritədə bax
+                            </a>
+                            <h3 class="text-default mt-30 mb-5">DƏSTƏK ELEKTRON POÇTU</h3>
+                            <a href="#" class="contact__link">office@azericard.com</a>
+                            <h3 class="text-default mt-30 mb-5">TELEFON</h3>
+                            <a href="tel:" class="contact__link">(012) 598 43 76</a>
+                            <a href="tel:" class="contact__link">(012) 598 46 97</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="contact__form">
+                        <h2 class="color-gray mb-35">Sualınız var? Bizə yazın</h2>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Ad <span>*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Soyad <span>*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Elektron poçt</label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group px-0">
+                                        <label>Mövzu</label>
+                                        <select class="selectpicker" title="Texniki problem">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn--small float-right">Göndər</button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -18,6 +76,7 @@
 </script>
 
 <script>
+
     function initMap() {
         var _position = {lat: 40.3786968, lng: 49.8454612};
         var map = new google.maps.Map(document.getElementById('map'), {
@@ -27,17 +86,32 @@
             streetViewControl: false,
             zoomControl: false,
         });
-
         var marker = new google.maps.Marker({
             position: _position,
             map: map,
             icon: {
-                url: "img/location.svg",
+                url: "frq-templates/assets/img/location.svg",
             }
         });
     }
 
     initMap();
+
+</script>
+
+<script>
+
+    $('.form-group input').keyup(function () {
+        if ($(this).val() != 0) {
+            $(this).prev().css('color', 'red');
+        } else $(this).prev().css('color', 'orange');
+    });
+
+    $('.form-group select').onchange(function () {
+        if ($(this).val() != 0) {
+            $(this).prev().css('color', 'red');
+        } else $(this).prev().css('color', 'orange');
+    });
 
 </script>
 

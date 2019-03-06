@@ -1,12 +1,21 @@
 .header {
   height: 160px;
   padding: 40px 0 15px;
-  .logo-white{
+
+  @include respondmax(md) {
+    .col-md-3 {
+      order: 9;
+    }
+  }
+
+  .logo-white {
     display: block;
   }
-  .logo-blue{
+
+  .logo-blue {
     display: none;
   }
+
   .call {
     &__link {
       color: $white;
@@ -20,24 +29,43 @@
       display: none;
     }
 
+    @include respondmax(md) {
+      display: none;
+    }
+
   }
+
   &--open {
     background-color: $white;
     transition: $tr;
     transition-timing-function: ease-out;
-    .logo-white{
+    @include respondmax(md) {
+      min-height: 100vh;
+      overflow-y: scroll;
+      position: fixed;
+      z-index: 9999;
+    }
+    .logo-white {
       display: none;
     }
-    .logo-blue{
+
+    .logo-blue {
       display: block;
     }
+
     .dropdown {
       .language__link {
         color: $blue;
       }
+      @include respondmax(md){
+        display: block !important;
+      }
     }
 
     .call {
+      @include respondmax(md){
+        display: block;
+      }
       &__info {
         color: $blue;
       }
@@ -69,12 +97,19 @@
     justify-content: center;
     color: $lightGreen;
 
+
     &:hover {
       cursor: pointer;
     }
 
     i {
       font-size: 2.8rem;
+    }
+
+    @include respondmax(md) {
+      background: $transparent;
+      color: $white;
+      margin-top: -25px;
     }
   }
 
@@ -106,6 +141,9 @@
 
     .dropdown {
       margin-right: 50px;
+      @include respondmax(md) {
+        display: none;
+      }
     }
 
     .dropdown-menu {

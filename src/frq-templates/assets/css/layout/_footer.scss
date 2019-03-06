@@ -39,7 +39,7 @@
     font-family: $PN-B, Helvetica, Arial, sans-serif;
     color: $lightGreen;
 
-    &:hover, :focus {
+    &:hover, &:focus {
       color: $lightGreen;
     }
   }

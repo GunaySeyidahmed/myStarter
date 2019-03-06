@@ -12,11 +12,11 @@ $(document).ready(function () {
         $('.header').removeClass('header--open');
     });
 
-    $("#accordion").on('show.bs.collapse', function () {
-        // $('#accordion .card .card-header').addClass('active');
+    $(".collapse").on('show.bs.collapse', function () {
+        $(this).prev().addClass('active');
     });
-    $("#accordion").on('hide.bs.collapse', function () {
-        // $('#accordion .card .card-header').removeClass('active');
+    $(".collapse").on('hide.bs.collapse', function () {
+        $(this).prev().removeClass('active');
     });
 
 

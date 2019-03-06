@@ -285,9 +285,10 @@ h4 {
   color: $gray4d;
 }
 
-.dark-gray{
+.dark-gray {
   color: $gray6;
 }
+
 .color-black {
   color: $black;
 }
@@ -297,8 +298,13 @@ h4 {
   line-height: 1;
 }
 
+.sp-bold {
+  font-family: $SP-B, Helvetica, Arial, sans-serif;
+}
+
 .btn {
   min-width: 255px;
+  height: 50px;
   padding: 15px 25px;
   border-radius: 30px;
   background-color: $lightGreen;
@@ -311,6 +317,13 @@ h4 {
   &--large {
     min-width: 280px;
     padding: 10px 20px;
+    border-radius: 25px;
+  }
+
+  &--small {
+    min-width: 240px;
+    height: 50px;
+    padding: 10px 25px;
     border-radius: 25px;
   }
 }
@@ -452,3 +465,103 @@ h4 {
 }
 
 
+form {
+  .form-group {
+    background-color: $whiteLight;
+    border-radius: 5px;
+    padding: 5px 15px;
+    height: 60px;
+    margin-bottom: 20px;
+
+    label {
+      font-family: $SP-B, Helvetica, Arial, sans-serif;
+      color: $darkGray;
+      font-size: 1.4rem;
+      margin-bottom: 0;
+    }
+
+    .form-control {
+      font-family: $SP, Helvetica, Arial, sans-serif;
+      color: $gray6;
+      font-size: 1.4rem;
+      background-color: $whiteLight;
+      border: 0;
+      height: 2.25rem;
+      padding-left: 0;
+
+      &:focus {
+        border: 0;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+
+.bootstrap-select {
+  width: 100% !important;
+
+  .btn.dropdown-toggle {
+    height: 30px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+    color: #333333;
+    font-size: 1.6rem;
+    padding: 5px 40px 5px 20px;
+    //line-height: 36px;
+    .filter-option {
+      top: -5px;
+      left: -20px;
+
+      .filter-option-inner {
+        &:focus {
+          outline: 0 !important;
+          box-shadow: none !important;
+          border: 0;
+          background-color: transparent;
+        }
+        .filter-option-inner-inner{
+          &:focus {
+            outline: 0 !important;
+            box-shadow: none !important;
+            border: 0;
+            background-color: transparent;
+          }
+        }
+      }
+      &:focus {
+        outline: 0 !important;
+        box-shadow: none !important;
+        border: 0;
+        background-color: transparent;
+      }
+    }
+
+    &:focus {
+      outline: 0 !important;
+      box-shadow: none !important;
+      border: 0;
+      background-color: transparent;
+    }
+
+    &::after {
+      font-family: $MtI;
+      content: '\e5cf';
+      color: #666666;
+      border: 0;
+      font-size: 2.4rem;
+      width: 24px;
+      height: 36px;
+      margin-left: 0;
+      margin-top: -30px;
+    }
+  }
+
+  select {
+
+    &:focus {
+      outline: 0 !important;
+    }
+  }
+}
