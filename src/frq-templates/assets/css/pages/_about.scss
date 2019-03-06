@@ -1,0 +1,227 @@
+.about {
+ @include respondmax(md){
+   margin: 0 -15px;
+   width: calc(100% + 30px);
+ }
+  &__info {
+    font-family: $SP-T, Helvetica, Arial, sans-serif;
+    color: $white;
+    line-height: 1.8;
+  }
+
+  &__heading {
+    background-color: $whiteLight;
+    padding: 20px 30px;
+    @include respondmax(md) {
+      overflow-x: scroll;
+      padding: 20px 15px;
+    }
+
+    .nav-pills {
+      align-items: center;
+      @include respondmax(md) {
+        width: 580px;
+      }
+
+      .nav-item {
+        min-width: 195px;
+        text-align: center;
+        margin-right: 80px;
+        &:last-of-type{
+          margin-right: 0;
+        }
+        @include respondmax(md) {
+          min-width: 126px;
+          margin-right: 15px;
+          &:last-of-type{
+            margin-right: 15px;
+          }
+        }
+      }
+
+      .nav-link {
+        font-family: $PN-B, Helvetica, Arial, sans-serif;
+        color: $gray4d;
+
+        &.active {
+          color: $lightGreen;
+          padding: 10px;
+          background-color: $white;
+          border-radius: 76px;
+        }
+      }
+    }
+  }
+
+  &__nav {
+    float: left;
+    width: 100%;
+
+    .tab-content {
+      padding: 50px 40px 45px;
+      float: left;
+      width: 100%;
+      @include respondmax(md) {
+        padding: 30px 0;
+      }
+    }
+  }
+}
+
+.leadership {
+  &__img {
+    max-width: 400px;
+    height: 400px;
+    border-radius: 8px;
+    overflow: hidden;
+    float: left;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__info {
+    float: left;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 10px;
+
+    &:before {
+      content: '\e244';
+      font-family: $MtI;
+      color: $grayC;
+      font-size: 3.6rem;
+    }
+  }
+
+  &__state {
+    font-size: 1.8rem;
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  &__member {
+    float: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $white5;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 20px;
+    margin-bottom: 30px;
+
+    @include respondmax(md) {
+      flex-direction: column;
+    }
+
+  }
+
+  &__member-img {
+    width: 140px;
+    min-width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 30px;
+    @include respondmax(md) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}
+
+.requisite {
+  &__img {
+    width: 70px;
+    min-width: 70px;
+    height: 50px;
+    margin-right: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__content {
+    p {
+      line-height: 1;
+    }
+  }
+
+}
+
+.copy-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 2px 5px 2px 0;
+  border: 2px solid $transparent;
+
+  .copy-btn {
+    display: none;
+    font-family: $PN, Helvetica, Arial, sans-serif;
+    font-size: 1.2rem;
+    color: $lightGray;
+    border: 0;
+    background-color: transparent;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &:hover {
+    border-color: $gray;
+    background-color: $whiteDark;
+    margin-left: -5px;
+    padding-left: 5px;
+
+    .copy-btn {
+      display: block;
+    }
+  }
+
+  input {
+    border: 0;
+    width: 100%;
+    color: $lightGreen;
+    background-color: $transparent;
+
+    &:focus {
+      box-shadow: none;
+      outline: 0;
+    }
+  }
+
+
+}
+
+.partners-bank {
+  max-width: 150px;
+  height: 80px;
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+
+  img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,47 @@
+.banner {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  min-height: 883px;
+  text-align: center;
+  background: url("../../img/examples/BG-big.png") no-repeat center;
+  background-size: cover;
+  float: left;
+  z-index: -1;
+
+  &--small {
+    background: url("../../img/examples/BG-small.png") no-repeat center;
+    min-height: 480px;
+  }
+
+  &--medium {
+    background: url("../../img/examples/BG-medium.png") no-repeat center;
+    min-height: 715px;
+  }
+
+  &__info {
+    text-align: center;
+    width: 100%;
+    float: left;
+  }
+
+  &__title {
+    color: #B2E1A6;
+    font-size: 3.6rem;
+    margin-bottom: 40px;
+  }
+
+  &__subtitle {
+    color: #fff;
+    font-size: 1.6rem;
+  }
+}
+
+.full-width {
+  float: left;
+  width: 100%;
+}
+
+//.bg-light {
+//  background-color: $whiteLight !important;
+//}

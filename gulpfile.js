@@ -36,30 +36,30 @@ var gutil = require('gulp-util');
 var path = {
     build: { //Burada işlemden sonra bitmiş dosyaların nereye koyulacağını gösteriyoruz
         html: 'build/',
-        js: 'build/frq-templates/js/',
-        vendor: 'build/frq-templates/js/vendor/', //src deki vendor klasörünü buildeki vendor klasörüne eklemek için
-        css: 'build/frq-templates/css/main/',
-        images: 'build/frq-templates/img/',
-        fonts: 'build/frq-templates/fonts/',
-        libs: 'build/frq-templates/libs/' //bower ile src klasörüne yüklediğim dosyaları build klasörüne eklemek için
+        js: 'build/frq-templates/assets/js/',
+        vendor: 'build/frq-templates/assets/js/vendor/', //src deki vendor klasörünü buildeki vendor klasörüne eklemek için
+        css: 'build/frq-templates/assets/css/main/',
+        images: 'build/frq-templates/assets/img/',
+        fonts: 'build/frq-templates/assets/fonts/',
+        libs: 'build/frq-templates/assets/libs/' //bower ile src klasörüne yüklediğim dosyaları build klasörüne eklemek için
     },
     src: { //Burası kaynaklar
         html: 'src/*.html', //Синтаксис src/*.html говорит gulp что мы хотим взять все файлы с расширением .html
-        js: 'src/frq-templates/js/main/**/*.js',
-        vendor: 'src/frq-templates/js/vendor/*.js',
-        css: 'src/frq-templates/css/main.scss',
-        images: 'src/frq-templates/img/**/*.*',
-        fonts: 'src/frq-templates/fonts/**/*.*',
-        libs: 'src/frq-templates/libs/**/'
+        js: 'src/frq-templates/assets/js/main/**/*.js',
+        vendor: 'src/frq-templates/assets/js/vendor/*.js',
+        css: 'src/frq-templates/assets/css/main.scss',
+        images: 'src/frq-templates/assets/img/**/*.*',
+        fonts: 'src/frq-templates/assets/fonts/**/*.*',
+        libs: 'src/frq-templates/assets/libs/**/'
     },
     watch: { //Burada izlemek istediğimiz dosyaları belirtiyoruz
         html: 'src/**/*.html',
-        js: 'src/frq-templates/js/main/*.js',
-        vendor: 'src/frq-templates/js/vendor/*.js',
-        css: 'src/frq-templates/css/**/*.scss',
-        images: 'src/frq-templates/img/**/*.*',
-        fonts: 'src/frq-templates/fonts/**/*.*',
-        libs: 'src/frq-templates/libs/'
+        js: 'src/frq-templates/assets/js/main/*.js',
+        vendor: 'src/frq-templates/assets/js/vendor/*.js',
+        css: 'src/frq-templates/assets/css/**/*.scss',
+        images: 'src/frq-templates/assets/img/**/*.*',
+        fonts: 'src/frq-templates/assets/fonts/**/*.*',
+        libs: 'src/frq-templates/assets/libs/'
     },
     clean: './build'
 };
@@ -103,7 +103,7 @@ gulp.task('html:build', function () {
 gulp.task('js:build', function () {
     browserify({
         /*entries: ['./src/js/main/main.js'],*/
-        entries: ['./src/frq-templates/js/main/main.js','./node_modules/@material/switch/index.js'],
+        entries: ['./src/frq-templates/assets/js/main/main.js','./node_modules/@material/switch/index.js'],
         debug: true
     })
     .transform(babelify)

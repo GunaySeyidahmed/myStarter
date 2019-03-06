@@ -1,0 +1,32 @@
+.internship {
+  border-right: 1px solid $gray;
+  padding-right: 30px;
+  @include respondmax(md) {
+    border: 0;
+  }
+
+  &.last {
+    border: 0;
+  }
+
+  &__img {
+    margin-bottom: 20px;
+  }
+
+  p {
+    color: $gray6;
+    font-size: 1.4rem;
+  }
+
+  &__content {
+    h2 {
+      color: $gray4d;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 50px;
+      margin-bottom: 20px;
+    }
+  }
+}
