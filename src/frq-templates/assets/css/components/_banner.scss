@@ -25,16 +25,24 @@
     }
   }
 
+  &--medium {
+    background: url("../../img/examples/banner-medium.png") no-repeat top center;
+    min-height: 735px;
+    background-size: cover;
+
+    @include respondmax(md){
+      min-height: 1000px;
+    }
+  }
+
   &--small {
     background: url("../../img/examples/banner-small.png") no-repeat top center;
     background-size: cover;
     min-height: 500px;
-  }
 
-  &--medium {
-    background: url("../../img/examples/BG-medium.png") no-repeat top center;
-    min-height: 735px;
-    background-size: cover;
+    @include respondmax(md){
+      min-height: 400px;
+    }
   }
 
   &__info {

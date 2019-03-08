@@ -2,16 +2,16 @@
   height: 160px;
   padding: 40px 0 15px;
 
-  @include respondmax(md) {
+  @include respondmax(lg) {
     padding: 25px 0 15px;
-    .col-md-3 {
+    .col-lg-3 {
       order: 9;
     }
   }
 
   .logo-white {
     display: block;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       margin: auto;
     }
   }
@@ -33,7 +33,7 @@
       display: none;
     }
 
-    @include respondmax(md) {
+    @include respondmax(lg) {
       display: none;
     }
 
@@ -43,7 +43,7 @@
     background-color: $white;
     transition: $tr;
     transition-timing-function: ease-out;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       min-height: 100vh;
       overflow-y: scroll;
       position: fixed;
@@ -56,7 +56,7 @@
 
     .logo-blue {
       display: block;
-      @include respondmax(md) {
+      @include respondmax(lg) {
         display: none;
       }
     }
@@ -66,13 +66,13 @@
         color: $blue;
       }
 
-      @include respondmax(md) {
+      @include respondmax(lg) {
         display: block !important;
       }
     }
 
     .call {
-      @include respondmax(md) {
+      @include respondmax(lg) {
         display: block;
         margin-right: 0;
       }
@@ -117,7 +117,7 @@
       font-size: 2.8rem;
     }
 
-    @include respondmax(md) {
+    @include respondmax(lg) {
       background: $transparent;
       color: $white;
       margin-top: -20px;
@@ -144,7 +144,7 @@
       font-size: 2.8rem;
     }
 
-    @include respondmax(md) {
+    @include respondmax(lg) {
       background-color: $transparent;
       color: #133E72;
       margin: -25px -15px 40px auto;
@@ -156,14 +156,14 @@
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 35px;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       flex-direction: column-reverse;
       margin-bottom: 55px;
     }
 
     .dropdown {
       margin-right: 50px;
-      @include respondmax(md) {
+      @include respondmax(lg) {
         display: none;
       }
     }
@@ -195,7 +195,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       justify-content: space-between;
       width: 100%;
       float: left;
@@ -207,7 +207,7 @@
   }
 
   &__bottom-list {
-    @include respondmax(md) {
+    @include respondmax(lg) {
       text-align: right;
     }
 
@@ -219,7 +219,7 @@
         margin-left: 0;
       }
 
-      @include respondmax(md) {
+      @include respondmax(lg) {
         display: block;
         margin-left: 0;
         margin-bottom: 15px;

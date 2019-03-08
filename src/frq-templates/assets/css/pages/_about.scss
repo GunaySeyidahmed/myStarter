@@ -1,26 +1,23 @@
 .about {
-  @include respondmax(md) {
-    margin: 0 -15px;
-    width: calc(100% + 30px);
-  }
 
   &__info {
     font-family: $SP-T, Helvetica, Arial, sans-serif;
     color: $white;
     line-height: 1.8;
+    margin-bottom: 0;
   }
 
   &__heading {
     background-color: $whiteLight;
     padding: 20px 30px;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       overflow-x: scroll;
       padding: 20px 15px;
     }
 
     .nav-pills {
       align-items: center;
-      @include respondmax(md) {
+      @include respondmax(lg) {
         width: 580px;
       }
 
@@ -33,7 +30,7 @@
           margin-right: 0;
         }
 
-        @include respondmax(md) {
+        @include respondmax(lg) {
           min-width: 126px;
           margin-right: 15px;
           &:last-of-type {
@@ -72,6 +69,8 @@
 }
 
 .leadership {
+  padding-top: 20px;
+
   &__img {
     max-width: 400px;
     height: 400px;
@@ -93,10 +92,11 @@
     padding-top: 10px;
 
     &:before {
-      content: '\e244';
-      font-family: $MtI;
-      color: $grayC;
-      font-size: 3.6rem;
+      content: url("../../img/quotation.png");
+      width: 25px;
+      height: 32px;
+      float: left;
+      margin-bottom: 25px;
     }
   }
 
@@ -121,6 +121,9 @@
 
     @include respondmax(md) {
       flex-direction: column;
+      h4, p {
+        text-align: center;
+      }
     }
 
   }
@@ -147,6 +150,7 @@
 
 .career {
   margin-bottom: -45px;
+
   &__program {
     float: left;
     width: 100%;
@@ -154,7 +158,7 @@
 }
 
 .vacancy {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   float: left;
   width: 100%;
   padding-right: 70px;
@@ -163,7 +167,8 @@
     color: $lightGreen;
     float: left;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
   }
 
   &__link {
@@ -181,6 +186,7 @@
         content: '\e5c8';
         font-family: $MtI;
         position: absolute;
+        left: 72px;
       }
 
       &:hover, &:focus {
@@ -267,7 +273,7 @@
   display: block;
   width: 100%;
 
-  @include respondmax(md){
+  @include respondmax(md) {
     margin: auto;
   }
 

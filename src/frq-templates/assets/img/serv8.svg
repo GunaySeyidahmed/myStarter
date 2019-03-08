@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_914" data-name="Group 914" transform="translate(-1055 -858)">
+    <g id="Group_607" data-name="Group 607" transform="translate(1055 858)">
+      <rect id="Rectangle_475" data-name="Rectangle 475" width="60" height="60" fill="#fff"/>
+      <g id="Group_592" data-name="Group 592" transform="translate(0 3.01)">
+        <path id="Path_2116" data-name="Path 2116" d="M517.9,14.948a9.448,9.448,0,1,0-18.9,0v5.98h-4.9V39.466h28.823V20.809H517.9Zm-14.113,0a4.67,4.67,0,0,1,4.664-4.664,4.6,4.6,0,0,1,4.664,4.664v5.98h-9.329Zm17.82,23.322H495.176V22h26.431Z" transform="translate(-478.552 -5.5)" fill="#53ae3b"/>
+        <ellipse id="Ellipse_140" data-name="Ellipse 140" cx="5.502" cy="5.502" rx="5.502" ry="5.502" transform="translate(48.796 42.577)" fill="#53ae3b"/>
+        <path id="Path_2117" data-name="Path 2117" d="M513.8,41.1a5.5,5.5,0,1,0,5.5,5.5A5.565,5.565,0,0,0,513.8,41.1Z" transform="translate(-475.769 1.477)" fill="#53ae3b"/>
+        <ellipse id="Ellipse_141" data-name="Ellipse 141" cx="5.502" cy="5.502" rx="5.502" ry="5.502" transform="translate(16.265 42.577)" fill="#53ae3b"/>
+        <ellipse id="Ellipse_142" data-name="Ellipse 142" cx="5.502" cy="5.502" rx="5.502" ry="5.502" transform="translate(0 42.577)" fill="#53ae3b"/>
+      </g>
+    </g>
+  </g>
+</svg>
