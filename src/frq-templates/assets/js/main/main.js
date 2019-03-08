@@ -4,12 +4,14 @@ $(document).ready(function () {
         $(this).addClass('d-none');
         $('.header__menu-close').addClass('d-flex');
         $('.header').addClass('header--open');
+        $('body').addClass('noscroll-y');
     });
 
     $(document).on('click', '.header__menu-close', function () {
         $(".header__menu-open").removeClass('d-none');
         $(this).removeClass('d-flex');
         $('.header').removeClass('header--open');
+        $('body').removeClass('noscroll-y');
     });
 
     $(".collapse").on('show.bs.collapse', function () {

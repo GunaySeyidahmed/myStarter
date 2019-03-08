@@ -47,7 +47,9 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
     your browser</a> to improve your experience and security.</p>
 <![endif]-->
-<div class="banner banner--small"></div>
+<div class="banner banner--small">
+    <img src="./frq-templates/assets/img/Intersection%201.svg" alt="ff">
+</div>
 
 <header class="header">
 
@@ -55,32 +57,34 @@
         <div class="row">
             <div class="col-md-3">
                 <a href="#" class="logo">
-                    <img src="../frq-templates/assets/img/logo-white.svg" alt="logo img" class="logo-white">
-                    <img src="../frq-templates/assets/img/logo-blue.svg" alt="logo img" class="logo-blue">
+                    <img src="./frq-templates/assets/img/logo-white.svg" alt="logo img" class="logo-white">
+                    <img src="./frq-templates/assets/img/logo-blue.svg" alt="logo img" class="logo-blue">
                 </a>
             </div>
             <div class="col-md-9">
                 <div class="header__top">
-                    <div class="dropdown">
-                        <a class="language__link" href="#" role="button" data-toggle="dropdown">
-                            <i class="material-icons">&#xe894;</i>
-                            <span>AZ</span>
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">AZ</a>
-                            <a class="dropdown-item" href="#">EN</a>
-                            <a class="dropdown-item" href="#">RU</a>
-                        </div>
-                    </div>
-                    <div class="call">
-                        <a href="#" class="call__link">
-                            <div class="call__info">
-                                <span class="font-bold text-medium">194</span>
-                                <span>24/7 çağrı mərkəzi</span>
+                    <div class="header__lang">
+                        <div class="dropdown">
+                            <a class="language__link" href="#" role="button" data-toggle="dropdown">
+                                <i class="material-icons">&#xe894;</i>
+                                <span>AZ</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">AZ</a>
+                                <a class="dropdown-item" href="#">EN</a>
+                                <a class="dropdown-item" href="#">RU</a>
                             </div>
-                            <img src="../frq-templates/assets/img/call-white.svg" class="call__white" alt="contact call">
-                            <img src="../frq-templates/assets/img/call-light-green.svg" class="call__green" alt="contact call">
-                        </a>
+                        </div>
+                        <div class="call">
+                            <a href="#" class="call__link">
+                                <div class="call__info">
+                                    <span class="font-bold text-medium">194</span>
+                                    <span>24/7 çağrı mərkəzi</span>
+                                </div>
+                                <img src="./frq-templates/assets/img/call-white.svg" class="call__white" alt="contact call">
+                                <img src="./frq-templates/assets/img/call-light-green.svg" class="call__green" alt="contact call">
+                            </a>
+                        </div>
                     </div>
                     <button class="header__menu-open">
                         <i class="material-icons">&#xe5d2;</i>
@@ -140,32 +144,38 @@
                         <h2 class="color-gray mb-35">Sualınız var? Bizə yazın</h2>
                         <form action="#">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-12 col-lg-6">
                                     <div class="form-group">
-                                        <label>Ad <span>*</span></label>
+                                        <label>Ad</label>
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12 col-lg-6">
                                     <div class="form-group">
-                                        <label>Soyad <span>*</span></label>
+                                        <label>Soyad</label>
                                         <input type="text" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-12 col-lg-6">
                                     <div class="form-group">
                                         <label>Elektron poçt</label>
                                         <input type="email" class="form-control">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group px-0">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
                                         <label>Mövzu</label>
                                         <select class="selectpicker" title="Texniki problem">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
                                         </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-12">
+                                    <div class="form-group textarea mb-30">
+                                        <label>İsmarıc</label>
+                                        <textarea class="form-control" rows="5"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -181,7 +191,6 @@
 <script async="" defer=""
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvRF6OqEKBlvoCCAWo30nK2Pg-X0CPkkc&amp;callback=initMap">
 </script>
-
 <script>
 
     function initMap() {
@@ -205,16 +214,15 @@
     initMap();
 
 </script>
-
 <script>
 
     $('.form-group input').keyup(function () {
         if ($(this).val() != 0) {
-            $(this).prev().css('color', 'red');
-        } else $(this).prev().css('color', 'orange');
+            $(this).prev().addClass('color-dark-green');
+        } else $(this).prev().removeClass('color-dark-green');
     });
 
-    $('.form-group select').onchange(function () {
+    $('.form-group select').change(function () {
         if ($(this).val() != 0) {
             $(this).prev().css('color', 'red');
         } else $(this).prev().css('color', 'orange');
@@ -266,7 +274,7 @@
                 <div class="row mb-35">
                     <div class="col-12 col-md-3">
                         <a href="#" class="footer__bottom-img">
-                            <img src="../frq-templates/assets/img/footer-img.png" alt="footer img">
+                            <img src="./frq-templates/assets/img/footer-img.png" alt="footer img">
                         </a>
                     </div>
                     <div class="col-12 col-md-9">
@@ -282,7 +290,7 @@
                                         <span class="font-bold text-medium color-green">194</span>
                                         <span>24/7 çağrı mərkəzi</span>
                                     </div>
-                                    <img src="../frq-templates/assets/img/call-green.svg" alt="contact call">
+                                    <img src="./frq-templates/assets/img/call-green.svg" alt="contact call">
                                 </a>
                             </li>
                         </ul>
@@ -301,7 +309,7 @@
                 <div class="col-md-3 footer__copyright">
                     Developed by
                     <a href="#">
-                        <img src="../frq-templates/assets/img/nova-logo.png" alt="nova logo">
+                        <img src="./frq-templates/assets/img/nova-logo.png" alt="nova logo">
                     </a>
                 </div>
             </div>

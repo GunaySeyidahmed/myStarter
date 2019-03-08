@@ -2,7 +2,8 @@
   margin-bottom: 40px;
   float: left;
   width: 100%;
-  padding: 0 35px;
+  //padding: 0 35px;
+  padding-right: 60px;
   position: relative;
 
   img {
@@ -43,8 +44,11 @@
     }
   }
 
-  &.apply--last:after {
-    content: '';
+  &.apply--last{
+    padding-right: 0;
+    &:after {
+      content: '';
+    }
   }
 }
 

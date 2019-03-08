@@ -8,7 +8,8 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="home__slider-img">
-                                <img src="frq-templates/assets/img/banner-slider.png" class="img-fluid" alt="home slider">
+                                <img src="frq-templates/assets/img/banner-slider.png" class="img-fluid"
+                                     alt="home slider">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
@@ -24,12 +25,13 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <div class="home__slider-img">
-                                <img src="frq-templates/assets/img/banner-slider.png" class="img-fluid" alt="home slider">
+                                <img src="frq-templates/assets/img/banner-slider.png" class="img-fluid"
+                                     alt="home slider">
                             </div>
                         </div>
                         <div class="col-12 col-md-6">
                             <div class="home__slider-info">
-                                <h1 class="text-large color-white">Onlayn ödənişləriniz daha təhlükəsiz!222</h1>
+                                <h1 class="text-large color-white">Təhlükəsiz ödənişlər 3D-Secure ilə</h1>
                                 <p>3D-Secure xidməti ilə heç bir ödəniş Sizin icazəniz olmadan həyata keçmir.</p>
                                 <a href="#" class="btn btn--green">Xidmətə qoşul</a>
                             </div>
@@ -38,17 +40,6 @@
                 </div>
             </div>
         </section>
-        <script>
-            $('.home__slider.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: false,
-                items: 1,
-                autoplay: true,
-                autoplayTimeout: 4000,
-                autoplayHoverPause: true
-            })
-        </script>
         <section class="connect">
             <div class="owl-carousel">
                 <div class="connect__item">
@@ -91,32 +82,8 @@
                 <a href="#" class="link">Bütün xidmətlər</a>
             </div>
         </section>
-        <script>
-            $('.connect .owl-carousel').owlCarousel({
-                loop: true,
-                margin: 30,
-                nav: false,
-                items: 1,
-                autoplayTimeout: 4000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 2,
-                        dots: true
-                    },
-                    1000: {
-                        items: 4,
-                        autoplay: ($('.connect .connect__item').length > 5),
-                        mouseDrag: ($('.connect .connect__item').length > 5),
-                    }
-                }
-            })
-        </script>
-        <section class="section__white mb-60">
-            <h1 class="text-center">3 addıma elektron ticarətə qoşul!</h1>
+        <section class="section__white section__white--apply mb-60">
+            <h1 class="text-center mb-20">3 addıma <br>elektron ticarətə qoşul!</h1>
             <p class="text-center full-width mb-60">Bütün proseslər onlayn həyata keçirilir</p>
             <div class="row">
                 <div class="col-md-12 col-lg-4">
@@ -172,31 +139,67 @@
                 </div>
             </div>
         </section>
-        <script>
-            $('.partners.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 30,
-                nav: false,
-                items: 1,
-                autoplayTimeout: 4000,
-                autoplayHoverPause: true,
-                responsive: {
-                    0: {
-                        items: 2
-                    },
-                    600: {
-                        items: 3,
-                        dots: true
-                    },
-                    1000: {
-                        items: 6,
-                        autoplay: ($('.partners .partners-item').length > 6),
-                        mouseDrag: ($('.partners .partners-item').length > 6),
-                    }
-                }
-            })
-        </script>
     </div>
 </main>
+
+<script>
+
+    $('.home__slider.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false,
+        items: 1,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true
+    });
+
+    $('.connect .owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        items: 1,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2,
+                dots: true
+            },
+            1000: {
+                items: 4,
+                autoplay: ($('.connect .connect__item').length > 5),
+                mouseDrag: ($('.connect .connect__item').length > 5),
+            }
+        }
+    });
+
+    $('.partners.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 30,
+        nav: false,
+        items: 1,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 3,
+                dots: true
+            },
+            1000: {
+                items: 6,
+                autoplay: ($('.partners .partners-item').length > 6),
+                mouseDrag: ($('.partners .partners-item').length > 6),
+            }
+        }
+    });
+
+</script>
 
 //= template/footer.html

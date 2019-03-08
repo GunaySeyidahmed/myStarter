@@ -72,9 +72,8 @@ main, header, section, footer {
 }
 
 .section__white {
-  //padding: 35px 0;
+  padding: 40px 55px 60px;
   overflow: hidden;
-  padding: 35px;
   margin-bottom: 100px;
   background-color: $white;
   border-radius: 8px;
@@ -88,6 +87,9 @@ main, header, section, footer {
     @include respondmax(md) {
       padding: 40px 15px 15px;
     }
+  }
+  &--apply{
+    padding: 35px;
   }
 }
 
@@ -268,6 +270,7 @@ h4 {
 
 .text-large {
   font-size: 4.8rem;
+  line-height: 1.2;
   @include respondmax(lg) {
     font-size: 3.2rem;
   }
@@ -304,7 +307,7 @@ h4 {
 
 .btn {
   min-width: 255px;
-  height: 50px;
+  height: 60px;
   padding: 15px 25px;
   border-radius: 30px;
   background-color: $lightGreen;
@@ -315,6 +318,7 @@ h4 {
   float: left;
 
   &--large {
+    height: 50px;
     min-width: 280px;
     padding: 10px 20px;
     border-radius: 25px;
@@ -478,6 +482,7 @@ form {
       color: $darkGray;
       font-size: 1.4rem;
       margin-bottom: 0;
+      height: 20px;
     }
 
     .form-control {
@@ -486,7 +491,6 @@ form {
       font-size: 1.4rem;
       background-color: $whiteLight;
       border: 0;
-      height: 2.25rem;
       padding-left: 0;
 
       &:focus {
@@ -494,6 +498,18 @@ form {
         box-shadow: none;
       }
     }
+
+    &.textarea {
+      height: 100px;
+      overflow: hidden;
+
+      textarea {
+        height: 80px;
+        resize: none;
+      }
+    }
+
+
   }
 }
 
@@ -521,7 +537,8 @@ form {
           border: 0;
           background-color: transparent;
         }
-        .filter-option-inner-inner{
+
+        .filter-option-inner-inner {
           &:focus {
             outline: 0 !important;
             box-shadow: none !important;
@@ -530,6 +547,7 @@ form {
           }
         }
       }
+
       &:focus {
         outline: 0 !important;
         box-shadow: none !important;

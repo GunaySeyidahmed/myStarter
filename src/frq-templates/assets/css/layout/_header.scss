@@ -3,6 +3,7 @@
   padding: 40px 0 15px;
 
   @include respondmax(md) {
+    padding: 25px 0 15px;
     .col-md-3 {
       order: 9;
     }
@@ -10,6 +11,9 @@
 
   .logo-white {
     display: block;
+    @include respondmax(md) {
+      margin: auto;
+    }
   }
 
   .logo-blue {
@@ -45,27 +49,34 @@
       position: fixed;
       z-index: 9999;
     }
+
     .logo-white {
       display: none;
     }
 
     .logo-blue {
       display: block;
+      @include respondmax(md) {
+        display: none;
+      }
     }
 
     .dropdown {
       .language__link {
         color: $blue;
       }
-      @include respondmax(md){
+
+      @include respondmax(md) {
         display: block !important;
       }
     }
 
     .call {
-      @include respondmax(md){
+      @include respondmax(md) {
         display: block;
+        margin-right: 0;
       }
+
       &__info {
         color: $blue;
       }
@@ -109,7 +120,8 @@
     @include respondmax(md) {
       background: $transparent;
       color: $white;
-      margin-top: -25px;
+      margin-top: -20px;
+      margin-left: auto;
     }
   }
 
@@ -131,6 +143,12 @@
     i {
       font-size: 2.8rem;
     }
+
+    @include respondmax(md) {
+      background-color: $transparent;
+      color: #133E72;
+      margin: -25px -15px 40px auto;
+    }
   }
 
   &__top {
@@ -138,6 +156,10 @@
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 35px;
+    @include respondmax(md) {
+      flex-direction: column-reverse;
+      margin-bottom: 55px;
+    }
 
     .dropdown {
       margin-right: 50px;
@@ -169,11 +191,25 @@
     }
   }
 
+  &__lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include respondmax(md) {
+      justify-content: space-between;
+      width: 100%;
+      float: left;
+    }
+  }
+
   &__bottom {
     display: none;
   }
 
   &__bottom-list {
+    @include respondmax(md) {
+      text-align: right;
+    }
 
     li {
       display: inline-block;
@@ -181,6 +217,12 @@
 
       &:first-child {
         margin-left: 0;
+      }
+
+      @include respondmax(md) {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 15px;
       }
     }
   }

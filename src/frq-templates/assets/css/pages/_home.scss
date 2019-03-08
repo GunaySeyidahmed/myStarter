@@ -14,7 +14,8 @@
   }
 
   &__slider-img {
-    padding: 0 60px;
+    //padding: 0 60px;
+    padding: 0;
   }
 
   &__slider-info {
@@ -43,8 +44,8 @@
     .owl-dots {
       position: absolute;
       top: -10px;
-      left: 54%;
-      transform: translateX(-54%);
+      left: 53%;
+      transform: translateX(-53%);
       @include respondmax(lg) {
         top: -30px;
       }

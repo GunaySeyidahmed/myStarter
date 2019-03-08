@@ -2,21 +2,39 @@
   position: absolute;
   top: 0;
   width: 100%;
-  min-height: 883px;
+  min-height: 905px;
   text-align: center;
   background: url("../../img/examples/BG-big.png") no-repeat center;
   background-size: cover;
   float: left;
   z-index: -1;
+  @include respondmax(md){
+    min-height: 1010px;
+  }
+  img {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    float: left;
+    height: 110px;
+    object-fit: cover;
+    object-position: bottom center;
+    @include respondmax(md){
+      display: none;
+    }
+  }
 
   &--small {
-    background: url("../../img/examples/BG-small.png") no-repeat center;
-    min-height: 480px;
+    background: url("../../img/examples/banner-small.png") no-repeat top center;
+    background-size: cover;
+    min-height: 500px;
   }
 
   &--medium {
-    background: url("../../img/examples/BG-medium.png") no-repeat center;
-    min-height: 715px;
+    background: url("../../img/examples/BG-medium.png") no-repeat top center;
+    min-height: 735px;
+    background-size: cover;
   }
 
   &__info {
