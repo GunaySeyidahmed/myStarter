@@ -1,13 +1,20 @@
 .apply {
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   float: left;
   width: 100%;
-  //padding: 0 35px;
-  padding-right: 60px;
+  padding-right: 30px;
   position: relative;
 
-  img {
-      margin-bottom: 25px;
+  @include respondmax(md) {
+    padding-right: 0;
+  }
+
+  &__img {
+    height: 180px;
+    margin-bottom: 25px;
+    @include respondmax(lg) {
+      text-align: center;
+    }
   }
 
   @include respondmax(md) {
@@ -25,31 +32,34 @@
     width: 100%;
   }
 
-  &:after {
-    content: '\e037';
-    font-family: $MtI;
+  &::after {
+    content: url('../../img/apply after icon.png');
     font-size: 3.6rem;
-    width: 36px;
-    height: 36px;
     color: $lightBlue;
     position: absolute;
-    top: 54%;
-    transform: translateY(-54%);
-    right: -30px;
+    top: 62%;
+    transform: translateY(-62%);
+    right: 0;
+    width: 16px;
+    height: 22px;
     @include respondmax(lg) {
       transform: rotate(90deg) translateX(-50%);
       top: auto;
       left: 50%;
-      bottom: -35px;
+      bottom: -20px;
+
+
     }
   }
 
-  &.apply--last{
+  &.apply--last {
     padding-right: 0;
+
     &:after {
       content: '';
     }
   }
+
 }
 
 

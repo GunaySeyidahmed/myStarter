@@ -79,17 +79,27 @@ main, header, section, footer {
   border-radius: 8px;
   box-shadow: $shadow;
 
+  @include respondmax(md) {
+    margin-right: -15px;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+    border-radius: 0;
+
+    padding: 40px 15px 60px;
+  }
+
   &--nopadding {
     padding: 0;
   }
 
-  &--responsive {
-    @include respondmax(md) {
-      padding: 40px 15px 15px;
-    }
-  }
-  &--apply{
-    padding: 35px;
+  //&--responsive {
+  //  @include respondmax(md) {
+  //    padding: 40px 15px 15px;
+  //  }
+  //}
+
+  &--home {
+    padding: 40px 35px 60px;
   }
 }
 
@@ -363,8 +373,8 @@ h4 {
 .partners {
   float: left;
   width: 100%;
-  margin-bottom: 5px;
-  padding: 0 35px;
+  //margin-bottom: 5px;
+  //padding: 0 35px;
   @include respondmax(md) {
     margin-bottom: 0;
   }

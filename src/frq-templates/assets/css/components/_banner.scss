@@ -2,14 +2,14 @@
   position: absolute;
   top: 0;
   width: 100%;
-  min-height: 905px;
+  min-height: 883px;
   text-align: center;
-  background: url("../../img/examples/BG-big.png") no-repeat center;
+  background: url("../../img/examples/banner-big.png") no-repeat center;
   background-size: cover;
   float: left;
   z-index: -1;
   @include respondmax(md){
-    min-height: 1010px;
+    min-height: 910px;
   }
   img {
     position: absolute;
@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     float: left;
-    height: 110px;
+    min-height: 110px;
     object-fit: cover;
     object-position: bottom center;
     @include respondmax(md){
