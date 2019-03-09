@@ -49,10 +49,10 @@
   }
 
   &__links {
-    width: calc(100% + 70px);
+    width: calc(100% + 110px);
     float: left;
     background: $white5;
-    margin: 0 -35px;
+    margin: 0 -55px;
     padding: 40px 35px 50px;
     display: flex;
     justify-content: flex-end;
@@ -119,6 +119,12 @@
     box-shadow: none;
     border: 0;
     background-color: transparent;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+    &.last{
+      margin-bottom: 20px;
+    }
 
     .card-header {
       background-color: $white;
@@ -162,7 +168,7 @@
       background-color: $whiteDark;
       float: left;
       width: 100%;
-      margin-bottom: 30px;
+      margin-bottom: 0;
 
       p {
         color: $gray6;

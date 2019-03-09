@@ -79,7 +79,7 @@ main, header, section, footer {
   border-radius: 8px;
   box-shadow: $shadow;
 
-  @include respondmax(md) {
+  @include respondmax(lg) {
     margin-right: -15px;
     margin-left: -15px;
     width: calc(100% + 30px);
@@ -258,7 +258,7 @@ h4 {
   float: left;
   width: 100%;
   color: $gray4d;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 
@@ -473,7 +473,7 @@ h4 {
   height: 1px;
   background-color: $gray;
   float: left;
-  margin: 40px -55px;
+  margin: 10px -55px 40px;
   width: calc(100% + 110px);
   padding: -55px;
 }
@@ -590,6 +590,22 @@ form {
 
     &:focus {
       outline: 0 !important;
+    }
+  }
+}
+
+.page {
+  &__content {
+    margin-bottom: 50px;
+
+    h2 {
+      color: $gray4d;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 50px;
+      margin-bottom: 20px;
     }
   }
 }

@@ -40,7 +40,8 @@
 
     h1 {
       color: $lightGreen;
-      margin-bottom: 25px;
+      margin-top: 10px;
+      margin-bottom: 30px;
       @include respondmax(md) {
         padding-left: 0;
       }

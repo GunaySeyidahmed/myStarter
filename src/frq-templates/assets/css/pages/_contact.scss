@@ -36,7 +36,13 @@
 
 
 .contact-detail {
-  margin: 40px 20px 20px;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-left: 55px;
+  @include respondmax(md) {
+    margin-left: 25px;
+  }
 
   p {
     margin-bottom: 0;
@@ -49,6 +55,10 @@
     color: $blue;
     float: left;
     width: 100%;
+
+    i {
+      font-size: 2.4rem;
+    }
 
     &:hover, &:focus {
       color: $blue;

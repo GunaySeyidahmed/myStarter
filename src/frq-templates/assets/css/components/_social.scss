@@ -65,18 +65,21 @@
 
 
   &--share {
-    padding: 0 20px;
-    margin-top: 50px;
-    margin-bottom: 30px;
+    margin-left: -25px;
+    margin-top: 20px;
     align-items: center;
     justify-content: flex-start;
+
+    @include respondmax(lg){
+      margin-left: 0;
+    }
 
     li:first-child {
       margin-right: 20px;
       color: $gray4d;
     }
 
-    .social__item{
+    .social__item {
       margin-right: 10px;
     }
 
@@ -87,7 +90,7 @@
       align-items: center;
       justify-content: center;
       border-radius: 100%;
-      font-size: 2rem;
+      font-size: 1.8rem;
 
       &--facebook {
         color: $white;

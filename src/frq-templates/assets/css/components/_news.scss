@@ -1,9 +1,9 @@
 .news {
-  padding: 5px 30px;
+  padding-right: 60px;
 
   h4 {
     color: $black;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
   }
 
   &__link {
@@ -19,6 +19,7 @@
         content: '\e5c8';
         font-family: $MtI;
         position: absolute;
+        left: 70px;
       }
 
       &:hover, &:focus {
@@ -28,8 +29,8 @@
   }
 
   &__info {
-    padding: 0 30px;
-    margin-bottom: 35px;
+    padding-right: 60px;
+    margin-bottom: 40px;
     float: left;
     width: 100%;
   }
@@ -43,10 +44,19 @@
     h4 {
       color: $black;
       padding: 40px 50px 0;
+      @include respondmax(md){
+        padding: 15px 25px;
+        margin-bottom: 0;
+      }
     }
 
     p {
-      padding: 0 50px;
+      padding: 0 55px;
+      margin-bottom: 40px;
+      @include respondmax(md){
+        padding: 15px 25px;
+        margin-bottom: 0;
+      }
     }
   }
 }

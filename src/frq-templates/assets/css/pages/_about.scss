@@ -58,11 +58,11 @@
     width: 100%;
 
     .tab-content {
-      padding: 50px 40px 45px;
+      padding: 50px 40px 0;
       float: left;
       width: 100%;
       @include respondmax(md) {
-        padding: 30px 0;
+        padding: 30px 0 0;
       }
     }
   }
@@ -70,6 +70,7 @@
 
 .leadership {
   padding-top: 20px;
+  padding-bottom: 30px;
 
   &__img {
     max-width: 400px;
@@ -149,11 +150,21 @@
 }
 
 .career {
-  margin-bottom: -45px;
+  padding-bottom: 0;
 
   &__program {
     float: left;
     width: 100%;
+
+    h1 {
+      @include respondmax(md) {
+        padding-left: 0;
+      }
+    }
+  }
+
+  &__program-img {
+    margin-top: 15px;
   }
 }
 
@@ -197,6 +208,8 @@
 }
 
 .requisite {
+  padding-bottom: 45px;
+
   &__img {
     width: 70px;
     min-width: 70px;
@@ -227,6 +240,10 @@
   padding: 2px 5px 2px 0;
   border: 2px solid $transparent;
 
+  &:hover {
+    cursor: pointer;
+  }
+
   .copy-btn {
     display: none;
     font-family: $PN, Helvetica, Arial, sans-serif;
@@ -256,6 +273,7 @@
     width: 100%;
     color: $lightGreen;
     background-color: $transparent;
+    cursor: pointer;
 
     &:focus {
       box-shadow: none;

@@ -2,16 +2,16 @@
   height: 160px;
   padding: 40px 0 15px;
 
-  @include respondmax(lg) {
+  @include respondmax(md) {
     padding: 25px 0 15px;
-    .col-lg-3 {
+    .col-md-3 {
       order: 9;
     }
   }
 
   .logo-white {
     display: block;
-    @include respondmax(lg) {
+    @include respondmax(md) {
       margin: auto;
     }
   }
@@ -33,7 +33,7 @@
       display: none;
     }
 
-    @include respondmax(lg) {
+    @include respondmax(md) {
       display: none;
     }
 
@@ -43,7 +43,7 @@
     background-color: $white;
     transition: $tr;
     transition-timing-function: ease-out;
-    @include respondmax(lg) {
+    @include respondmax(md) {
       min-height: 100vh;
       overflow-y: scroll;
       position: fixed;
@@ -56,7 +56,7 @@
 
     .logo-blue {
       display: block;
-      @include respondmax(lg) {
+      @include respondmax(md) {
         display: none;
       }
     }
@@ -66,13 +66,13 @@
         color: $blue;
       }
 
-      @include respondmax(lg) {
+      @include respondmax(md) {
         display: block !important;
       }
     }
 
     .call {
-      @include respondmax(lg) {
+      @include respondmax(md) {
         display: block;
         margin-right: 0;
       }
@@ -117,7 +117,7 @@
       font-size: 2.8rem;
     }
 
-    @include respondmax(lg) {
+    @include respondmax(md) {
       background: $transparent;
       color: $white;
       margin-top: -20px;
@@ -144,7 +144,7 @@
       font-size: 2.8rem;
     }
 
-    @include respondmax(lg) {
+    @include respondmax(md) {
       background-color: $transparent;
       color: #133E72;
       margin: -25px -15px 40px auto;
@@ -156,14 +156,15 @@
     justify-content: flex-end;
     align-items: center;
     margin-bottom: 35px;
-    @include respondmax(lg) {
+    @include respondmax(md) {
       flex-direction: column-reverse;
-      margin-bottom: 55px;
+      margin-bottom: 20px;
+      //margin-bottom: 55px;
     }
 
     .dropdown {
       margin-right: 50px;
-      @include respondmax(lg) {
+      @include respondmax(md) {
         display: none;
       }
     }
@@ -195,7 +196,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    @include respondmax(lg) {
+    @include respondmax(md) {
       justify-content: space-between;
       width: 100%;
       float: left;
@@ -207,7 +208,7 @@
   }
 
   &__bottom-list {
-    @include respondmax(lg) {
+    @include respondmax(md) {
       text-align: right;
     }
 
@@ -219,7 +220,7 @@
         margin-left: 0;
       }
 
-      @include respondmax(lg) {
+      @include respondmax(md) {
         display: block;
         margin-left: 0;
         margin-bottom: 15px;
