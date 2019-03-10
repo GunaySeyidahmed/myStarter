@@ -3,6 +3,7 @@
   @include respondmax(md) {
     padding: 35px 0;
   }
+
   &__slider {
     position: relative;
   }
@@ -68,4 +69,67 @@
       }
     }
   }
+}
+
+.modal {
+  .modal-content {
+    padding: 30px 40px 40px;
+    max-width: 540px;
+    box-shadow: $shadow;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    background-color: $white;
+  }
+
+  .modal-header {
+    border-bottom: none;
+    padding: 0;
+
+    .modal-title {
+      color: $gray4d;
+      float: left;
+      width: 100%;
+      margin-bottom: 25px;
+      line-height: 1;
+    }
+  }
+
+  .modal-body {
+    margin-bottom: 50px;
+    font-size: 1.4rem;
+    padding: 0;
+  }
+
+  .modal-footer {
+    padding: 0;
+    border-top: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .close {
+    opacity: 1;
+
+    .material-icons {
+      color: #666666;
+    }
+  }
+  .modal-link {
+    font-family: $PN-B, Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    color: $gray4d;
+    background-color: $transparent;
+    float: left;
+    border: 0;
+    margin-right: 25px;
+    cursor: pointer;
+  }
+}
+
+.blur{
+  background-color: $black;
+  opacity: .5;
 }
