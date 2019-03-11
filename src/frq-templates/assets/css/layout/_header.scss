@@ -2,6 +2,13 @@
   height: 160px;
   padding: 40px 0 15px;
 
+  .logo{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+
+  }
+
   @include respondmax(md) {
     padding: 25px 0 15px;
     .col-md-3 {
