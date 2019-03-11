@@ -257,26 +257,79 @@
             </div>
         </section>
 
-        <div class="modal fade" id="modalCenter" tabindex="-1" role="dialog"
-             aria-labelledby="modalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal fade" id="dialog" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h2 class="modal-title" id="modalLongTitle">Ani sorğuda iştirak etmək istərdinizmi?</h2>
-                        <!--<button type="button" class="close" data-dismiss="modal" aria-label="Close">-->
-                        <!--<i class="material-icons">&#xe5cd;</i>-->
-                        <!--</button>-->
+                        <h2 class="modal-title">Ani sorğuda iştirak etmək istərdinizmi?</h2>
                     </div>
                     <div class="modal-body">Sorğu xidmətimizin keyfiyyətini artırmaq üçün aparılır. Müştəri olaraq Sizin
                         verəcəyiniz cavab bizim üçün çox vacibdir. Təşəkkür edirik!
                     </div>
                     <div class="modal-footer">
-                        <button type="submit" class="modal-link">Xeyr, sonra</button>
-                        <button type="submit" class="btn btn--medium">Bəli</button>
+                        <button type="button" class="modal-cancel">Xeyr, sonra</button>
+                        <button type="button" class="btn btn--medium modal-btn" data-toggle="modal"
+                                data-target="#question">Bəli
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="modal modal--question fade" id="question" data-backdrop="static" data-keyboard="false" tabindex="-1"
+             role="dialog">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-top">
+                        <p class="modal-title">Sual <span class="font-bold">1</span>/3</p>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="material-icons">&#xe5cd;</i>
+                        </button>
+                    </div>
+                    <div class="modal-header">
+                        <h2 class="modal-title">SMS Bildiriş xidmətindən istifadə edirsinizmi?</h2>
+                    </div>
+                    <div class="modal-body">
+                        <form action="">
+
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio1" name="radio">
+                                <label class="custom-control-label" for="radio1">Bəli, çox rahatdır</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio2" name="radio">
+                                <label class="custom-control-label" for="radio2">Xeyr, bilmirəm SMS Bildiriş
+                                    nədir</label>
+                            </div>
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio3" name="radio">
+                                <label class="custom-control-label" for="radio3">Xeyr, istifadə etmirəm</label>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn--medium mr-15 modal-btn" data-toggle="modal"
+                                data-target="#message">Növbəti
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="message" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <img src="./frq-templates/assets/img/modal-img.svg" alt="smile img" class="mb-40">
+                        <h2 class="color-gray full-width mb-0">Dəyərli zamanınızı bizə sərf etdiyiniz üçün təşəkkür edirik!</h2>
+                    </div>
+                    <div class="modal-footer mx-auto">
+                        <a href="http://frontend.novadigitalsolutions.net/azericard/" class="btn btn--medium close-link">Sayta
+                            qayıt</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </main>
 
@@ -338,12 +391,17 @@
         }
     });
 
-    var modalCLoseFunc;
-    modalCLoseFunc = function modalCLoseFunc() {
+    function modalCLose() {
         $('header, main , footer').removeClass('blur');
         $('body , html').removeClass('noscroll-y noscroll');
         $('.modal').modal("hide");
     };
+
+    $(document).on("click", ".modal-cancel", function (e) {
+        e.preventDefault();
+        modalCLose();
+    });
+
 
     $(document).on("click", ".modal-btn", function (e) {
         e.preventDefault();
@@ -351,15 +409,16 @@
         var dataTarget = $(this).data('target');
         $(dataTarget).modal('show');
         $('header, main , footer').addClass('blur');
-        $('body , html').addClass('noscroll-y');
+        $('body , html').addClass('noscroll-y noscroll');
     });
 
-    // $(document).on("click", ".modal .close", function () {
-    //     modalCLoseFunc();
-    // });
+
+    $(document).on("click", ".modal .close, .close-link", function () {
+        modalCLose();
+    });
 
     $(window).on('load', function () {
-        $('#modalCenter').modal('show');
+        $('#dialog').modal('show');
         $('header, main , footer').addClass('blur');
         $('body , html').addClass('noscroll-y');
     });

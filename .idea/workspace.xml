@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36166853-dd11-41f6-be69-0a5b1d8f9b5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/00-home-0 – 9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/99-terms_and_conditions-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/99-terms_and_conditions-0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/00-home-0 – 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/00-home-0 – 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/08-contact-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/08-contact-0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/99-terms_and_conditions-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/99-terms_and_conditions-0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00-home-0 – 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/00-home-0 – 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/08-contact-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/08-contact-0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,33 +23,31 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6453952">
+    <splitter split-orientation="horizontal" split-proportion="0.43043125">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/00-home-0 – 9.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/08-contact-0.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="252" column="48" selection-start-line="252" selection-start-column="48" selection-end-line="252" selection-end-column="48" />
+                <state relative-caret-position="391">
+                  <caret line="56" column="91" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
                   <folding>
-                    <element signature="n#section#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#section#1;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#section#2;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#section#3;n#div#0;n#main#0;n#!!top" />
-                    <element signature="e#8028#8201#0" />
-                    <element signature="e#8249#8774#0" />
-                    <element signature="e#8822#9349#0" />
+                    <element signature="n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+                    <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+                    <element signature="n#script#0;n#!!top" />
+                    <element signature="n#script#1;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/04-news-0.html">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/abstracts/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+                <state relative-caret-position="44">
+                  <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -57,21 +55,27 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="755">
-                  <caret line="350" selection-start-line="350" selection-end-line="350" />
+                <state relative-caret-position="345">
+                  <caret line="624" column="22" selection-start-line="624" selection-start-column="22" selection-end-line="624" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#7344#7466#0" />
+                    <element signature="e#7501#8266#0" />
+                    <element signature="e#8280#8783#0" />
+                    <element signature="e#10319#10861#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="372">
-                  <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="133" selection-end-column="14" />
+                <state relative-caret-position="345">
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
                 </state>
               </provider>
             </entry>
@@ -89,8 +93,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>about</find>
-      <find>$gray4d</find>
       <find>divi</find>
       <find>gray</find>
       <find>color-gray</find>
@@ -119,6 +121,8 @@
       <find>1.4</find>
       <find>contact</find>
       <find>btn</find>
+      <find>for</find>
+      <find>form</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,7 +131,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/frq-templates/css/pages/_tender.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/js/main/main.js" />
         <option value="$PROJECT_DIR$/src/frq-templates/css/base/_fonts.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/css/pages/_faq.scss" />
@@ -139,10 +142,8 @@
         <option value="$PROJECT_DIR$/src/frq-templates/css/pages/_about.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.bowerrc" />
-        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/abstracts/_variables.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/test.html" />
         <option value="$PROJECT_DIR$/src/test.html" />
-        <option value="$PROJECT_DIR$/src/08-contact-0.html" />
         <option value="$PROJECT_DIR$/src/template/footer.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/js/main/main.js" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_footer.scss" />
@@ -171,13 +172,16 @@
         <option value="$PROJECT_DIR$/src/06-tenders-0.html" />
         <option value="$PROJECT_DIR$/src/06-tenders-1-details-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/components/_news.scss" />
-        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss" />
         <option value="$PROJECT_DIR$/src/99-terms_and_conditions-0.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" />
         <option value="$PROJECT_DIR$/src/04-news-0.html" />
         <option value="$PROJECT_DIR$/src/00-home-0 – 9.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/abstracts/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/base/_fonts.scss" />
+        <option value="$PROJECT_DIR$/src/08-contact-0.html" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" />
       </list>
     </option>
   </component>
@@ -234,7 +238,7 @@
               <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="abstracts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,19 +254,19 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\SeroPro-Bold" />
-      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\ProximaNova-Regular" />
-      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\libs" />
-      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\SeroPro-Regular" />
-      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\SeroPro-Thin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xamp\htdocs\projects\c\cmStart\src" />
       <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\assets\img" />
       <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\assets" />
       <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\img\examples" />
       <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\img\partner-bank-1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\assets\fonts\SeroPro-Italic" />
+      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\SeroPro-Bold" />
+      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\ProximaNova-Regular" />
+      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\libs" />
+      <recent name="C:\xamp\htdocs\projects\c\cmStart\src\frq-templates\fonts\SeroPro-Regular" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -336,11 +340,13 @@
       <workItem from="1552062010535" duration="18898000" />
       <workItem from="1552130043640" duration="24114000" />
       <workItem from="1552207878789" duration="8059000" />
+      <workItem from="1552230332653" duration="19848000" />
+      <workItem from="1552286716652" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="489020000" />
+    <option name="totallyTimeSpent" value="511021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -355,7 +361,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25181758" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18770654" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -368,7 +374,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.04411765" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.05882353" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.04411765" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.10735294" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -376,7 +382,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20290813" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19233312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -389,7 +395,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.04411765" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.05882353" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.04411765" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.10735294" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -401,30 +407,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/leadership-member.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/leadership-member3.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/leadership-member1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/BG-small.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="43" column="39" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-            <element signature="n#ul#0;n#div#1;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/Group 900.png" />
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/Group 896.png">
       <provider selected="true" editor-type-id="images" />
@@ -437,22 +419,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="7" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/08-contact-0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1403">
-          <caret line="117" column="6" selection-start-line="117" selection-start-column="6" selection-end-line="117" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#script#0;n#!!top" />
-            <element signature="n#script#1;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -748,13 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/02-about_us-3-career-1-details-0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
@@ -794,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/04-news-0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -810,25 +762,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/00-home-0 – 9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="252" column="48" selection-start-line="252" selection-start-column="48" selection-end-line="252" selection-end-column="48" />
+        <state relative-caret-position="341">
+          <caret line="304" column="55" selection-start-line="304" selection-start-column="55" selection-end-line="304" selection-end-column="55" />
           <folding>
             <element signature="n#section#0;n#div#0;n#main#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
             <element signature="n#section#1;n#div#0;n#main#0;n#!!top" />
             <element signature="n#section#2;n#div#0;n#main#0;n#!!top" />
             <element signature="n#section#3;n#div#0;n#main#0;n#!!top" />
-            <element signature="e#8028#8201#0" />
-            <element signature="e#8249#8774#0" />
-            <element signature="e#8822#9349#0" />
+            <element signature="n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#form#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#form#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#form#0;n#div#2;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#!!top" />
+            <element signature="e#9234#9407#0" />
+            <element signature="e#9455#9980#0" />
+            <element signature="e#10028#10555#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="132" lean-forward="true" selection-start-line="132" selection-end-line="133" selection-end-column="14" />
+        <state relative-caret-position="536">
+          <caret line="112" column="27" selection-start-line="112" selection-start-column="27" selection-end-line="112" selection-end-column="27" />
+          <folding>
+            <element signature="e#1678#1747#0" />
+            <element signature="e#1869#1941#0" />
+            <element signature="e#1956#2171#0" />
+            <element signature="e#2242#2248#0" />
+            <element signature="e#2707#2800#0" />
+            <element signature="e#2811#2883#0" />
+            <element signature="e#2901#3116#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/base/_typography.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/base/_utilities.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/base/_base.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/base/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/08-contact-0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="56" column="91" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#form#0;n#div#0;n#div#1;n#div#1;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#script#0;n#!!top" />
+            <element signature="n#script#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/abstracts/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="624" column="22" selection-start-line="624" selection-start-column="22" selection-end-line="624" selection-end-column="22" />
+          <folding>
+            <element signature="e#7344#7466#0" />
+            <element signature="e#7501#8266#0" />
+            <element signature="e#8280#8783#0" />
+            <element signature="e#10319#10861#0" />
+          </folding>
         </state>
       </provider>
     </entry>

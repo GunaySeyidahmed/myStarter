@@ -15,7 +15,6 @@
   }
 
   &__slider-img {
-    //padding: 0 60px;
     padding: 0;
   }
 
@@ -73,7 +72,7 @@
 
 .modal {
   .modal-content {
-    padding: 30px 40px 40px;
+    padding: 30px 50px 40px;
     max-width: 540px;
     box-shadow: $shadow;
     border: none;
@@ -108,6 +107,12 @@
     border-top: none;
     display: flex;
     justify-content: flex-end;
+    @include respondmax(md){
+      flex-direction: column;
+      .modal-cancel{
+        margin-bottom: 20px;
+      }
+    }
   }
 
   .close {
@@ -117,7 +122,8 @@
       color: #666666;
     }
   }
-  .modal-link {
+
+  .modal-cancel {
     font-family: $PN-B, Helvetica, Arial, sans-serif;
     font-size: 1.4rem;
     color: $gray4d;
@@ -127,9 +133,64 @@
     margin-right: 25px;
     cursor: pointer;
   }
+
+  &--question {
+    .modal-content {
+      padding: 25px 25px 40px 35px;
+      text-align: left;
+    }
+
+    .modal-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      float: left;
+      width: 100%;
+      margin-bottom: 40px;
+      margin-left: -10px;
+      color: #707070;
+      font-size: 1.6rem;
+    .close{
+      margin-right: -15px;
+      i{
+        color: #00377A !important;
+      }
+    }
+    }
+
+    .modal-body {
+      margin-bottom: 35px;
+    }
+
+    .modal-footer {
+      padding: 0;
+      border-top: none;
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .close {
+      opacity: 1;
+
+      .material-icons {
+        color: #666666;
+      }
+    }
+
+    .modal-cancel {
+      font-family: $PN-B, Helvetica, Arial, sans-serif;
+      font-size: 1.4rem;
+      color: $gray4d;
+      background-color: $transparent;
+      float: left;
+      border: 0;
+      margin-right: 25px;
+      cursor: pointer;
+    }
+  }
 }
 
-.blur{
-  background-color: $black;
-  opacity: .5;
+
+.blur {
+  background-color: rgba(0, 0, 0, .5);
 }
