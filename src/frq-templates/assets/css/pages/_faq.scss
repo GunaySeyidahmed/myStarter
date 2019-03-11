@@ -48,6 +48,35 @@
 
   }
 
+  &__info {
+    padding-left: 70px;
+    @include respondmax(md) {
+      padding-left: 0;
+      margin-top: 60px;
+    }
+  }
+
+  &__question {
+    color: $blue;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+
+    &:hover, &:focus {
+      color: $blue;
+    }
+  }
+
+  &__more {
+    color: $lightGray;
+    font-size: 2.4rem;
+    float: left;
+
+    &:hover, &:focus {
+      color: $lightGray;
+    }
+  }
+
   &__links {
     width: calc(100% + 110px);
     float: left;
@@ -76,38 +105,6 @@
       margin-bottom: 15px;
     }
   }
-
-  &__apply {
-    .form-group {
-      background-color: $whiteLight;
-      border-radius: 5px;
-      padding: 5px 15px;
-      height: 60px;
-      margin-bottom: 20px;
-
-      label {
-        font-family: $SP-B, Helvetica, Arial, sans-serif;
-        color: $darkGray;
-        font-size: 1.4rem;
-        margin-bottom: 0;
-      }
-
-      .form-control {
-        font-family: $SP, Helvetica, Arial, sans-serif;
-        color: $gray6;
-        font-size: 1.4rem;
-        background-color: $whiteLight;
-        border: 0;
-        height: 2.25rem;
-        padding-left: 0;
-
-        &:focus {
-          border: 0;
-          box-shadow: none;
-        }
-      }
-    }
-  }
 }
 
 
@@ -122,7 +119,8 @@
     margin-bottom: 10px;
     float: left;
     width: 100%;
-    &.last{
+
+    &.last {
       margin-bottom: 20px;
     }
 

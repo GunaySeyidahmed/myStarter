@@ -193,13 +193,10 @@
                                 <input type="radio" class="custom-control-input" id="radio3" name="radio">
                                 <label class="custom-control-label" for="radio3">Xeyr, istifadə etmirəm</label>
                             </div>
-
+                            <button type="button" class="btn btn--medium modal-btn mr-15 mt-35 float-right" data-toggle="modal"
+                                    data-target="#message">Növbəti
+                            </button>
                         </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn--medium mr-15 modal-btn" data-toggle="modal"
-                                data-target="#message">Növbəti
-                        </button>
                     </div>
                 </div>
             </div>
@@ -280,16 +277,18 @@
         }
     });
 
+    /*modal*/
+    $(window).on('load', function () {
+        $('#dialog').modal('show');
+        $('header, main , footer').addClass('blur');
+        $('body , html').addClass('noscroll-y');
+    });
+
     function modalCLose() {
         $('header, main , footer').removeClass('blur');
         $('body , html').removeClass('noscroll-y noscroll');
         $('.modal').modal("hide");
-    };
-
-    $(document).on("click", ".modal-cancel", function (e) {
-        e.preventDefault();
-        modalCLose();
-    });
+    }
 
 
     $(document).on("click", ".modal-btn", function (e) {
@@ -302,16 +301,10 @@
     });
 
 
-    $(document).on("click", ".modal .close, .close-link", function () {
+    $(document).on("click", ".modal .close, .modal-cancel, .close-link", function (e) {
+        e.preventDefault();
         modalCLose();
     });
-
-    $(window).on('load', function () {
-        $('#dialog').modal('show');
-        $('header, main , footer').addClass('blur');
-        $('body , html').addClass('noscroll-y');
-    });
-
 
 </script>
 

@@ -92,19 +92,19 @@ button, button:hover, button:focus {
   font-family: SeroPro-Bold;
   src: url("../../fonts/SeroPro-Bold.eot");
   src: url("../../fonts/SeroPro-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/SeroPro-Bold.woff2") format("woff2"), url("../../fonts/SeroPro-Bold.woff") format("woff"), url("../../fonts/SeroPro-Bold.ttf") format("truetype"), url("../../fonts/SeroPro-Bold.svg#SeroPro-Bold") format("svg");
-  font-weight: 900; }
+  font-weight: 700; }
 
 @font-face {
   font-family: SeroPro;
   src: url("../../fonts/SeroPro.eot");
   src: url("../../fonts/SeroPro.eot?#iefix") format("embedded-opentype"), url("../../fonts/SeroPro.woff2") format("woff2"), url("../../fonts/SeroPro.woff") format("woff"), url("../../fonts/SeroPro.ttf") format("truetype"), url("../../fonts/SeroPro.svg#SeroPro") format("svg");
-  font-weight: 300; }
+  font-weight: 400; }
 
 @font-face {
   font-family: SeroPro-Italic;
   src: url("../../fonts/SeroPro-Italic.eot");
   src: url("../../fonts/SeroPro-Italic.eot?#iefix") format("embedded-opentype"), url("../../fonts/SeroPro-Italic.woff2") format("woff2"), url("../../fonts/SeroPro-Italic.woff") format("woff"), url("../../fonts/SeroPro-Italic.ttf") format("truetype"), url("../../fonts/SeroPro-Italic.svg#SeroPro-Italic") format("svg");
-  font-weight: 300; }
+  font-weight: 400; }
 
 h4 {
   font-size: 1.4rem; }
@@ -3602,7 +3602,6 @@ h4 {
     font-size: 1.6rem;
     color: #53AE3B;
     float: left;
-    width: 100%;
     position: absolute;
     bottom: 20px;
     left: 15px; }
@@ -4120,21 +4119,7 @@ h4 {
       color: #00377A !important; }
 
 .modal--question .modal-body {
-  margin-bottom: 35px; }
-
-.modal--question .modal-footer {
-  padding: 0;
-  border-top: none;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-     -moz-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+  margin-bottom: 0; }
 
 .modal--question .close {
   opacity: 1; }
@@ -4418,6 +4403,49 @@ h4 {
     -o-object-fit: cover;
        object-fit: cover; }
 
+#chart-container {
+  font-family: Arial;
+  height: 420px;
+  border: 0;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  overflow: auto;
+  text-align: center; }
+
+#github-link {
+  position: fixed;
+  right: 10px;
+  font-size: 3em; }
+
+.orgchart {
+  background: #fff;
+  width: 100% !important; }
+  .orgchart .lines .topLine {
+    width: 87.5px !important; }
+  .orgchart .lines .downline {
+    background-color: #CCCCCC !important;
+    width: 35px !important; }
+  .orgchart .node {
+    width: 200px; }
+    .orgchart .node .edge {
+      display: none !important; }
+    .orgchart .node .title {
+      color: #53AE3B !important;
+      background-color: #53AE3B !important; }
+      .orgchart .node .title a .fa-users:before {
+        content: ""; }
+    .orgchart .node:hover, .orgchart .node:focus {
+      background-color: transparent;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      -moz-transition: .5s;
+      transition: .5s;
+      cursor: default;
+      z-index: 20; }
+    .orgchart .node.focused {
+      background-color: transparent; }
+
 .contact {
   padding-top: 0 !important;
   padding-bottom: 60px; }
@@ -4455,11 +4483,7 @@ h4 {
 .contact-detail {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
-  margin-left: 55px; }
-  @media (max-width: 767px) {
-    .contact-detail {
-      margin-left: 25px; } }
+  margin-bottom: 30px; }
   .contact-detail p {
     margin-bottom: 0;
     font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
@@ -4522,6 +4546,28 @@ h4 {
       color: #FFFFFF;
       border-color: transparent; }
 
+.faq__info {
+  padding-left: 70px; }
+  @media (max-width: 767px) {
+    .faq__info {
+      padding-left: 0;
+      margin-top: 60px; } }
+
+.faq__question {
+  color: #1C5EAF;
+  margin-bottom: 15px;
+  float: left;
+  width: 100%; }
+  .faq__question:hover, .faq__question:focus {
+    color: #1C5EAF; }
+
+.faq__more {
+  color: #999999;
+  font-size: 2.4rem;
+  float: left; }
+  .faq__more:hover, .faq__more:focus {
+    color: #999999; }
+
 .faq__links {
   width: -webkit-calc(100% + 110px);
   width: -moz-calc(100% + 110px);
@@ -4565,33 +4611,6 @@ h4 {
   @media (max-width: 767px) {
     .faq__helper-link {
       margin-bottom: 15px; } }
-
-.faq__apply .form-group {
-  background-color: #F0F0F0;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
-  padding: 5px 15px;
-  height: 60px;
-  margin-bottom: 20px; }
-  .faq__apply .form-group label {
-    font-family: SeroPro-Bold, Helvetica, Arial, sans-serif;
-    color: #333333;
-    font-size: 1.4rem;
-    margin-bottom: 0; }
-  .faq__apply .form-group .form-control {
-    font-family: SeroPro, Helvetica, Arial, sans-serif;
-    color: #666666;
-    font-size: 1.4rem;
-    background-color: #F0F0F0;
-    border: 0;
-    height: 2.25rem;
-    padding-left: 0; }
-    .faq__apply .form-group .form-control:focus {
-      border: 0;
-      -webkit-box-shadow: none;
-         -moz-box-shadow: none;
-              box-shadow: none; }
 
 .accordion {
   float: left;
@@ -5252,7 +5271,7 @@ h1 {
   line-height: 1; }
   @media (max-width: 767px) {
     h1 {
-      font-size: 2rem;
+      font-size: 3.6rem;
       padding-left: 20px;
       padding-right: 20px; } }
 
@@ -5300,6 +5319,9 @@ h4 {
   @media (max-width: 991px) {
     .text-large {
       font-size: 3.2rem; } }
+
+.color-default {
+  color: #999999; }
 
 .color-green {
   color: #B2E1A6; }
@@ -5522,11 +5544,31 @@ form .form-group {
       -webkit-box-shadow: none;
          -moz-box-shadow: none;
               box-shadow: none; }
+    form .form-group .form-control::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      font-family: SeroPro-Italic, Helvetica, Arial, sans-serif;
+      font-size: 1.4rem;
+      color: #B3B3B3; }
+    form .form-group .form-control::-moz-placeholder {
+      /* Firefox 19+ */
+      font-family: SeroPro-Italic, Helvetica, Arial, sans-serif;
+      font-size: 1.4rem;
+      color: #B3B3B3; }
+    form .form-group .form-control:-ms-input-placeholder {
+      /* IE 10+ */
+      font-family: SeroPro-Italic, Helvetica, Arial, sans-serif;
+      font-size: 1.4rem;
+      color: #B3B3B3; }
+    form .form-group .form-control:-moz-placeholder {
+      /* Firefox 18- */
+      font-family: SeroPro-Italic, Helvetica, Arial, sans-serif;
+      font-size: 1.4rem;
+      color: #B3B3B3; }
   form .form-group.textarea {
     height: 100px;
     overflow: hidden; }
     form .form-group.textarea textarea {
-      height: 80px;
+      height: 100%;
       resize: none; }
 
 form .custom-control {
@@ -5596,7 +5638,7 @@ form .custom-radio .custom-control-input:checked ~ .custom-control-label::after 
     line-height: 36px;
     padding-right: 0 !important;
     padding-left: 20px;
-    min-width: 200px;
+    min-width: 100px;
     color: #666666;
     border: 0; }
     .bootstrap-select .btn.dropdown-toggle .filter-option {

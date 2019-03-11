@@ -114,19 +114,20 @@
 <main class="mt-25">
 
     <div class="container">
-        <section class="contact section__white section__white--responsive">
+        <section class="section__white py-50">
             <div class="row">
                 <div class="col-md-6">
-                    <h4 class="color-black">Mütəmadi verilən suallar</h4>
-                    <form class="faq__apply">
+                    <h4 class="color-black mb-10">Mütəmadi verilən suallar</h4>
+                    <p class="text-small full-width mb-50">Sualınızı bizə yönləndirin</p>
+                    <form action="#">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12 col-lg-6">
                                 <div class="form-group">
                                     <label>Ad <span>*</span></label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-12 col-lg-6">
                                 <div class="form-group">
                                     <label>Soyad <span>*</span></label>
                                     <input type="text" class="form-control">
@@ -140,27 +141,45 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label>Ölkə</label>
-                                    <select class="selectpicker" title="Ölkəni seç">
+                                    <label>Mövzu</label>
+                                    <select class="selectpicker" title=" ">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
                                     </select>
                                 </div>
                             </div>
+                            <div class="col-md-12">
+                                <div class="form-group textarea mb-30">
+                                    <label>Sualınız</label>
+                                    <textarea class="form-control" rows="5"
+                                              placeholder="Salam! Kartımın şifrəsini unutmuşam, nə edə bilərəm?"></textarea>
+                                </div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn">Göndər</button>
+                        <button type="submit" class="btn btn--small">Göndər</button>
                     </form>
                 </div>
                 <div class="col-md-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi commodi distinctio doloribus facere
-                    nemo odit placeat quasi quis vitae voluptatibus. Amet consequatur cumque deleniti enim, laborum
-                    molestiae praesentium quaerat quas ratione veritatis! Atque aut consequatur ducimus expedita
-                    laudantium numquam obcaecati odit repudiandae. Assumenda, cumque delectus eligendi, ex explicabo
-                    illum incidunt itaque nulla repellat temporibus voluptatum!
+                    <div class="faq__info">
+                        <h4 class="color-dark-green full-width mb-10">Bəlkə sualınız buradadır?</h4>
+                        <p class="text-small full-width mb-50">Çox güman ki, sualınızın cavabı aşağıdakı siyahıdadır</p>
+                        <a href="#" class="faq__question">PIN-kodu necə dəyişə bilərəm?</a>
+                        <a href="#" class="faq__question">Bank kartımın balansını necə öyrənə bilərəm?</a>
+                        <a href="#" class="faq__question">3D Secure şifrəsini necə əldə edə bilərəm?</a>
+                        <a href="#" class="faq__question">“İnternet Bankinq” sisteminin istifadəçisi olmaq üçün
+                            nə etmək lazımdır?</a>
+                        <a href="#" class="faq__question">“SMS Xəbərdarlıq” xidmətinə necə qoşula bilərəm?</a>
+                        <a href="#" class="faq__question">Vəsaiti bir kartdan digərinə necə köçürə bilərəm?</a>
+                        <a href="#" class="faq__question">Bank kartım oğurlandığı və ya itirildiyi halda nə
+                            etməliyəm?</a>
+
+                        <a href="#" class="faq__more">
+                            <i class="material-icons">&#xe5d3;</i>
+                        </a>
+                    </div>
                 </div>
             </div>
-
         </section>
     </div>
 
@@ -210,7 +229,7 @@
                 <div class="row mb-35">
                     <div class="col-12 col-md-3">
                         <a href="#" class="footer__bottom-img">
-                            <img src="./frq-templates/assets/img/footer-img.png" alt="footer img">
+                            <img src="./frq-templates/assets/img/footer-logo.svg" alt="footer img">
                         </a>
                     </div>
                     <div class="col-12 col-md-9">
@@ -271,7 +290,8 @@
 <!-- <script src="libs/jquery.inputmask/jquery.inputmask.min.js"></script> -->
 
 <!-- <script src="libs/sorttable/sorttable.js"></script> -->
-
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/orgchart/2.1.3/js/jquery.orgchart.min.js"></script>
 <script src="frq-templates/assets/js/all.js"></script>
 
 <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID.-->

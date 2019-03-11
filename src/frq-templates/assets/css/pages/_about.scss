@@ -302,3 +302,65 @@
   }
 }
 
+
+#chart-container {
+  font-family: Arial;
+  height: 420px;
+  border: 0;
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+#github-link {
+  position: fixed;
+  right: 10px;
+  font-size: 3em;
+}
+
+.orgchart {
+  background: #fff;
+  width: 100% !important;
+
+  .lines {
+    .topLine{
+      width: 87.5px !important;
+    }
+    .downline {
+     background-color: #CCCCCC !important;
+      width: 35px !important;
+    }
+  }
+
+  .node {
+    width: 200px;
+
+    .edge {
+      display: none !important;
+    }
+
+    .title {
+      color: #53AE3B !important;
+      background-color: #53AE3B !important;
+
+      a {
+        .fa-users:before {
+          content: "";
+        }
+      }
+    }
+
+    &:hover, &:focus {
+      background-color: $transparent;
+      transition: .5s;
+      cursor: default;
+      z-index: 20;
+    }
+
+    &.focused {
+      background-color: $transparent;
+    }
+  }
+}
+
+

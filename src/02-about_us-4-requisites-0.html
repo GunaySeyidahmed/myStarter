@@ -34,11 +34,12 @@
                                aria-selected="true">Rəhbərlik</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="pills-structure-tab" data-toggle="pill" href="#pills-structure"
+                            <a class="nav-link active" id="pills-structure-tab" data-toggle="pill"
+                               href="#pills-structure"
                                role="tab" aria-controls="pills-structure" aria-selected="false">Struktur</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" id="pills-career-tab" data-toggle="pill" href="#pills-career"
+                            <a class="nav-link" id="pills-career-tab" data-toggle="pill" href="#pills-career"
                                role="tab" aria-controls="pills-career" aria-selected="false">Karyera</a>
                         </li>
                         <li class="nav-item">
@@ -123,10 +124,12 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container tab-pane fade" id="pills-structure" role="tabpanel"
-                         aria-labelledby="pills-structure-tab">...
+                    <div class="container tab-pane fade structure show active" id="pills-structure" role="tabpanel"
+                         aria-labelledby="pills-structure-tab">
+                        <div id="chart-container"></div>
+                        <a id="github-link" href="#" target="_blank"></a>
                     </div>
-                    <div class="container tab-pane fade career show active" id="pills-career" role="tabpanel"
+                    <div class="container tab-pane fade career" id="pills-career" role="tabpanel"
                          aria-labelledby="pills-career-tab">
                         <h2 class="color-gray mb-30">Azericard ailəsinə qoşulun!</h2>
                         <div class="row mb-100">
@@ -285,7 +288,8 @@
                 </div>
             </div>
         </section>
-        <section class="section__white section__white--responsive px-35 pt-40 pb-30">
+
+        <section class="section__white px-35 pt-40 pb-30">
             <h2 class="color-gray text-center mb-30">Tərəfdaş banklar</h2>
             <div class="row">
                 <div class="col-6 col-md-4 col-lg-2">
@@ -409,6 +413,71 @@
         document.execCommand("copy");
         console.log("Copied the text: " + copyText.val());
     });
+
+    (function ($) {
+
+        $(function () {
+            var datascource = {
+                'name': 'CEO',
+                'title': 'John Doeson',
+                'children': [
+                    {
+                        'name': 'Vice president 1', 'title': 'John Doeson',
+                        'children': [
+                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
+                            {
+                                'name': 'Department Lorem Ipsum', 'title': 'John Doeson',
+                                'children': [
+                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
+                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        'name': 'Vice president 2', 'title': 'John Doeson',
+                        'children': [
+                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
+                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'}
+                        ]
+                    },
+                    {
+                        'name': 'Vice president 3', 'title': 'John Doeson',
+                        'children': [
+                            {
+                                'name': 'Department Lorem Ipsum', 'title': 'John Doeson',
+                                'children': [
+                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
+                                    {
+                                        'name': 'Department Lorem Ipsum', 'title': 'John Doeson'
+                                    },
+                                    {
+                                        'name': 'Department Lorem Ipsum', 'title': 'John Doeson'
+                                    }
+                                ]
+                            },
+                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'}
+                        ]
+                    }
+                ]
+            };
+
+            $('#chart-container').orgchart({
+                'data': datascource,
+                'depth': 2,
+                'nodeContent': 'title',
+                'pan': true,
+                'zoom': false,
+                'createNode': function ($node, data) {
+                    $node.children('.title').wrapInner('<a href="#"></a>');
+                }
+            });
+
+        });
+
+    })(jQuery);
+
+    // $('.lines td').attr('colspan',1);
 
 </script>
 

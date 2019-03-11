@@ -171,7 +171,7 @@ h1 {
   width: 100%;
   line-height: 1;
   @include respondmax(md) {
-    font-size: 2rem;
+    font-size: 3.6rem;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -231,6 +231,9 @@ h4 {
   }
 }
 
+.color-default{
+  color: $lightGray;
+}
 .color-green {
   color: $green;
 }
@@ -466,6 +469,27 @@ form {
         border: 0;
         box-shadow: none;
       }
+
+      &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+        font-family: $SP-I, Helvetica, Arial, sans-serif;
+        font-size: 1.4rem;
+        color: #B3B3B3;
+      }
+      &::-moz-placeholder { /* Firefox 19+ */
+        font-family: $SP-I, Helvetica, Arial, sans-serif;
+        font-size: 1.4rem;
+        color: #B3B3B3;
+      }
+      &:-ms-input-placeholder { /* IE 10+ */
+        font-family: $SP-I, Helvetica, Arial, sans-serif;
+        font-size: 1.4rem;
+        color: #B3B3B3;
+      }
+      &:-moz-placeholder { /* Firefox 18- */
+        font-family: $SP-I, Helvetica, Arial, sans-serif;
+        font-size: 1.4rem;
+        color: #B3B3B3;
+      }
     }
 
     &.textarea {
@@ -473,7 +497,7 @@ form {
       overflow: hidden;
 
       textarea {
-        height: 80px;
+        height: 100%;
         resize: none;
       }
     }
@@ -578,7 +602,7 @@ form {
     line-height: 36px;
     padding-right: 0 !important;
     padding-left: 20px;
-    min-width: 200px;
+    min-width: 100px;
     color: $gray6;
     border: 0;
 

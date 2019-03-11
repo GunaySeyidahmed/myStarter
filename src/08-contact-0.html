@@ -3,7 +3,7 @@
 <main class="mt-25">
     <div class="container">
 
-        <h1 class="text-center color-white mb-50">Əlaqə</h1>
+        <h1 class="text-center color-white mt--20 mb-50">Əlaqə</h1>
 
         <section class="contact section__white">
 
@@ -64,7 +64,8 @@
                                 <div class="col-md-12 col-lg-12">
                                     <div class="form-group textarea mb-30">
                                         <label>İsmarıc</label>
-                                        <textarea class="form-control" rows="5"></textarea>
+                                        <textarea class="form-control" rows="5"
+                                                  placeholder="Salam! Kartımın şifrəsini unutmuşam, nə edə bilərəm?"></textarea>
                                     </div>
                                 </div>
                             </div>
@@ -75,12 +76,17 @@
             </div>
 
         </section>
+
     </div>
 </main>
 
-<script async="" defer=""
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvRF6OqEKBlvoCCAWo30nK2Pg-X0CPkkc&amp;callback=initMap">
-</script>
+
+<!--<script async="" defer=""-->
+        <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvRF6OqEKBlvoCCAWo30nK2Pg-X0CPkkc&amp;callback=initMap">-->
+<!--</script>-->
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&callback=initialize"></script>
+
 <script>
 
     function initMap() {
@@ -100,23 +106,7 @@
             }
         });
     }
-
     initMap();
-
-</script>
-<script>
-
-    $('.form-group input').keyup(function () {
-        if ($(this).val() != 0) {
-            $(this).prev().addClass('color-dark-green');
-        } else $(this).prev().removeClass('color-dark-green');
-    });
-
-    $('.form-group select').change(function () {
-        if ($(this).val() != 0) {
-            $(this).prev().css('color', 'red');
-        } else $(this).prev().css('color', 'orange');
-    });
 
 </script>
 

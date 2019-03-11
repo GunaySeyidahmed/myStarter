@@ -41,9 +41,9 @@
   float: left;
   width: 100%;
   margin-bottom: 30px;
-  margin-left: 55px;
+  //margin-left: 55px;
   @include respondmax(md) {
-    margin-left: 25px;
+    //margin-left: 25px;
   }
 
   p {
