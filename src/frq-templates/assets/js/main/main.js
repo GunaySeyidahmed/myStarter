@@ -21,6 +21,16 @@ $(document).ready(function () {
         $(this).prev().removeClass('active');
     });
 
+
+    $('.date').datetimepicker({
+        format: 'DD.MM.YY',
+        defaultDate: moment(),
+        icons: {
+            previous: 'material-icons',
+            next: 'material-icons'
+        }
+    });
+
     // var stickyFooterFunc;
     // (stickyFooterFunc = function stickyFooterFunc() {
     //     $('footer').css('position', 'static');

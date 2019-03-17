@@ -1,0 +1,696 @@
+//= template/header-small.html
+
+<main class="mt-25">
+    <div class="container">
+
+        <h1 class="text-center color-white mt--20 mb-50">Təcrübə proqramına müraciət</h1>
+
+        <div class="row pb-50 mb-50">
+            <div class="col-md-8 section__white mx-auto pb-40">
+                <p class="full-width text-small color-dark-green mb-50">* - Bu xanalar zəruridir</p>
+                <form action="#">
+                    <div class="photo">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="photo__img">
+                                    <img src="frq-templates/assets/img/examples/user-img.png" alt="user img">
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="full-width">
+                                    <p class="full-width text-small light-gray sp-bold">Foto*</p>
+                                    <p class="sp-italic">Foto yüklənməyib</p>
+
+                                    <div class="file-upload">
+                                        <input type="file" class="form-control-file" hidden="hidden">
+                                        <button type="button" class="link link--upload">Yüklə</button>
+                                    </div>
+
+                                    <p class="photo__info">Format: PNG, JPG, JPEG, BMP. Maksimal ölçü: 2MB.
+                                        Minimal ölçülər: 300x400px. Foto avtomatik 3:4 kəsiləcək.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="internship__program mb-80">
+                        <h4 class="full-width color-black">Təcrübə proqramı</h4>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Hansı sahə üzrə təcrübə almaq istərdiniz? <span>*</span></label>
+                                    <select class="selectpicker" title="Variant seçin">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Təcrübə proqramı haqqında haradan öyrənmişsiniz?<span>*</span></label>
+                                    <select class="selectpicker" title="Variant seçin">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Təcrübə proqramına qatılmaq istəyinizin səbəbi*</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Ümumi məlumat</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Ad <span>*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Soyad</label>
+                                    <input type="text" class="form-control" value="Lətifov">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Ata adı</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6"></div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group date">
+                                    <label>Doğum tarixi<span>*</span></label>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Tarixi təqvimdən seçin">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text material-icons">&#xe878;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Doğum yeri <span>*</span></label>
+                                    <input type="text" class="form-control" placeholder="Rayon/Şəhər, Ölkə">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label>Faktiki yaşayış ünvanı <span>*</span></label>
+                                    <input type="text" class="form-control" placeholder="Tam ünvan">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group bg-transparent">
+                                    <label class="mb-10">Ailə vəziyyəti*</label>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="radio1" class="custom-control-input" name="radio1">
+                                        <label class="custom-control-label" for="radio1">Subay</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="radio2" class="custom-control-input" name="radio1">
+                                        <label class="custom-control-label" for="radio2">Evli</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="radio3" class="custom-control-input" name="radio1">
+                                        <label class="custom-control-label" for="radio3">Dul</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Milliyyət<span>*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Əlaqə məlumatları</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Elektron poçt<span>*</span></label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Mobil telefon<span>*</span></label>
+                                    <input type="text" class="form-control" placeholder="+">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Ev telefonu<span>*</span></label>
+                                    <input type="text" class="form-control" placeholder="+99412">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="full-width light-gray text-small sp-bold">Sosial şəbəkə hesabları</p>
+                        <div class="remove">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Sosial şəbəkə</label>
+                                        <select class="selectpicker" title="Facebook">
+                                            <option value="1">Facebook</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Link və ya istifadəçi adı<span>*</span></label>
+                                        <input type="email" class="form-control"
+                                               value="http://www.facebook.com/johndoe">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="remove">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Sosial şəbəkə</label>
+                                        <select class="selectpicker" title="Sosial şəbəkə seçin">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Link və ya istifadəçi adı<span>*</span></label>
+                                        <input type="email" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-width mt-20">
+                            <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Orta təhsil</h4>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Məktəb <span>*</span></label>
+                                    <select class="selectpicker" title="Bitridiyiniz məktəbi seçin">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-lg-6">
+                                <div class="form-group">
+                                    <label>Bitirilmə ili<span>*</span></label>
+                                    <select class="selectpicker" title="Bitridiyiniz məktəbi seçin">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Ali təhsil</h4>
+                        <div class="remove">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Müəssisə <span>*</span></label>
+                                        <select class="selectpicker" title="ADNSU (Azərbaycan Dövlət Neft">
+                                            <option value="1">ADNSU (Azərbaycan Dövlət Neft</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Dərəcə <span>*</span></label>
+                                        <select class="selectpicker" title="Bakalavr">
+                                            <option value="1">Bakalavr</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Qəbul ili <span>*</span></label>
+                                        <select class="selectpicker" title="2010">
+                                            <option value="1">2010</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Bitirilmə ili<span>*</span></label>
+                                        <select class="selectpicker" title="2014">
+                                            <option value="1">2014</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Fakultə<span>*</span></label>
+                                        <input type="text" class="form-control"
+                                               value="İstehsalat Proseslərinin Avtomatlaşdırılm">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>İxtisas<span>*</span></label>
+                                        <input type="text" class="form-control" value="Kompüter mühəndisliyi">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Bölmə<span>*</span></label>
+                                        <select class="selectpicker" title="Rus">
+                                            <option value="1">Rus</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="remove">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Müəssisə <span>*</span></label>
+                                        <select class="selectpicker" title="Təhsil müəssisəsini seçin">
+                                            <option value="1">ADNSU (Azərbaycan Dövlət Neft</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Dərəcə <span>*</span></label>
+                                        <select class="selectpicker" title="Təhsil dərəcəsini seçin">
+                                            <option value="1">Bakalavr</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Qəbul ili <span>*</span></label>
+                                        <select class="selectpicker" title="Qəbul olunduğunuz ili seçin">
+                                            <option value="1">2010</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Bitirilmə ili<span>*</span></label>
+                                        <select class="selectpicker" title="Bitirdiyiniz ili seçin">
+                                            <option value="1">2014</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Fakultə<span>*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>İxtisas<span>*</span></label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Bölmə<span>*</span></label>
+                                        <select class="selectpicker" title="Təhsil aldığınız bölməni seçin">
+                                            <option value="1">Rus</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-width mt-20">
+                            <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">İxtisasartırma təhsili</h4>
+                        <div class="remove">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Kursun adı</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Kursu təşkil edən müəssisə</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Keçirildiyi ölkə</label>
+                                        <select class="selectpicker" title="Ölkəni seçin">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Keçirildiyi şəhər</label>
+                                        <select class="selectpicker" title="Şəhəri seçin">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group date">
+                                        <label>Başlama tarixi</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Tarixi təqvimdən seçin">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text material-icons">&#xe878;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group date">
+                                        <label>Bitirmə tarixi</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Tarixi təqvimdən seçin">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text material-icons">&#xe878;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Verilən sənədin adı</label>
+                                        <select class="selectpicker" title="Sənədi seçin">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Verilən sənədin nömrəsi</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-width mt-20">
+                            <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Hərbi xidmət haqqında</h4>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group bg-transparent pl-0">
+                                    <label class="mb-10">Hərbi xidmətdə olmusunuz?<span>*</span></label>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="radio4" class="custom-control-input" name="radio">
+                                        <label class="custom-control-label" for="radio4">Bəli</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input type="radio" id="radio5" class="custom-control-input" name="radio">
+                                        <label class="custom-control-label" for="radio5">Xeyr</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">İxtisasartırma təhsili</h4>
+                        <div class="remove">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Müəssisənin adı</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group date">
+                                        <label>İşə qəbul tarixi</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Tarixi təqvimdən seçin">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text material-icons">&#xe878;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group date">
+                                        <label>İşdən çıxma tarixi</label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control"
+                                                   placeholder="Tarixi təqvimdən seçin">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text material-icons">&#xe878;</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="custom-control custom-checkbox">
+                                        <input type="checkbox" class="custom-control-input" id="custom-checkbox" name="check">
+                                        <label class="custom-control-label" for="custom-checkbox">Hal-hazırda işləyirəm</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>İşdən çıxma səbəbi</label>
+                                        <input type="text" class="form-control">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="full-width mt-20">
+                            <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Kompüter bilikləri</h4>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group textarea textarea--large mb-30">
+                                    <label>Proqramlar</label>
+                                    <textarea class="form-control" rows="5"
+                                              placeholder="Sərbəst işlətdiyiniz kompüter proqramlarını vergüllə bölərək sadalayın"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="full-width mb-80">
+                        <h4 class="full-width color-black">Dil bilikləri</h4>
+                        <div class="remove pb-0">
+                            <p class="full-width sp-bold text-small color-dark-green mb-20">Azərbaycan dili</p>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Yazmaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio7" class="custom-control-input"
+                                                   name="radio-lang" checked>
+                                            <label class="custom-control-label" for="radio7">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio8" class="custom-control-input"
+                                                   name="radio-lang">
+                                            <label class="custom-control-label" for="radio8">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio9" class="custom-control-input"
+                                                   name="radio-lang">
+                                            <label class="custom-control-label" for="radio9">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Oxumaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio10" class="custom-control-input"
+                                                   name="radio-read">
+                                            <label class="custom-control-label" for="radio10">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio11" class="custom-control-input"
+                                                   name="radio-read" checked>
+                                            <label class="custom-control-label" for="radio11">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio12" class="custom-control-input"
+                                                   name="radio-read">
+                                            <label class="custom-control-label" for="radio12">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray last px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Danışmaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio13" class="custom-control-input"
+                                                   name="radio-speak">
+                                            <label class="custom-control-label" for="radio13">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio14" class="custom-control-input"
+                                                   name="radio-speak">
+                                            <label class="custom-control-label" for="radio14">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio15" class="custom-control-input"
+                                                   name="radio-speak" checked>
+                                            <label class="custom-control-label" for="radio15">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="remove pb-0">
+                            <a href="javascript:void(0)" class="remove__item"><i class="material-icons">&#xe5cd;</i></a>
+                            <div class="row">
+                                <div class="col-md-12 col-lg-6">
+                                    <div class="form-group">
+                                        <label>Dil</label>
+                                        <select class="selectpicker" title="Dili seçin">
+                                            <option value="1">Azərbaycan dili</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Yazmaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio17" class="custom-control-input"
+                                                   name="radio-lang">
+                                            <label class="custom-control-label" for="radio17">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio18" class="custom-control-input"
+                                                   name="radio-lang">
+                                            <label class="custom-control-label" for="radio18">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio19" class="custom-control-input"
+                                                   name="radio-lang">
+                                            <label class="custom-control-label" for="radio19">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Oxumaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio20" class="custom-control-input"
+                                                   name="radio-read">
+                                            <label class="custom-control-label" for="radio20">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio21" class="custom-control-input"
+                                                   name="radio-read">
+                                            <label class="custom-control-label" for="radio21">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio22" class="custom-control-input"
+                                                   name="radio-read">
+                                            <label class="custom-control-label" for="radio22">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group bg-transparent border-gray last px-0 mb-10">
+                                        <p class="float-left sp-bold text-small mr-80 w-90">Danışmaq</p>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio23" class="custom-control-input"
+                                                   name="radio-speak">
+                                            <label class="custom-control-label" for="radio23">Əla</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio24" class="custom-control-input"
+                                                   name="radio-speak">
+                                            <label class="custom-control-label" for="radio24">Yaxşı</label>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <input type="radio" id="radio25" class="custom-control-input"
+                                                   name="radio-speak">
+                                            <label class="custom-control-label" for="radio25">Kafi</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="full-width mt-20">
+                            <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
+                        </div>
+                    </div>
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="custom-checkbox1" name="check1">
+                        <label class="custom-control-label" for="custom-checkbox1">Yuxarıda qeyd olunan məlumatların düzgünlüyünə görə məsuliyyət daşıyıram.</label>
+                    </div>
+                    <button type="submit" class="btn btn--small mt-10">Göndər</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+//= template/footer.html
