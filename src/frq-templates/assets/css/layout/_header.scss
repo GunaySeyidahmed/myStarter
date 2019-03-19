@@ -1,5 +1,5 @@
 .header {
-  height: 160px;
+  min-height: 160px;
   padding: 40px 0 15px;
   margin-bottom: 20px;
 
@@ -222,10 +222,10 @@
 
     li {
       display: inline-block;
-      margin-left: 25px;
+      margin-right: 25px;
 
-      &:first-child {
-        margin-left: 0;
+      &:last-child {
+        margin-right: 0;
       }
 
       @include respondmax(md) {
