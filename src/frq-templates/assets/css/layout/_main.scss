@@ -291,6 +291,7 @@ h4 {
   &:hover, &:focus {
     box-shadow: $shadow;
   }
+
   &--large {
     height: 50px;
     min-width: 280px;
@@ -583,7 +584,7 @@ form {
       align-items: center;
       color: $lightGreen !important;
 
-      &:hover,&:focus {
+      &:hover, &:focus {
         color: $lightGreen !important;
       }
     }

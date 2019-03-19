@@ -564,7 +564,7 @@
                                     <label class="mb-10">Hərbi xidmətdə olmusunuz?<span>*</span></label>
                                     <div class="custom-control custom-radio custom-control-inline">
                                         <input type="radio" id="radio4" class="custom-control-input" value="1"
-                                               name="status" checked>
+                                               name="status">
                                         <label class="custom-control-label" for="radio4">Bəli</label>
                                     </div>
                                     <div class="custom-control custom-radio custom-control-inline">
@@ -581,7 +581,7 @@
                                               placeholder="Seriya, nömrə, hərbi vəzifə və s."></textarea>
                                 </div>
                             </div>
-                            <div class="col-md-12 status-passive d-none">
+                            <div class="col-md-12 status-passive">
                                 <div class="form-group textarea textarea--large mb-30">
                                     <label>Hərbi xidmət haqqında fikirləriniz</label>
                                     <textarea class="form-control" rows="5"
@@ -816,13 +816,13 @@
 <script>
 
     $(document).ready(function () {
-        $("input[name=status]").on("click", function () {
+        $("input[name=status]").on("change", function () {
             if ($(this).val() == "1") {
-                // $('.status-passive').addClass("d-none");
-                $('.status-active').removeClass("d-none");
+                $('.status-active').show();
+                $('.status-passive').hide();
             } else {
-                $('.status-passive').addClass("d-none");
-                $('.status-active').removeClass("d-block");
+                $('.status-passive').show();
+                $('.status-active').hide();
             }
         });
     });
