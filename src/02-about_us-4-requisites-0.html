@@ -126,8 +126,113 @@
                     </div>
                     <div class="container tab-pane fade structure show active" id="pills-structure" role="tabpanel"
                          aria-labelledby="pills-structure-tab">
-                        <div id="chart-container"></div>
-                        <a id="github-link" href="#" target="_blank"></a>
+                        <div class="centered">
+                            <ul class="orgchart" style="overflow-x: scroll; overflow-y: hidden">
+                                <li class="root" style="max-width: 1000px">
+                                    <div class="nodecontent w-large">
+                                        <p>CEO</p>
+                                        <span>John Doeson</span>
+                                    </div>
+                                    <ul>
+                                        <li>
+                                            <div class="nodecontent w-medium">
+                                                <p>Vice president 1</p>
+                                                <span>John Doeson</span>
+                                            </div>
+                                            <ul>
+                                                <li class="leaf">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                </li>
+                                                <li class="vertical">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="leaf">
+                                                            <div class="nodecontent">
+                                                                <p>Department Lorem Ipsum</p>
+                                                                <span>John Doeson</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="leaf">
+                                                            <div class="nodecontent">
+                                                                <p>Department Lorem Ipsum</p>
+                                                                <span>John Doeson</span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="nodecontent w-medium top-content">
+                                                <p>Vice president 2</p>
+                                                <span>John Doeson</span>
+                                            </div>
+                                            <ul>
+                                                <li class="leaf">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                </li>
+                                                <li class="leaf">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <div class="nodecontent w-medium">
+                                                <p>Vice president 3</p>
+                                                <span>John Doeson</span>
+                                            </div>
+                                            <ul>
+                                                <li class="vertical">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                    <ul>
+                                                        <li class="leaf">
+                                                            <div class="nodecontent">
+                                                                <p>Department Lorem Ipsum</p>
+                                                                <span>John Doeson</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="leaf">
+                                                            <div class="nodecontent">
+                                                                <p>Department Lorem Ipsum</p>
+                                                                <span>John Doeson</span>
+                                                            </div>
+                                                        </li>
+                                                        <li class="leaf">
+                                                            <div class="nodecontent">
+                                                                <p>Department Lorem Ipsum</p>
+                                                                <span>John Doeson</span>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li class="leaf">
+                                                    <div class="nodecontent">
+                                                        <p>Department Lorem Ipsum</p>
+                                                        <span>John Doeson</span>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="container tab-pane fade career" id="pills-career" role="tabpanel"
                          aria-labelledby="pills-career-tab">
@@ -414,70 +519,7 @@
         console.log("Copied the text: " + copyText.val());
     });
 
-    (function ($) {
 
-        $(function () {
-            var datascource = {
-                'name': 'CEO',
-                'title': 'John Doeson',
-                'children': [
-                    {
-                        'name': 'Vice president 1', 'title': 'John Doeson',
-                        'children': [
-                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
-                            {
-                                'name': 'Department Lorem Ipsum', 'title': 'John Doeson',
-                                'children': [
-                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
-                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        'name': 'Vice president 2', 'title': 'John Doeson',
-                        'children': [
-                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
-                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'}
-                        ]
-                    },
-                    {
-                        'name': 'Vice president 3', 'title': 'John Doeson',
-                        'children': [
-                            {
-                                'name': 'Department Lorem Ipsum', 'title': 'John Doeson',
-                                'children': [
-                                    {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'},
-                                    {
-                                        'name': 'Department Lorem Ipsum', 'title': 'John Doeson'
-                                    },
-                                    {
-                                        'name': 'Department Lorem Ipsum', 'title': 'John Doeson'
-                                    }
-                                ]
-                            },
-                            {'name': 'Department Lorem Ipsum', 'title': 'John Doeson'}
-                        ]
-                    }
-                ]
-            };
-
-            $('#chart-container').orgchart({
-                'data': datascource,
-                'depth': 2,
-                'nodeContent': 'title',
-                'pan': true,
-                'zoom': false,
-                'createNode': function ($node, data) {
-                    $node.children('.title').wrapInner('<a href="#"></a>');
-                }
-            });
-
-        });
-
-    })(jQuery);
-
-    // $('.lines td').attr('colspan',1);
 
 </script>
 

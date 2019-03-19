@@ -18,11 +18,30 @@
     font-size: 1.4rem;
   }
 
+  &__message{
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+  }
+
+  &__link{
+    font-family: $PN-B, Helvetica, Arial, sans-serif;
+    color: $blue;
+    float: left;
+    width: 100%;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover,&:focus{
+      color: $blue;
+    }
+  }
 }
 
 .photo {
   margin-bottom: 80px;
-
   &__img {
     width: 120px;
     height: 160px;
@@ -44,6 +63,8 @@
     width: 100%;
   }
 }
+
+
 
 .remove {
   position: relative;

@@ -13,6 +13,7 @@
       font-size: 1.8rem;
       font-weight: 700;
       color: $blue;
+      transition: $tr;
 
       &:after {
         content: '\e5c8';
@@ -21,7 +22,10 @@
         left: 70px;
       }
 
-      &:hover, &:focus {
+      &:hover {
+        color: $lightGreen;
+      }
+      &:focus {
         color: $blue;
       }
     }

@@ -4,7 +4,6 @@
     <div class="container">
 
         <h1 class="text-center color-white mt--20 mb-50">Təcrübə proqramına müraciət</h1>
-
         <div class="row pb-50 mb-50">
             <div class="col-md-8 section__white mx-auto pb-40">
                 <p class="full-width text-small color-dark-green mb-50">* - Bu xanalar zəruridir</p>
@@ -17,22 +16,19 @@
                                 </div>
                             </div>
                             <div class="col-md-9">
-                                <div class="full-width">
-                                    <p class="full-width text-small light-gray sp-bold">Foto*</p>
-                                    <p class="sp-italic">Foto yüklənməyib</p>
-
-                                    <div class="file-upload">
+                                <p class="full-width text-small light-gray sp-bold">Foto*</p>
+                                <div class="file-upload">
+                                    <p class="full-width sp-italic">Foto yüklənməyib</p>
+                                    <label class="link link--upload">
                                         <input type="file" class="form-control-file" hidden="hidden">
-                                        <button type="button" class="link link--upload">Yüklə</button>
-                                    </div>
-
-                                    <p class="photo__info">Format: PNG, JPG, JPEG, BMP. Maksimal ölçü: 2MB.
-                                        Minimal ölçülər: 300x400px. Foto avtomatik 3:4 kəsiləcək.</p>
+                                        Yüklə</label>
                                 </div>
+                                <p class="photo__info full-width">Format: PNG, JPG, JPEG, BMP. Maksimal ölçü: 2MB.
+                                    Minimal ölçülər: 300x400px. Foto avtomatik 3:4 kəsiləcək.</p>
                             </div>
                         </div>
                     </div>
-                    <div class="internship__program mb-80">
+                    <div class="full-width mb-80">
                         <h4 class="full-width color-black">Təcrübə proqramı</h4>
                         <div class="row">
                             <div class="col-md-12">
@@ -74,23 +70,24 @@
                             </div>
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-group">
-                                    <label>Soyad</label>
+                                    <label>Soyad <span>*</span></label>
                                     <input type="text" class="form-control" value="Lətifov">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-group">
-                                    <label>Ata adı</label>
+                                    <label>Ata adı <span>*</span></label>
                                     <input type="text" class="form-control">
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6"></div>
                             <div class="col-md-12 col-lg-6">
-                                <div class="form-group date">
+                                <div class="form-group">
                                     <label>Doğum tarixi<span>*</span></label>
                                     <div class="input-group">
-                                        <input type="text" class="form-control" placeholder="Tarixi təqvimdən seçin">
-                                        <div class="input-group-append">
+                                        <input type="text" class="form-control date"
+                                               placeholder="Tarixi təqvimdən seçin">
+                                        <div class="input-group-append ">
                                             <span class="input-group-text material-icons">&#xe878;</span>
                                         </div>
                                     </div>
@@ -110,7 +107,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group bg-transparent">
-                                    <label class="mb-10">Ailə vəziyyəti*</label>
+                                    <label class="mb-10">Ailə vəziyyəti <span>*</span></label>
                                     <div class="custom-control custom-radio custom-control-inline">
                                         <input type="radio" id="radio1" class="custom-control-input" name="radio1">
                                         <label class="custom-control-label" for="radio1">Subay</label>
@@ -219,7 +216,7 @@
                             <div class="col-md-12 col-lg-6">
                                 <div class="form-group">
                                     <label>Bitirilmə ili<span>*</span></label>
-                                    <select class="selectpicker" title="Bitridiyiniz məktəbi seçin">
+                                    <select class="selectpicker" title="Məktəbi bitirdiyiniz ili seçin">
                                         <option value="1">1</option>
                                         <option value="2">2</option>
                                         <option value="3">3</option>
@@ -397,9 +394,9 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-6">
-                                    <div class="form-group">
+                                    <div class="form-group disabled">
                                         <label>Keçirildiyi şəhər</label>
-                                        <select class="selectpicker" title="Şəhəri seçin">
+                                        <select class="selectpicker" title="Şəhəri seçin" disabled>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
                                             <option value="3">3</option>
@@ -407,10 +404,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-6">
-                                    <div class="form-group date">
+                                    <div class="form-group">
                                         <label>Başlama tarixi</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control"
+                                            <input type="text" class="form-control date"
                                                    placeholder="Tarixi təqvimdən seçin">
                                             <div class="input-group-append">
                                                 <span class="input-group-text material-icons">&#xe878;</span>
@@ -419,10 +416,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-6">
-                                    <div class="form-group date">
+                                    <div class="form-group">
                                         <label>Bitirmə tarixi</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control"
+                                            <input type="text" class="form-control date"
                                                    placeholder="Tarixi təqvimdən seçin">
                                             <div class="input-group-append">
                                                 <span class="input-group-text material-icons">&#xe878;</span>
@@ -449,7 +446,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="full-width mt-20">
                             <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
                         </div>
@@ -461,19 +457,35 @@
                                 <div class="form-group bg-transparent pl-0">
                                     <label class="mb-10">Hərbi xidmətdə olmusunuz?<span>*</span></label>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radio4" class="custom-control-input" name="radio">
+                                        <input type="radio" id="radio4" class="custom-control-input" value="1"
+                                               name="status" checked>
                                         <label class="custom-control-label" for="radio4">Bəli</label>
                                     </div>
                                     <div class="custom-control custom-radio custom-control-inline">
-                                        <input type="radio" id="radio5" class="custom-control-input" name="radio">
+                                        <input type="radio" id="radio5" class="custom-control-input" value="2"
+                                               name="status">
                                         <label class="custom-control-label" for="radio5">Xeyr</label>
                                     </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 status-active">
+                                <div class="form-group textarea textarea--large mb-30">
+                                    <label>Hərbi biletdə göstərilən məlumatları qeyd edin</label>
+                                    <textarea class="form-control" rows="5"
+                                              placeholder="Seriya, nömrə, hərbi vəzifə və s."></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12 status-passive d-none">
+                                <div class="form-group textarea textarea--large mb-30">
+                                    <label>Hərbi xidmət haqqında fikirləriniz</label>
+                                    <textarea class="form-control" rows="5"
+                                              placeholder="Fikirlərinizi yazın"></textarea>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="full-width mb-80">
-                        <h4 class="full-width color-black">İxtisasartırma təhsili</h4>
+                        <h4 class="full-width color-black">İş təcrübəsi</h4>
                         <div class="remove">
                             <div class="row">
                                 <div class="col-md-12">
@@ -483,10 +495,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-6">
-                                    <div class="form-group date">
+                                    <div class="form-group">
                                         <label>İşə qəbul tarixi</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control"
+                                            <input type="text" class="form-control date"
                                                    placeholder="Tarixi təqvimdən seçin">
                                             <div class="input-group-append">
                                                 <span class="input-group-text material-icons">&#xe878;</span>
@@ -495,10 +507,10 @@
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-lg-6">
-                                    <div class="form-group date">
+                                    <div class="form-group">
                                         <label>İşdən çıxma tarixi</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control"
+                                            <input type="text" class="form-control date"
                                                    placeholder="Tarixi təqvimdən seçin">
                                             <div class="input-group-append">
                                                 <span class="input-group-text material-icons">&#xe878;</span>
@@ -506,19 +518,20 @@
                                         </div>
                                     </div>
                                     <div class="custom-control custom-checkbox">
-                                        <input type="checkbox" class="custom-control-input" id="custom-checkbox" name="check">
-                                        <label class="custom-control-label" for="custom-checkbox">Hal-hazırda işləyirəm</label>
+                                        <input type="checkbox" class="custom-control-input" id="custom-checkbox"
+                                               name="check" checked>
+                                        <label class="custom-control-label" for="custom-checkbox">Hal-hazırda
+                                            işləyirəm</label>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="form-group">
+                                    <div class="form-group disabled">
                                         <label>İşdən çıxma səbəbi</label>
-                                        <input type="text" class="form-control">
+                                        <input type="text" class="form-control" disabled>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                         <div class="full-width mt-20">
                             <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
                         </div>
@@ -681,16 +694,33 @@
                             <a href="javascript:void(0)" class="add-item"><i class="material-icons">&#xe145;</i>Əlavə et</a>
                         </div>
                     </div>
-                    <div class="custom-control custom-checkbox">
+                    <div class="custom-control custom-checkbox full-width">
                         <input type="checkbox" class="custom-control-input" id="custom-checkbox1" name="check1">
-                        <label class="custom-control-label" for="custom-checkbox1">Yuxarıda qeyd olunan məlumatların düzgünlüyünə görə məsuliyyət daşıyıram.</label>
+                        <label class="custom-control-label" for="custom-checkbox1">Yuxarıda qeyd olunan məlumatların
+                            düzgünlüyünə görə məsuliyyət daşıyıram.</label>
                     </div>
                     <button type="submit" class="btn btn--small mt-10">Göndər</button>
                 </form>
             </div>
         </div>
+
     </div>
 </main>
+
+<script>
+
+    $(document).ready(function () {
+        $("input[name=status]").on("click", function () {
+            if ($(this).val() == "1") {
+                // $('.status-passive').addClass("d-none");
+                $('.status-active').removeClass("d-none");
+            } else {
+                $('.status-passive').addClass("d-none");
+                $('.status-active').removeClass("d-block");
+            }
+        });
+    });
+</script>
 
 
 //= template/footer.html

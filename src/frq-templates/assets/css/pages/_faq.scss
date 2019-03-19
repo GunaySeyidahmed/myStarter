@@ -149,14 +149,22 @@
         .card-link {
           color: $darkGreen;
           transition: $tr;
+          position: relative;
+
+          &:after {
+            content: '\e5ce';
+            font-family: $MtI;
+            color: $darkGreen;
+            font-size: 2rem;
+            position: absolute;
+            right: -10px;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+
         }
 
-        &:after {
-          content: '\e5ce';
-          font-family: $MtI;
-          color: $darkGreen;
-          font-size: 2rem;
-        }
+
       }
     }
 

@@ -240,7 +240,7 @@ h4 {
 }
 
 .color-dark-green {
-  color: $lightGreen;
+  color: $lightGreen !important;
 }
 
 .color-gray {
@@ -286,7 +286,11 @@ h4 {
   font-size: 1.8rem;
   text-align: center;
   float: left;
+  transition: $tr;
 
+  &:hover, &:focus {
+    box-shadow: $shadow;
+  }
   &--large {
     height: 50px;
     min-width: 280px;
@@ -328,8 +332,14 @@ h4 {
   text-align: center;
   border: 2px solid $lightGreen;
   float: left;
+  transition: $tr;
 
-  &:hover, &:focus {
+  &:hover {
+    color: $white !important;
+    background-color: $lightGreen;
+  }
+
+  &:focus {
     color: $lightGreen;
   }
 
@@ -338,7 +348,12 @@ h4 {
     border-color: $lightGray;
     margin: 0 auto 15px;
 
-    &:hover, &:focus {
+    &:hover {
+      color: $white !important;
+      background-color: $lightGray;
+    }
+
+    &:focus {
       color: $lightGray;
     }
   }
@@ -349,6 +364,8 @@ h4 {
     min-width: 145px;
     padding: 5px 15px;
     cursor: pointer;
+    overflow: hidden;
+    background-color: $transparent !important;
   }
 }
 
@@ -468,7 +485,7 @@ form {
       color: $darkGray;
       font-size: 1.4rem;
       margin-bottom: 0;
-      height: 20px;
+      min-height: 20px;
       float: left;
       width: 100%;
     }
@@ -526,7 +543,7 @@ form {
     }
 
     .input-group {
-      height: 26px;
+      height: 29px;
       padding: 3px 0;
 
       .input-group-text {
@@ -541,6 +558,17 @@ form {
       }
     }
 
+    &.disabled {
+      background-color: $whiteDark;
+
+      label {
+        color: #808080;
+      }
+
+      .form-control {
+        background-color: $whiteDark;
+      }
+    }
   }
 
   .file-upload {
@@ -548,6 +576,17 @@ form {
     width: 100%;
     margin-top: 5px;
     margin-bottom: 15px;
+
+    label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: $lightGreen !important;
+
+      &:hover,&:focus {
+        color: $lightGreen !important;
+      }
+    }
   }
 
   .custom {
@@ -555,6 +594,7 @@ form {
       padding-left: 0;
       min-height: 24px;
       margin-bottom: 15px;
+
 
       &-label {
         margin-bottom: 0;
@@ -569,7 +609,7 @@ form {
 
         &::before {
           background-color: transparent;
-          border: 2px solid $lightGray;
+          border: 2px solid $gray6;
           width: 20px;
           height: 20px;
         }
@@ -597,6 +637,7 @@ form {
     &-control-inline {
       margin-right: 80px;
       margin-bottom: 0;
+
 
       &:last-of-type {
         margin-right: 0;
@@ -645,6 +686,8 @@ form {
       .custom-control-label {
         font-size: 1.4rem;
         color: $gray6;
+        float: left;
+        width: 100%;
 
         &::after {
           color: #fff;
@@ -732,7 +775,7 @@ form {
       }
     }
 
-    &:focus {
+    &:hover, &:focus {
       outline: 0 !important;
       box-shadow: none !important;
       border: 0;
@@ -746,7 +789,7 @@ form {
       border: 0;
       font-size: 2.4rem;
       width: 24px;
-      height: 36px;
+      height: 25px;
       margin-top: -30px;
       margin-left: auto;
     }

@@ -3897,13 +3897,19 @@ h4 {
     font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     font-weight: 700;
-    color: #1C5EAF; }
+    color: #1C5EAF;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    -moz-transition: 0.2s;
+    transition: 0.2s; }
     .news__link a:after {
       content: '\e5c8';
       font-family: MaterialIcons-Regular;
       position: absolute;
       left: 70px; }
-    .news__link a:hover, .news__link a:focus {
+    .news__link a:hover {
+      color: #53AE3B; }
+    .news__link a:focus {
       color: #1C5EAF; }
 
 .news__info {
@@ -3948,6 +3954,34 @@ h4 {
   .internship p {
     color: #666666;
     font-size: 1.4rem; }
+  .internship__message {
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 100%; }
+  .internship__link {
+    font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+    color: #1C5EAF;
+    float: left;
+    width: 100%;
+    font-size: 1.8rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .internship__link:hover, .internship__link:focus {
+      color: #1C5EAF; }
 
 .photo {
   margin-bottom: 80px; }
@@ -4395,13 +4429,19 @@ h4 {
       font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
       font-size: 1.8rem;
       font-weight: 700;
-      color: #1C5EAF; }
+      color: #1C5EAF;
+      -webkit-transition: 0.2s;
+      -o-transition: 0.2s;
+      -moz-transition: 0.2s;
+      transition: 0.2s; }
       .vacancy__link a:after {
         content: '\e5c8';
         font-family: MaterialIcons-Regular;
         position: absolute;
         left: 72px; }
-      .vacancy__link a:hover, .vacancy__link a:focus {
+      .vacancy__link a:hover {
+        color: #53AE3B; }
+      .vacancy__link a:focus {
         color: #1C5EAF; }
 
 .requisite {
@@ -4741,12 +4781,21 @@ h4 {
         -webkit-transition: 0.2s;
         -o-transition: 0.2s;
         -moz-transition: 0.2s;
-        transition: 0.2s; }
-      .accordion .card .card-header.active:after {
-        content: '\e5ce';
-        font-family: MaterialIcons-Regular;
-        color: #549344;
-        font-size: 2rem; }
+        transition: 0.2s;
+        position: relative; }
+        .accordion .card .card-header.active .card-link:after {
+          content: '\e5ce';
+          font-family: MaterialIcons-Regular;
+          color: #549344;
+          font-size: 2rem;
+          position: absolute;
+          right: -10px;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+             -moz-transform: translateY(-50%);
+              -ms-transform: translateY(-50%);
+               -o-transform: translateY(-50%);
+                  transform: translateY(-50%); }
     .accordion .card .card-body {
       padding: 10px 15px;
       -webkit-border-radius: 8px;
@@ -4928,7 +4977,8 @@ h4 {
 
 .header {
   height: 160px;
-  padding: 40px 0 15px; }
+  padding: 40px 0 15px;
+  margin-bottom: 20px; }
   .header .logo {
     float: left;
     width: 100%;
@@ -5414,7 +5464,7 @@ h4 {
   color: #B2E1A6; }
 
 .color-dark-green {
-  color: #53AE3B; }
+  color: #53AE3B !important; }
 
 .color-gray {
   color: #4D4D4D; }
@@ -5465,7 +5515,15 @@ h4 {
   font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
   font-size: 1.8rem;
   text-align: center;
-  float: left; }
+  float: left;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .btn:hover, .btn:focus {
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+       -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); }
   .btn--large {
     height: 50px;
     min-width: 280px;
@@ -5506,14 +5564,24 @@ h4 {
   font-size: 1.4rem;
   text-align: center;
   border: 2px solid #53AE3B;
-  float: left; }
-  .link:hover, .link:focus {
+  float: left;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s; }
+  .link:hover {
+    color: #FFFFFF !important;
+    background-color: #53AE3B; }
+  .link:focus {
     color: #53AE3B; }
   .link--gray {
     color: #999999;
     border-color: #999999;
     margin: 0 auto 15px; }
-    .link--gray:hover, .link--gray:focus {
+    .link--gray:hover {
+      color: #FFFFFF !important;
+      background-color: #999999; }
+    .link--gray:focus {
       color: #999999; }
   .link--upload {
     -webkit-border-radius: 5px;
@@ -5522,7 +5590,9 @@ h4 {
     height: 40px;
     min-width: 145px;
     padding: 5px 15px;
-    cursor: pointer; }
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent !important; }
 
 .partners {
   float: left;
@@ -5635,7 +5705,7 @@ form {
       color: #333333;
       font-size: 1.4rem;
       margin-bottom: 0;
-      height: 20px;
+      min-height: 20px;
       float: left;
       width: 100%; }
     form .form-group .form-control {
@@ -5679,7 +5749,7 @@ form {
         height: 100%;
         resize: none; }
     form .form-group .input-group {
-      height: 26px;
+      height: 29px;
       padding: 3px 0; }
       form .form-group .input-group .input-group-text {
         padding: 0;
@@ -5692,11 +5762,36 @@ form {
         -webkit-border-radius: 0;
            -moz-border-radius: 0;
                 border-radius: 0; }
+    form .form-group.disabled {
+      background-color: #FAFAFA; }
+      form .form-group.disabled label {
+        color: #808080; }
+      form .form-group.disabled .form-control {
+        background-color: #FAFAFA; }
   form .file-upload {
     float: left;
     width: 100%;
     margin-top: 5px;
     margin-bottom: 15px; }
+    form .file-upload label {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+         -moz-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+         -moz-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      color: #53AE3B !important; }
+      form .file-upload label:hover, form .file-upload label:focus {
+        color: #53AE3B !important; }
   form .custom-control {
     padding-left: 0;
     min-height: 24px;
@@ -5718,7 +5813,7 @@ form {
                 transform: translateY(-50%); }
       form .custom-control-label::before {
         background-color: transparent;
-        border: 2px solid #999999;
+        border: 2px solid #666666;
         width: 20px;
         height: 20px; }
     form .custom-control-input:checked ~ .custom-control-label::before, form .custom-control-input:checked ~ .custom-control-label::after {
@@ -5752,7 +5847,9 @@ form {
     background-color: #666666; }
   form .custom-checkbox .custom-control-label {
     font-size: 1.4rem;
-    color: #666666; }
+    color: #666666;
+    float: left;
+    width: 100%; }
     form .custom-checkbox .custom-control-label::after {
       color: #fff;
       font-size: 1.8rem;
@@ -5812,7 +5909,7 @@ form {
                 box-shadow: none !important;
         border: 0;
         background-color: transparent; }
-    .bootstrap-select .btn.dropdown-toggle:focus {
+    .bootstrap-select .btn.dropdown-toggle:hover, .bootstrap-select .btn.dropdown-toggle:focus {
       outline: 0 !important;
       -webkit-box-shadow: none !important;
          -moz-box-shadow: none !important;
@@ -5826,7 +5923,7 @@ form {
       border: 0;
       font-size: 2.4rem;
       width: 24px;
-      height: 36px;
+      height: 25px;
       margin-top: -30px;
       margin-left: auto; }
   .bootstrap-select select:focus {
