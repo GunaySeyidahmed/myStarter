@@ -499,6 +499,13 @@ form {
       border: 0;
       padding-left: 0;
 
+      &:required {
+        box-shadow:none;
+      }
+      &:invalid {
+        box-shadow:none;
+      }
+
       &:focus {
         border: 0;
         box-shadow: none;
@@ -731,6 +738,9 @@ form {
     width: calc(100% + 30px);
     margin-right: -15px;
     margin-left: -15px;
+    .inner{
+      overflow: hidden;
+    }
   }
 
   .btn.dropdown-toggle {

@@ -1,7 +1,6 @@
 .header {
   min-height: 160px;
   padding: 40px 0 15px;
-  margin-bottom: 20px;
 
   .logo{
     float: left;
@@ -230,8 +229,8 @@
 
       @include respondmax(md) {
         display: block;
-        margin-left: 0;
         margin-bottom: 15px;
+        margin-right: 0;
       }
     }
   }

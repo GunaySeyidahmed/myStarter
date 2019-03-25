@@ -6,9 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36166853-dd11-41f6-be69-0a5b1d8f9b5e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/00-home-0 – 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/00-home-0 – 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/00-home-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/00-home-0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/02-about_us-4-requisites-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/02-about_us-4-requisites-0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/frq-templates/assets/css/main/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00-home-0 – 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/00-home-0 – 9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/00-home-0.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/00-home-0.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template/header-medium.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/template/header-medium.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,98 +28,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5333783">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/07-internship-1-apply-0.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="191">
-                  <caret line="714" column="3" lean-forward="true" selection-start-line="714" selection-start-column="3" selection-end-line="714" selection-end-column="3" />
-                  <folding>
-                    <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#4;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#5;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#6;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#7;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#8;n#div#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#2;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#3;n#div#3;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#3;n#div#0;n#div#0;n#div#5;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#6;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#8;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#9;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                    <element signature="n#div#10;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1035">
-                  <caret line="710" selection-start-line="710" selection-end-line="710" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/components/_internship.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="274">
-                  <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#127#147#0" />
-                    <element signature="e#158#188#0" />
-                    <element signature="e#194#241#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/js/main/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="251">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/02-about_us-4-requisites-0.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="311">
+              <caret line="171" column="15" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
+              <folding>
+                <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#li#1;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+                <element signature="n#div#3;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="230" column="23" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,10 +72,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ev</find>
-      <find>form</find>
-      <find>2rem</find>
-      <find>uploa</find>
       <find>cust</find>
       <find>Hal-hazırda işləyirəm</find>
       <find>100px</find>
@@ -152,6 +98,10 @@
       <find>dropdown-toggl</find>
       <find>card</find>
       <find>hərbi</find>
+      <find>partners</find>
+      <find>inner</find>
+      <find>overf</find>
+      <find>.header__bottom-list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,8 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/custom/bootstrap/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/02-about_us-3-career-1-details-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_tender.scss" />
         <option value="$PROJECT_DIR$/src/99-terms_and_conditions-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_home.scss" />
@@ -171,7 +119,6 @@
         <option value="$PROJECT_DIR$/src/07-internship-0.html" />
         <option value="$PROJECT_DIR$/src/08-contact-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_contact.scss" />
-        <option value="$PROJECT_DIR$/src/00-home-0 – 9.html" />
         <option value="$PROJECT_DIR$/src/04-news-0.html" />
         <option value="$PROJECT_DIR$/src/06-tenders-1-details-0.html" />
         <option value="$PROJECT_DIR$/src/04-news-1-news_details-A-with_photo-0.html" />
@@ -196,20 +143,23 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/07-internship-2-error-0.html" />
         <option value="$PROJECT_DIR$/src/07-internship-1-success-0.html" />
-        <option value="$PROJECT_DIR$/src/02-about_us-4-requisites-0.html" />
         <option value="$PROJECT_DIR$/src/template/footer.html" />
         <option value="$PROJECT_DIR$/src/03-services-1-service_details-0.html" />
         <option value="$PROJECT_DIR$/src/05-faq-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_about.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/components/_news.scss" />
-        <option value="$PROJECT_DIR$/src/template/header-medium.html" />
         <option value="$PROJECT_DIR$/src/template/header.html" />
         <option value="$PROJECT_DIR$/src/template/header-small.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/pages/_faq.scss" />
-        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/js/main/main.js" />
         <option value="$PROJECT_DIR$/src/07-internship-1-apply-0.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/components/_internship.scss" />
+        <option value="$PROJECT_DIR$/src/00-home-0.html" />
+        <option value="$PROJECT_DIR$/src/00-home-0 – 9.html" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss" />
+        <option value="$PROJECT_DIR$/src/frq-templates/assets/libs/orgChart/css/orgchart.css" />
+        <option value="$PROJECT_DIR$/src/02-about_us-4-requisites-0.html" />
+        <option value="$PROJECT_DIR$/src/template/header-medium.html" />
         <option value="$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss" />
       </list>
     </option>
@@ -268,6 +218,21 @@
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
               <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="frq-templates" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cmStart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cmStart" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="template" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,12 +353,14 @@
       <workItem from="1552889064393" duration="19716000" />
       <workItem from="1552916396133" duration="97000" />
       <workItem from="1552929838462" duration="14126000" />
-      <workItem from="1552979329587" duration="6559000" />
+      <workItem from="1552979329587" duration="6752000" />
+      <workItem from="1553442695705" duration="4911000" />
+      <workItem from="1553535336775" duration="3719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="667596000" />
+    <option name="totallyTimeSpent" value="676419000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -406,9 +373,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21083939" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21810971" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -429,7 +395,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1579643" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21083939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -454,8 +420,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/serv-10.svg" />
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/serv-9.svg" />
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/serv-1.svg" />
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/serv8.svg" />
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/serv7 (2).svg" />
@@ -474,9 +438,6 @@
           <caret line="12" column="11" lean-forward="true" selection-end-line="79" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02-about_us-3-career-1-details-0.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/04-news-1-news_details-B-without_photo-0.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -567,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/footer-simple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/07-internship-1-success-0.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
@@ -583,9 +537,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/img/examples/user-img.png">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/libs/orgChart/css/orgchart.css">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa10300.18164/bootstrap-datetimepicker.css" />
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/libs/bootstrap-datetimepicker/bootstrap-datetimepicker.css">
@@ -607,29 +558,6 @@
           <caret line="2311" column="9" selection-start-line="2311" selection-start-column="8" selection-end-line="2311" selection-end-column="9" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/02-about_us-4-requisites-0.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="293" column="55" selection-start-line="293" selection-start-column="52" selection-end-line="293" selection-end-column="55" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -662,28 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/header-simple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/header-medium.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="805">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/06-tenders-0.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -701,53 +607,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/header.html">
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/libs/orgChart/css/orgchart.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/02-about_us-3-career-1-details-0.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/components/_internship.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+        <state relative-caret-position="897">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
           <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#127#147#0" />
+            <element signature="e#158#188#0" />
+            <element signature="e#194#241#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
+    <entry file="file://$PROJECT_DIR$/src/00-home-0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+        <state relative-caret-position="2921">
+          <caret line="146" column="18" selection-start-line="146" selection-start-column="18" selection-end-line="146" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#section#3;n#div#0;n#main#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/template/header-small.html">
+    <entry file="file://$PROJECT_DIR$/src/00-home-0 – 9.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="2898">
+          <caret line="145" column="18" selection-start-line="145" selection-start-column="18" selection-end-line="145" selection-end-column="18" />
           <folding>
-            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#section#3;n#div#0;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/js/main/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
+        <state relative-caret-position="391">
           <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="710" selection-start-line="710" selection-end-line="710" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/07-internship-1-apply-0.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="714" column="3" lean-forward="true" selection-start-line="714" selection-start-column="3" selection-end-line="714" selection-end-column="3" />
+        <state relative-caret-position="573">
+          <caret line="714" column="3" selection-start-line="714" selection-start-column="3" selection-end-line="714" selection-end-column="3" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
             <element signature="n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#main#0;n#!!top" />
@@ -783,22 +691,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/components/_internship.scss">
+    <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="16859">
+          <caret line="741" column="23" selection-start-line="741" selection-start-column="23" selection-end-line="741" selection-end-column="23" />
           <folding>
-            <element signature="e#127#147#0" />
-            <element signature="e#158#188#0" />
-            <element signature="e#194#241#0" />
+            <element signature="e#7407#7605#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header-small.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1336">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header-simple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header-medium.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-761">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/template/footer-simple.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/02-about_us-4-requisites-0.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="171" column="15" selection-start-line="171" selection-start-column="15" selection-end-line="171" selection-end-column="15" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#li#1;n#ul#0;n#li#2;n#ul#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#0;n#div#0;n#main#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/frq-templates/assets/css/layout/_header.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="225" lean-forward="true" selection-start-line="225" selection-end-line="225" />
+        <state relative-caret-position="265">
+          <caret line="230" column="23" selection-start-line="230" selection-start-column="23" selection-end-line="230" selection-end-column="23" />
         </state>
       </provider>
     </entry>

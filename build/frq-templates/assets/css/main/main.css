@@ -4983,8 +4983,7 @@ h4 {
 
 .header {
   min-height: 160px;
-  padding: 40px 0 15px;
-  margin-bottom: 20px; }
+  padding: 40px 0 15px; }
   .header .logo {
     float: left;
     width: 100%;
@@ -5221,8 +5220,8 @@ h4 {
     @media (max-width: 767px) {
       .header__bottom-list li {
         display: block;
-        margin-left: 0;
-        margin-bottom: 15px; } }
+        margin-bottom: 15px;
+        margin-right: 0; } }
   .header__bottom-link {
     font-family: ProximaNova-Regular, Helvetica, Arial, sans-serif;
     color: #404040;
@@ -5721,6 +5720,14 @@ form {
       background-color: #F0F0F0;
       border: 0;
       padding-left: 0; }
+      form .form-group .form-control:required {
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none; }
+      form .form-group .form-control:invalid {
+        -webkit-box-shadow: none;
+           -moz-box-shadow: none;
+                box-shadow: none; }
       form .form-group .form-control:focus {
         border: 0;
         -webkit-box-shadow: none;
@@ -5877,6 +5884,8 @@ form {
     width: calc(100% + 30px);
     margin-right: -15px;
     margin-left: -15px; }
+    .bootstrap-select .dropdown-menu .inner {
+      overflow: hidden; }
   .bootstrap-select .btn.dropdown-toggle {
     font-family: SeroPro, Helvetica, Arial, sans-serif;
     height: 30px;
