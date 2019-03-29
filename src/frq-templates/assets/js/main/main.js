@@ -7,7 +7,6 @@ $(document).ready(function () {
         $('body').addClass('noscroll-y');
     });
 
-
     $(document).on('click', '.header__menu-close', function () {
         $(".header__menu-open").removeClass('d-none');
         $(this).removeClass('d-flex');
@@ -15,14 +14,12 @@ $(document).ready(function () {
         $('body').removeClass('noscroll-y');
     });
 
-
     $(".collapse").on('show.bs.collapse', function () {
         $(this).prev().addClass('active');
     });
     $(".collapse").on('hide.bs.collapse', function () {
         $(this).prev().removeClass('active');
     });
-
 
     $('.date').datetimepicker({
         format: 'DD.MM.YY',
@@ -37,6 +34,25 @@ $(document).ready(function () {
         } else $(this).closest('.form-group').find('label').removeClass('color-dark-green');
     });
 
+    $('.form-group input, textarea').keyup(function () {
+        if ($(this).val() != 0) {
+            $(this).closest('.form-group').find('label').addClass('color-dark-green');
+        } else $(this).closest('.form-group').find('label').removeClass('color-dark-green');
+    });
+
+    $('select.selectpicker').on('change', function () {
+        var selected = $(this).val();
+        console.log(selected);
+        if (selected) {
+            $(this).closest('.form-group').find('label').addClass('color-dark-green');
+        } else
+            $(this).closest('.form-group').find('label').removeClass('color-dark-green');
+    });
+
+    $("input").on("click", function () {
+        $(this).closest('.form-group').find('p').addClass('color-dark-green');
+        $(this).closest('.form-group').find('label.mb-10').addClass('color-dark-green');
+    });
 
     var stickyFooterFunc;
     (stickyFooterFunc = function stickyFooterFunc() {
@@ -52,47 +68,6 @@ $(document).ready(function () {
 
     stickyFooterFunc();
 
-    $('.form-group input, textarea').keyup(function () {
-        if ($(this).val() != 0) {
-            $(this).closest('.form-group').find('label').addClass('color-dark-green');
-        } else $(this).closest('.form-group').find('label').removeClass('color-dark-green');
-    });
-
-
-    $('select.selectpicker').on('change', function () {
-        var selected = $(this).val();
-        console.log(selected);
-        if (selected) {
-            $(this).closest('.form-group').find('label').addClass('color-dark-green');
-        } else
-            $(this).closest('.form-group').find('label').removeClass('color-dark-green');
-    });
-
-
-    $("input").on("click", function () {
-        $(this).closest('.form-group').find('p').addClass('color-dark-green');
-        $(this).closest('.form-group').find('label.mb-10').addClass('color-dark-green');
-    });
-
-
-
-
-
-    $('').each(function () {
-        var _select = $(this).find('select');
-        _select.on('changed.bs.select', function () {
-
-            var _selectedOption = $(this).find('option:selected');
-        })
-    });
-
-    $('input.only-number').bind('keypress', function (e) {
-        if (e.which != 13) {
-            return (/[\d.+]/.test(e.key));  // IE > 9
-        }
-    });
-
-
     var w = window,
         d = document,
         e = d.documentElement,
@@ -100,7 +75,6 @@ $(document).ready(function () {
         x = w.innerWidth || e.clientWidth || g.clientWidth;
 
     window.onresize = function () {
-
 
         stickyFooterFunc();
         var t = w.innerWidth || e.clientWidth || g.clientWidth;

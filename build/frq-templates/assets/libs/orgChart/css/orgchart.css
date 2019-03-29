@@ -1,0 +1,234 @@
+.centered {
+    text-align: center;
+    margin-top: -19px !important;
+    margin-bottom: 50px !important;
+}
+
+.nodecontent {
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    width: 150px;
+}
+
+.nodecontent .collapse {
+    position: absolute;
+    bottom: -15px;
+    left: calc(50% - 6px);
+    background-color: #CCCCCC;
+    border-radius: 6px;
+    height: 12px;
+    width: 12px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.nodecontent p {
+    line-height: 1 !important;
+    margin-bottom: 5px;
+}
+
+.w-large {
+    width: 275px !important;
+}
+.w-medium{
+    width: 275px !important;
+}
+
+
+/*chart nodes*/
+.orgchart {
+    width: 100%;
+    display: inline-block;
+}
+
+.orgchart, .orgchart ul {
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+/*align children horizontally using CSS flex*/
+.orgchart ul {
+    display: flex;
+}
+
+/*align nodecontent and children list vertically*/
+.orgchart li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.node {
+    width: 33.33% !important;
+}
+
+/*arrange the nodecontent centered above the children list*/
+.orgchart .nodecontent {
+    align-self: center;
+    position: relative;
+    margin: 20px 5px;
+    background-color: #F5F5F5;
+    border: 2px solid #6F99CC;
+}
+
+.orgchart .nodecontent p {
+    font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+    color: #53AE3B;
+}
+
+.orgchart .leaf .nodecontent p , .orgchart .vertical .nodecontent p {
+    font-family: ProximaNova-Bold, Helvetica, Arial, sans-serif;
+    color: #1C5EAF;
+}
+
+.orgchart .nodecontent span {
+    font-family: SeroPro-Bold, Helvetica, Arial, sans-serif;
+    color: #999999;
+}
+
+.orgchart .collapsed > ul {
+    display: none;
+}
+
+/*connections*/
+.orgchart li::before,
+.orgchart .nodecontent::after,
+.orgchart .nodecontent::before {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    z-index: 1;
+    border: 0px solid #CCCCCC;
+}
+
+.orgchart li:not(:only-child)::before {
+    border-top-width: 3px;
+    width: 100%;
+    height: 20px;
+    top: 0px;
+}
+
+.orgchart li:first-child::before {
+    width: calc(50% + 3px);
+    right: 0;
+    border-left-width: 3px;
+    border-top-left-radius: 0px;
+}
+
+.orgchart li:last-child::before {
+    width: calc(50% + 2px);
+    border-right-width: 3px;
+    border-top-right-radius: 0px;
+}
+
+.orgchart .nodecontent::after,
+.orgchart .nodecontent::before {
+    border-left-width: 4px;
+    width: 3px;
+    height: 20px;
+    left: calc(50% - 3px);
+}
+
+.orgchart .nodecontent::before {
+    top: -20px;
+}
+
+.top-content::before {
+    top: -22px !important;
+}
+
+.orgchart .nodecontent::after {
+    bottom: -22px;
+}
+
+.orgchart li:first-child:not(:only-child) > .nodecontent::before,
+.orgchart li:last-child:not(:only-child) > .nodecontent::before {
+    border-left-width: 0px;
+}
+
+.orgchart .leaf > .nodecontent::after,
+.orgchart .root > .nodecontent::before,
+.orgchart .collapsed > .nodecontent::after {
+    display: none;
+}
+
+.orgchart li.vertical > ul > li > .nodecontent::before{
+    left: -10px !important;
+}
+
+
+
+/*vertical*/
+
+/*vertical nodes*/
+.orgchart li.vertical > ul {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: -1px 5px;
+    position: relative;
+
+}
+
+.orgchart li.vertical > ul > li > .nodecontent {
+    margin: 10px 0 0 10px;
+}
+
+/*vertical connectors*/
+.orgchart li.vertical > ul::before {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    height: 10px;
+    width: calc(50% - 19px);
+    border-top: 3px solid #CCCCCC;
+    border-radius: 0;
+}
+
+.orgchart li.vertical > .nodecontent::after {
+    border-width: 0 3px 3px 0;
+    border-bottom-right-radius: 0;
+    width: 10px;
+    left: auto;
+    right: calc(50% - 1px);
+}
+
+.orgchart li.vertical > ul > li::before {
+    border-width: 0 0 0 3px;
+    left: 0px;
+    height: 100%;
+    width: 10px;
+    border-radius: 0;
+}
+
+.orgchart li.vertical > ul > li:first-child::before {
+    top: -2px;
+    height: calc(100% + 3px);
+    border-top-width: 3px;
+    border-top-left-radius: 0;
+}
+
+.orgchart li.vertical > ul > li:last-child::before {
+    height: calc(50% + 1px);
+    border-bottom-width: 3px;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+.orgchart li.vertical > ul > li > .nodecontent::before {
+    height: 3px;
+    width: 8px;
+    top: calc(50% - 1px);
+    left: -8px;
+    border-width: 3px 0 0 0;
+}
+
+.orgchart li.vertical > ul > li:last-child > .nodecontent::before {
+    display: none;
+}

@@ -120,7 +120,7 @@
     padding: 20px;
     margin-bottom: 30px;
 
-    @include respondmax(md) {
+    @include respondmax(lg) {
       flex-direction: column;
       h4, p {
         text-align: center;
@@ -136,7 +136,7 @@
     border-radius: 50%;
     overflow: hidden;
     margin-right: 30px;
-    @include respondmax(md) {
+    @include respondmax(lg) {
       margin-right: 0;
       margin-bottom: 15px;
     }
